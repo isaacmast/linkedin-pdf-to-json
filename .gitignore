@@ -1,0 +1,14 @@
+# Files that git should ignore during commits
+
+# OS X Desktop Services Store
+.DS_STORE
+
+# Resumes directory that contains resumes for testing
+Resumes/
+
+# Installed node modules
+node_modules/
+
+# Sublime Text project configuration files
+linkedin-pdf-to-json.sublime-project
+linkedin-pdf-to-json.sublime-workspace
