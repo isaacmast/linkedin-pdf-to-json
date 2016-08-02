@@ -9,6 +9,9 @@ Resumes/
 # Installed node modules
 node_modules/
 
+# Shell script to run module against test resumes in Resumes directory
+parse_test_resumes.sh
+
 # Sublime Text project configuration files
 linkedin-pdf-to-json.sublime-project
 linkedin-pdf-to-json.sublime-workspace
