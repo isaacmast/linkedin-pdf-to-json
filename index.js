@@ -2,8 +2,9 @@
 // Author: Isaac Mast <isaac.k.mast@gmail.com> [https://github.com/isaacmast]
 // GitHub repo: https://github.com/isaacmast/linkedin-pdf-to-json
 
-var linkedinPdfToJson = function() {
+var linkedinPdfToJson = (function() {
 
+    var jsonfile = require('jsonfile');
     var pdfText = require('pdf-text');
 
     var CONTENT, // the string array retrieved from pdf-text module, but after the removal of page numbers
@@ -14,7 +15,8 @@ var linkedinPdfToJson = function() {
         section, // the current section of the PDF
         text, // the current text string being parsed
         token = 'START', // the current token
-        PATH_TO_PDF = process.argv[2]; // the path to be parsed PDF passed from the command line
+        PATH_TO_PDF = process.argv[2], // the path to be parsed PDF passed from the command line
+        outputPath = process.argv[3]; // the path to the JSON file that will contain the parsed text from the PDF
 
     // possible section headers that are currently supported
     var SECTION_HEADERS = {
@@ -45,18 +47,30 @@ var linkedinPdfToJson = function() {
         'UNKNOWN': 'unknown'
     };
 
+    if (!PATH_TO_PDF) {
+        return console.error('linkedin-pdf-to-json NotFoundError: must specify a path to a file');
+    }
+
     // Retrieves the text from the PDF, storing each line as an element in the chunks string array.
     pdfText(PATH_TO_PDF, function(error, chunks) {
         if (error) {
-            console.log(error);
-            return;
+            return console.error(error);
         }
 
         // console.log(chunks);
         // console.log();
         this.parse(chunks);
+
+        if (outputPath) {
+            jsonfile.writeFile(outputPath, json, {
+                spaces: 4
+            }, function(err) {
+                return console.error(err);
+            });
+        } else {
+            return console.log(json);
+        }
         // console.log();
-        // console.log(json);
         // console.log();
         // console.log('...Parsing complete');
         // console.log();
@@ -513,6 +527,6 @@ var linkedinPdfToJson = function() {
     this.parsingError = function() {
         throw 'linkedin-pdf-to-json ParsingError: (' + json.name + ') Unable to parse the following text chunk: \'' + text + '\'';
     };
-};
+})();
 
-module.exports = linkedinPdfToJson;
+// module.exports = linkedinPdfToJson;

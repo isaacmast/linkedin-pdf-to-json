@@ -19,6 +19,7 @@
     ],
     "author": "Isaac Mast <isaac.k.mast@gmail.com>",
     "dependencies": {
+        "jsonfile": "~2.3.1",
         "pdf-text": "~0.4.0"
     },
     "license": "MIT",
