@@ -529,4 +529,4 @@ var linkedinPdfToJson = (function() {
     };
 })();
 
-// module.exports = linkedinPdfToJson;
+module.exports = linkedinPdfToJson;
