@@ -3,6 +3,9 @@
 # OS X Desktop Services Store
 .DS_STORE
 
+# npm debug log
+npm-debug.log
+
 # Resumes directory that contains resumes for testing
 Resumes/
 
