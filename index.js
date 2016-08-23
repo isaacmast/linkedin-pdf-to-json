@@ -223,8 +223,9 @@ var linkedinPdfToJson = (function() {
                 this.getNextToken();
             }
             if (token === TOKENS.SECTION_CONTENT) {
+                json[section][jobProperty].responsibilities = json[section][jobProperty].responsibilities || [];
                 var textProperty = 'text';
-                var textCount = 0;
+                var textCount = -1;
                 var inBulleted = false;
                 var hasBulleted = this.hasBulletedText();
                 if (hasBulleted) {
@@ -233,22 +234,21 @@ var linkedinPdfToJson = (function() {
                         if (bulleted) {
                             inBulleted = true;
                             textCount++;
-                            textProperty = this.generateTextProperty(textCount);
-                            json[section][jobProperty][textProperty] = text;
+                            json[section][jobProperty].responsibilities[textCount] = text;
                         } else if (inBulleted && !!text.match(/^\s\S/)) {
-                            json[section][jobProperty][textProperty] = json[section][jobProperty][textProperty] + text;
+                            json[section][jobProperty].responsibilities[textCount] = json[section][jobProperty].responsibilities[textCount] + text;
                         } else {
                             inBulleted = false;
                             textCount++;
-                            textProperty = this.generateTextProperty(textCount);
-                            json[section][jobProperty][textProperty] = text;
+                            json[section][jobProperty].responsibilities[textCount] = text;
                         }
                         this.getNextToken();
                     }
                 } else {
+                    textCount++;
                     while (token === TOKENS.SECTION_CONTENT) {
-                        var jobText = json[section][jobProperty][textProperty];
-                        json[section][jobProperty][textProperty] = jobText ? jobText + text : text;
+                        var jobText = json[section][jobProperty].responsibilities[textCount];
+                        json[section][jobProperty].responsibilities[textCount] = jobText ? jobText + text : text;
                         this.getNextToken();
                     }
                 }
