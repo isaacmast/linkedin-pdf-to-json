@@ -169,8 +169,8 @@ var linkedinPdfToJson = (function() {
     // For non-formatted descriptions the text is simply concatenated into a single string.
     this.summary = function() {
         // console.log('ZZZ SUMMARY');
-        var textProperty = 'text';
-        var textCount = 0;
+        json[section] = [];
+        var textCount = -1;
         var inBulleted = false;
         var hasBulleted = this.hasBulletedText();
         if (hasBulleted) {
@@ -179,22 +179,21 @@ var linkedinPdfToJson = (function() {
                 if (bulleted) {
                     inBulleted = true;
                     textCount++;
-                    textProperty = this.generateTextProperty(textCount);
-                    json[section][textProperty] = text;
+                    json[section][textCount] = text;
                 } else if (inBulleted && !!text.match(/^\s\S/)) {
-                    json[section][textProperty] = json[section][textProperty] + text;
+                    json[section][textCount] = json[section][textCount] + text;
                 } else {
                     inBulleted = false;
                     textCount++;
-                    textProperty = this.generateTextProperty(textCount);
-                    json[section][textProperty] = text;
+                    json[section][textCount] = text;
                 }
                 this.getNextToken();
             }
         } else {
+            textCount++;
             while (token === TOKENS.SECTION_CONTENT) {
-                var jobText = json[section][textProperty];
-                json[section][textProperty] = jobText ? jobText + text : text;
+                var summaryText = json[section][textCount];
+                json[section][textCount] = summaryText ? summaryText + text : text;
                 this.getNextToken();
             }
         }
@@ -224,7 +223,6 @@ var linkedinPdfToJson = (function() {
             }
             if (token === TOKENS.SECTION_CONTENT) {
                 json[section][jobProperty].responsibilities = json[section][jobProperty].responsibilities || [];
-                var textProperty = 'text';
                 var textCount = -1;
                 var inBulleted = false;
                 var hasBulleted = this.hasBulletedText();
@@ -294,12 +292,6 @@ var linkedinPdfToJson = (function() {
     // Resets the job count to 0.
     this.resetJobCount = function() {
         jobCount = 0;
-    };
-
-    // Generates a new JSON text key by concatenating the text count to the string 'text'.
-    // @return the generated JSON text key.
-    this.generateTextProperty = function(textCount) {
-        return 'text' + textCount.toString();
     };
 
     // Removes unnecessary 'Page' and '{0}' elements and 'Contact {person} on LinkedIn' element from chunks array.
