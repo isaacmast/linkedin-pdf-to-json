@@ -19,7 +19,7 @@ node node_modules/linkedin-pdf-to-json/index.js JohnnyAppleseed.pdf
 If a JSON output file is passed as an argument the parsed JSON will be written and saved to the file.
 
 ```
-node node_modules/linkedin-pdf-to-json/index.js JohnnyAppleseed.pdf ./JohnnyAppleseed.json
+node node_modules/linkedin-pdf-to-json/index.js JohnnyAppleseed.pdf JohnnyAppleseed.json
 ```
 
 ## Supported Sections
