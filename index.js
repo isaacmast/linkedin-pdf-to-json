@@ -9,7 +9,7 @@ var linkedinPdfToJson = (function() {
 
     var CONTENT, // the string array retrieved from pdf-text module, but after the removal of page numbers
         index = 0, // the current index of the CONTENT array
-        jobCount = 0, // the number of jobs in the current section
+        jobCount = -1, // the number of jobs in the current section
         json = {}, // the JSON object to hold the parsed data
         last, // the previously parsed text string
         section, // the current section of the PDF
@@ -120,6 +120,7 @@ var linkedinPdfToJson = (function() {
         } else if (section === SECTION_HEADERS.Experience || section === SECTION_HEADERS['Volunteer Experience']) {
             this.getNextToken();
             if (token === TOKENS.JOB) {
+                json[section] = [];
                 while (token === TOKENS.JOB) {
                     jobCount++;
                     this.job();
@@ -207,22 +208,34 @@ var linkedinPdfToJson = (function() {
     // For non-formatted descriptions the text is simply concatenated into a single string and stored in a property called 'text'.
     this.job = function() {
         // console.log('ZZZ JOB');
-        var jobProperty = this.generateJobProperty();
-        json[section][jobProperty] = json[section][jobProperty] || {};
+        json[section][jobCount] = json[section][jobCount] || {};
         while (token === TOKENS.JOB && token !== TOKENS.JOB_DATE) {
-            var currentTitle = json[section][jobProperty].title;
-            json[section][jobProperty].title = currentTitle ? currentTitle + text : text;
+            var currentTitle = json[section][jobCount].title;
+            json[section][jobCount].title = currentTitle ? currentTitle + text : text;
             this.getNextToken();
         }
         if (token === TOKENS.JOB_DATE) {
-            json[section][jobProperty][TOKENS.JOB_DATE] = text;
+            var dates = text.trim().split(/\s{2,}\-\s{2,}/);
+            if (dates.length === 2) {
+                json[section][jobCount].startDate = dates[0];
+                json[section][jobCount].endDate = dates[1];
+            } else {
+                this.error();
+            }
             this.getNextToken();
             if (token === TOKENS.JOB_DURATION) {
-                json[section][jobProperty].duration = text;
+                var splits = text.split(/[()]/);
+                if (splits.length === 3) {
+                    var amount = splits[1];
+                    json[section][jobCount].duration = amount;
+                } else {
+                    this.error();
+                }
+                // json[section][jobCount].duration = text;
                 this.getNextToken();
             }
             if (token === TOKENS.SECTION_CONTENT) {
-                json[section][jobProperty].responsibilities = json[section][jobProperty].responsibilities || [];
+                json[section][jobCount].responsibilities = json[section][jobCount].responsibilities || [];
                 var textCount = -1;
                 var inBulleted = false;
                 var hasBulleted = this.hasBulletedText();
@@ -232,21 +245,21 @@ var linkedinPdfToJson = (function() {
                         if (bulleted) {
                             inBulleted = true;
                             textCount++;
-                            json[section][jobProperty].responsibilities[textCount] = text;
+                            json[section][jobCount].responsibilities[textCount] = text;
                         } else if (inBulleted && !!text.match(/^\s\S/)) {
-                            json[section][jobProperty].responsibilities[textCount] = json[section][jobProperty].responsibilities[textCount] + text;
+                            json[section][jobCount].responsibilities[textCount] = json[section][jobCount].responsibilities[textCount] + text;
                         } else {
                             inBulleted = false;
                             textCount++;
-                            json[section][jobProperty].responsibilities[textCount] = text;
+                            json[section][jobCount].responsibilities[textCount] = text;
                         }
                         this.getNextToken();
                     }
                 } else {
                     textCount++;
                     while (token === TOKENS.SECTION_CONTENT) {
-                        var jobText = json[section][jobProperty].responsibilities[textCount];
-                        json[section][jobProperty].responsibilities[textCount] = jobText ? jobText + text : text;
+                        var jobText = json[section][jobCount].responsibilities[textCount];
+                        json[section][jobCount].responsibilities[textCount] = jobText ? jobText + text : text;
                         this.getNextToken();
                     }
                 }
@@ -283,12 +296,6 @@ var linkedinPdfToJson = (function() {
     // GENERATORS/SETTERS/HELPERS
     //===========================
 
-    // Generates a new JSON job key by concatenating the job count to the string 'job'.
-    // @return the generated JSON job key.
-    this.generateJobProperty = function() {
-        return 'job' + jobCount.toString();
-    };
-
     // Resets the job count to 0.
     this.resetJobCount = function() {
         jobCount = 0;
@@ -304,10 +311,6 @@ var linkedinPdfToJson = (function() {
             }
         }
         chunks.splice(chunks.length - 1, 1);
-    };
-
-    this.generateSchoolProperty = function(schoolCount) {
-        return 'school' + schoolCount.toString();
     };
 
     this.generateLanguageProperty = function(languageCount) {
@@ -385,7 +388,6 @@ var linkedinPdfToJson = (function() {
             text = text.replace(/\s{2,}at\s{2,}/, ' at ');
             token = TOKENS.JOB;
         } else if (this.isDateRange()) {
-            text = text.trim().replace(/\s{2,}\-\s{2,}/, ' - ');
             token = TOKENS.JOB_DATE;
         } else if (this.isJobDuration()) {
             token = TOKENS.JOB_DURATION;
