@@ -209,10 +209,17 @@ var linkedinPdfToJson = (function() {
     this.job = function() {
         // console.log('ZZZ JOB');
         json[section][jobCount] = json[section][jobCount] || {};
+        var currentTitle = '';
         while (token === TOKENS.JOB && token !== TOKENS.JOB_DATE) {
-            var currentTitle = json[section][jobCount].title;
-            json[section][jobCount].title = currentTitle ? currentTitle + text : text;
+            currentTitle += text;
             this.getNextToken();
+        }
+        var titleAndOrganization = currentTitle.trim().split(/\s{2,}at\s{2,}/);
+        if (titleAndOrganization.length === 2) {
+            json[section][jobCount].title = titleAndOrganization[0];
+            json[section][jobCount].organization = titleAndOrganization[1];
+        } else {
+            this.error();
         }
         if (token === TOKENS.JOB_DATE) {
             var dates = text.trim().split(/\s{2,}\-\s{2,}/);
@@ -380,7 +387,6 @@ var linkedinPdfToJson = (function() {
         } else if (this.isSkill()) {
             token = TOKENS.SKILL;
         } else if (this.isJobTitle()) {
-            text = text.replace(/\s{2,}at\s{2,}/, ' at ');
             token = TOKENS.JOB;
         } else if (this.isDateRange()) {
             token = TOKENS.JOB_DATE;
