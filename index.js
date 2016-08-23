@@ -200,7 +200,7 @@ var linkedinPdfToJson = (function() {
         }
     };
 
-    // Creates and populates a new JSON job property under the appropriate section header.
+    // Creates and populates a new JSON job object under the appropriate section header.
     // For description fields in a LinkedIn profile section, the user may choose to format their descriptions
     // by outlining them with letters or numbers or by using bullet points/bullet-like symbols e.g. 1., a., -, •, #, ~, * .
     // The goal of this function is to retain that user defined formatting by putting each text chunk in its own object property if the
@@ -274,6 +274,9 @@ var linkedinPdfToJson = (function() {
         }
     };
 
+    // Parses the languages section of a LinkedIn profile PDF.
+    // The language section is fairly straightforward and simple with the name of the language listed
+    // and the proficiency immediately afterwards if it's available.
     this.languages = function() {
         json[section] = [];
         var languageCount = -1;
@@ -289,6 +292,7 @@ var linkedinPdfToJson = (function() {
         }
     };
 
+    // Parses the skills section of a LinkedIn profile PDF.
     this.skillsAndExpertise = function() {
         // console.log('ZZZ SKILLS');
         json[section] = [];
