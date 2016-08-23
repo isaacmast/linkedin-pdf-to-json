@@ -268,16 +268,15 @@ var linkedinPdfToJson = (function() {
     };
 
     this.languages = function() {
-        json[section] = json[section] || {};
-        var languageCount = 0;
+        json[section] = [];
+        var languageCount = -1;
         while (token === TOKENS.LANGUAGE) {
             languageCount++;
-            var languageProperty = this.generateLanguageProperty(languageCount);
-            json[section][languageProperty] = json[section][languageProperty] || {};
-            json[section][languageProperty][TOKENS.LANGUAGE] = text;
+            json[section][languageCount] = json[section][languageCount] || {};
+            json[section][languageCount][TOKENS.LANGUAGE] = text;
             this.getNextToken();
             if (token === TOKENS.LANGUAGE_PROFICIENCY) {
-                json[section][languageProperty][TOKENS.LANGUAGE_PROFICIENCY] = text;
+                json[section][languageCount][TOKENS.LANGUAGE_PROFICIENCY] = text;
                 this.getNextToken();
             }
         }
@@ -311,10 +310,6 @@ var linkedinPdfToJson = (function() {
             }
         }
         chunks.splice(chunks.length - 1, 1);
-    };
-
-    this.generateLanguageProperty = function(languageCount) {
-        return 'language' + languageCount.toString();
     };
 
     // Sets the name, current job, and potentially email properties of the json object
