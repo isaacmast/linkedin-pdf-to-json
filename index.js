@@ -20,11 +20,11 @@ var linkedinPdfToJson = (function() {
 
     // possible section headers that are currently supported
     var SECTION_HEADERS = {
-        'Summary': 'summary',
+        'Summary': 'bio',
         'Languages': 'languages',
-        'Experience': 'experience',
+        'Experience': 'workExperience',
         'Skills & Expertise': 'skills',
-        'Volunteer Experience': 'volunteerXP',
+        'Volunteer Experience': 'volunteerExperience',
         'Unsupported': 'unsupported'
     };
 
