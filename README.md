@@ -29,15 +29,15 @@ Example JSON output file
     "name": "Isaac Mast",
     "currentJob": "Software Development Intern at Smartly by Pedago, LLC",
     "email": "isaac.k.mast@gmail.com",
-    "summary": [
+    "bio": [
         "- Graduated from Eastern Mennonite University with a Bachelor of Science degree in computer science in May of 2016.",
         "- 4 years of programming experience and website management. ",
         "- Self-starter who enjoys learning in a fast-paced environment. ",
         "- Always excited to learn a new skill to help create the best possible product. "
     ],
-    "experience": [
+    "workExperience": [
         {
-            "title": "Software Development Intern",
+            "jobTitle": "Software Development Intern",
             "organization": "Smartly by Pedago, LLC",
             "startDate": "June 2016",
             "endDate": "Present",
@@ -51,7 +51,7 @@ Example JSON output file
             ]
         },
         {
-            "title": "Software Engineer",
+            "jobTitle": "Software Engineer",
             "organization": "BruCrew",
             "startDate": "September 2015",
             "endDate": "December 2015",
@@ -64,7 +64,7 @@ Example JSON output file
             ]
         },
         {
-            "title": "Software Development Intern",
+            "jobTitle": "Software Development Intern",
             "organization": "VistaShare, LLC",
             "startDate": "May 2015",
             "endDate": "June 2015",
@@ -77,7 +77,7 @@ Example JSON output file
             ]
         },
         {
-            "title": "Community Advisor",
+            "jobTitle": "Community Advisor",
             "organization": "Eastern Mennonite University",
             "startDate": "August 2013",
             "endDate": "April 2014",
@@ -89,7 +89,7 @@ Example JSON output file
             ]
         },
         {
-            "title": "Website Manager",
+            "jobTitle": "Website Manager",
             "organization": "Lancaster Mennonite Conference",
             "startDate": "June 2013",
             "endDate": "December 2013",
@@ -100,7 +100,7 @@ Example JSON output file
             ]
         },
         {
-            "title": "Yearbook Computer Editor",
+            "jobTitle": "Yearbook Computer Editor",
             "organization": "Lancaster Mennonite School",
             "startDate": "August 2011",
             "endDate": "June 2012",
