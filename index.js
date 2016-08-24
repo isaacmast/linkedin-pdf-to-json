@@ -216,7 +216,7 @@ var linkedinPdfToJson = (function() {
         }
         var titleAndOrganization = currentTitle.trim().split(/\s{2,}at\s{2,}/);
         if (titleAndOrganization.length === 2) {
-            json[section][jobCount].title = titleAndOrganization[0];
+            json[section][jobCount].jobTitle = titleAndOrganization[0];
             json[section][jobCount].organization = titleAndOrganization[1];
         } else {
             this.error();
