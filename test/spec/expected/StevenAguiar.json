@@ -1,0 +1,148 @@
+{
+    "name": "Steven Aguiar",
+    "currentJob": "Digital Marketing Consultant at BlueWing Digital",
+    "bio": [
+        "I've been hooked on digital publishing since I started my first site, a music blog called Benz and a Backpack, in 2009. After graduating from Brown, I went on to create and manage social and digital strategies for MTV Hive, The FADER and The Players’ Tribune. Today, I'm using those same skills to help brands build engaged audiences as partner and strategy lead at BlueWing."
+    ],
+    "workExperience": [
+        {
+            "jobTitle": "Digital Media Strategist",
+            "organization": "The Players' Tribune",
+            "startDate": "December 2014",
+            "endDate": "April 2016",
+            "duration": "1 year 5 months",
+            "responsibilities": [
+                "Manage and execute The Players' Tribune social media and email strategy. "
+            ]
+        },
+        {
+            "jobTitle": "Digital Strategist/Social Media Manager",
+            "organization": "The FADER",
+            "startDate": "August 2013",
+            "endDate": "December 2014",
+            "duration": "1 year 5 months",
+            "responsibilities": [
+                "Manage all of The FADER's social media properties, lead on web traffic analytics and manage SEO strategy. Vet and implement partnerships with digital vendors."
+            ]
+        },
+        {
+            "jobTitle": "Social Media and Strategy Coordinator at MTV Hive",
+            "organization": "MTV Networks",
+            "startDate": "December 2011",
+            "endDate": "August 2013",
+            "duration": "1 year 9 months",
+            "responsibilities": [
+                "Work with a small team of editors, producers and strategists to develop MTV Hive, a digital music publication launched March 2011. Most responsibilities currently fall under the umbrella of social media, marketing analytics, digital music strategy and writing."
+            ]
+        },
+        {
+            "jobTitle": "Summer Associate",
+            "organization": "MTV Networks",
+            "startDate": "May 2011",
+            "endDate": "August 2011",
+            "duration": "4 months",
+            "responsibilities": [
+                "Summer Associate for MTV Hive, MTVN’s online independent music initiative. Responsibilities included writing original articles, editorial research and development, and social media management and strategy. Worked with a small team to develop a reskinnable iPad application for Comedy Central and Spike TV. The Summer Associate Program is a highly competitive 10-week paid training program for recent college graduates, focusing on digital media.",
+                "http://read.mtvhive.com/author/aguiars"
+            ]
+        },
+        {
+            "jobTitle": "Student Caller",
+            "organization": "Brown University",
+            "startDate": "May 2010",
+            "endDate": "May 2011",
+            "duration": "1 year 1 month",
+            "responsibilities": [
+                "Engage University alumni with direct-marketing to attract pledges for the Brown Annual Fund."
+            ]
+        },
+        {
+            "jobTitle": "360 Music Director",
+            "organization": "95.5 WBRU",
+            "startDate": "January 2010",
+            "endDate": "December 2010",
+            "duration": "1 year",
+            "responsibilities": [
+                "Music Director for 360 Degree Experience In Sound, New England’s #1 rated Urban Programming on Sundays. Responsibilities included producing a weekly trade report, music programming, label relations, branding, and intern training. WBRU is a medium-market commercial radio station run by students, and on Sundays peaks at 40,000 listeners in Rhode Island and Massachusetts."
+            ]
+        },
+        {
+            "jobTitle": "Intern",
+            "organization": "VICE Media",
+            "startDate": "June 2009",
+            "endDate": "September 2009",
+            "duration": "4 months",
+            "responsibilities": [
+                "Synthesized raw footage into transcripts for future editing, updated the homepage daily with relevant content, and assisted in research for future and current projects."
+            ]
+        }
+    ],
+    "unsupported": [
+        "Projects",
+        "Benz and a Backpack",
+        "April 2009 to May 2011",
+        "Members:Steven Aguiar, Peter Drinan, Brian Alexander",
+        "Co-founded, designed and edited Benz and a Backpack, a hip-hip music and culture blog. Used social media,",
+        " cross-promotional partnerships, and search engine optimization to increase traffic, which stood at 20,000",
+        " unique visitors a month at its peak.",
+        "Publications",
+        "BlueWing Blog",
+        "Authors: Steven Aguiar",
+        "Steven Aguiar",
+        "Digital Marketing Consultant at BlueWing Digital"
+    ],
+    "languages": [
+        {
+            "language": "Spanish"
+        }
+    ],
+    "skills": [
+        "Digital Publishing",
+        "Digital Marketing",
+        "Copywriting",
+        "Social Media",
+        "Blogging",
+        "Music Industry",
+        "Digital Media",
+        "Wordpress",
+        "Photoshop",
+        "Social Media Marketing",
+        "Facebook",
+        "Online Publishing",
+        "Research",
+        "Analytics",
+        "Editing",
+        "Video Editing",
+        "WordPress",
+        "Online Marketing",
+        "Music",
+        "Editorial",
+        "Television",
+        "Content Strategy",
+        "SEO",
+        "Web Analytics",
+        "Strategy",
+        "Digital Strategy"
+    ],
+    "education": [
+        {
+            "school": "Brown University",
+            "basicInfo": [
+                "B.A.",
+                "Economics",
+                "Hispanic Studies",
+                "2007 - 2011"
+            ],
+            "activitiesAndSocieties": "Brown Rugby, City Brothers"
+        },
+        {
+            "school": "Regis",
+            "basicInfo": [
+                "2003 - 2007"
+            ]
+        },
+        {
+            "school": "Smartly"
+        }
+    ]
+}

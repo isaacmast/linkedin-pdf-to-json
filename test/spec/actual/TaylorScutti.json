@@ -1,0 +1,49 @@
+{
+    "name": "Taylor Scutti",
+    "currentJob": "Business Analyst at Capital One",
+    "workExperience": [
+        {
+            "jobTitle": "Business Analyst",
+            "organization": "Capital One",
+            "startDate": "July 2015",
+            "endDate": "Present",
+            "duration": "1 year 1 month"
+        },
+        {
+            "jobTitle": "Operations Analyst Intern",
+            "organization": "Capital One",
+            "startDate": "June 2014",
+            "endDate": "August 2014",
+            "duration": "3 months"
+        },
+        {
+            "jobTitle": "Engineering Intern",
+            "organization": "GE Transportation",
+            "startDate": "May 2013",
+            "endDate": "August 2013",
+            "duration": "4 months",
+            "responsibilities": [
+                "-Worked with team members, shop floor advisors, and shop personnel to identify customer needs and correct design problems.",
+                "-Developed change orders to update and make changes to engineering drawings.",
+                "-Worked with a cross-functional team to prototype, test, and finalize parts.",
+                "-Updated locomotive cab design specifications and electrical point to point diagrams.",
+                "-Practiced plant safety techniques in a manufacturing environment."
+            ]
+        }
+    ],
+    "education": [
+        {
+            "school": "Pennsylvania State University",
+            "basicInfo": [
+                "Bachelor’s Degree",
+                "Mechanical Engineering",
+                "2011 - 2015"
+            ],
+            "activitiesAndSocieties": "Phi Sigma Rho Engineering Sorority, Apollo Benefitting THON Organization"
+        }
+    ],
+    "unsupported": [
+        "Taylor Scutti",
+        "Business Analyst at Capital One"
+    ]
+}

@@ -1,0 +1,179 @@
+{
+    "name": "Rahul Nemani",
+    "currentJob": "Aerospace Engineer",
+    "workExperience": [
+        {
+            "jobTitle": "Aerospace Engineer",
+            "organization": "Defense Contract Management Agency (DCMA)",
+            "startDate": "January 2014",
+            "endDate": "Present",
+            "duration": "2 years 7 months"
+        },
+        {
+            "jobTitle": "Private Tutor",
+            "organization": "Varsity Tutors",
+            "startDate": "November 2014",
+            "endDate": "Present",
+            "duration": "1 year 9 months",
+            "responsibilities": [
+                "• Tutor students in Algebra, Geometry, Calculus, Physics, Programming, Engineering, and Test Prep"
+            ]
+        },
+        {
+            "jobTitle": "Associate Engineer",
+            "organization": "QuEST Global",
+            "startDate": "April 2013",
+            "endDate": "November 2013",
+            "duration": "8 months",
+            "responsibilities": [
+                "• Developed 3D meshes for both fluid and structural modeling in Hypermesh",
+                "• Modified 2D meshes for heat transfer modeling",
+                "• Conducted a 2D CFD study for the effect of cylinder spacing in impingement sleeves",
+                "• Created and presented PowerPoint presentations of analytical results"
+            ]
+        },
+        {
+            "jobTitle": "Graduate Teaching Assistant",
+            "organization": "Missouri S&T",
+            "startDate": "August 2010",
+            "endDate": "May 2012",
+            "duration": "1 year 10 months",
+            "responsibilities": [
+                "• Prepared and demonstrated lab experiments for students in a senior-level and junior-level aerospace lab course",
+                "• Provided assistance to students relating to technical lab reports",
+                "• Graded lab reports and projects related to the course",
+                "• Rated 3.3/4.0 in teaching effectiveness from student evaluations compared with a department average of 2.8/4.0",
+                "• Scored 3.5/4.0 for instructor's ability to communicate and effectiveness in communicating the content of the course compared with a department average of 2.8/4.0 for both categories"
+            ]
+        },
+        {
+            "jobTitle": "Consultant",
+            "organization": "NeitzelWloszek LLC",
+            "startDate": "January 2009",
+            "endDate": "April 2009",
+            "duration": "4 months",
+            "responsibilities": [
+                "• Worked in a team of six members to design ways to reduce drag on 18-wheelers",
+                "• Personally conducted three-dimensional fluid dynamics simulations on four trailer models at various speeds",
+                "• Assisted in building and testing scaled models of 18-wheeler trailers in 5’x7’ wind tunnel",
+                "• Made a recommendation for a design that provided a 12% reduction of drag"
+            ]
+        },
+        {
+            "jobTitle": "Work Study Student",
+            "organization": "Aerospace Engineering Technical Resource Center",
+            "startDate": "September 2008",
+            "endDate": "April 2009",
+            "duration": "8 months",
+            "responsibilities": [
+                "• Set up and tested various student labs such as a shock tube lab",
+                "• Updated faculty lab facilities by installing various lab equipment and updating computer equipment",
+                "• Provided technical support to graduate students in the aerospace engineering department",
+                "• Operated university wind tunnel for student projects"
+            ]
+        }
+    ],
+    "skills": [
+        "Matlab",
+        "SolidWorks",
+        "Aerospace Engineering",
+        "C++",
+        "Data Analysis",
+        "Microsoft Excel",
+        "LabVIEW",
+        "Mathematica",
+        "VBA",
+        "Python",
+        "R",
+        "Maple",
+        "IDEAS",
+        "FLUENT",
+        "CFX",
+        "COSMOSWorks",
+        "Linux",
+        "Modeling"
+    ],
+    "education": [
+        {
+            "school": "Missouri University of Science and Technology",
+            "basicInfo": [
+                "MS",
+                "Aerospace Engineering",
+                "2010 - 2012"
+            ]
+        },
+        {
+            "school": "University of Michigan",
+            "basicInfo": [
+                "BS",
+                "Aerospace Engineering",
+                "2005 - 2009"
+            ],
+            "activitiesAndSocieties": "Indian American Student Association"
+        },
+        {
+            "school": "Mehlville High School",
+            "basicInfo": [
+                "High School",
+                "2001 - 2005"
+            ]
+        },
+        {
+            "school": "Smartly"
+        }
+    ],
+    "unsupported": [
+        "Certifications",
+        "Duolingo French Fluency: Advanced (Estimated)",
+        "Duolingo       August 2015",
+        "Duolingo Italian Fluency: Advanced (Estimated)",
+        "Duolingo       January 2016",
+        "Intermediate R",
+        "DataCamp   License 576efddc5886c96b4be8e16f3c20d2cdfddd2f44   ",
+        "Intermediate Python for Data Science",
+        "DataCamp   License e280ac9f2377ca38983e688e30de4c51340981ad   ",
+        "Importing Data Into R",
+        "DataCamp   License 9d500e67a548abb6415ae3529bb2478d152c9e08   ",
+        "Cleaning Data in R",
+        "DataCamp   License db46f671a92cace3d3ac49a3cfa299c2de47c4f3   ",
+        "Introduction to Machine Learning",
+        "DataCamp   License a1bf03fbb03881a81adfd80f5246daeb33a923a7   ",
+        "Intro to Statistics with R: Introduction",
+        "DataCamp   License 951eb4dd09eb0cb52039f2e9bfb033b88d1d59cb   ",
+        "Data Manipulation in R with dplyr",
+        "DataCamp   License da2f973eb7ed722f4ddc583a00a33b529be26b22   ",
+        "Data Analysis in R, the data.table Way",
+        "DataCamp   License f3213b634b540657ef4a93127818510b960881d8   ",
+        "Data Visualization in R with ggvis",
+        "DataCamp   License 53571fbf83c9cfa2322010cd217d87308521cac0   ",
+        "Intro to Statistics with R: Student's T-test",
+        "DataCamp   License 80b6d243291d828c727645bdb5701191871f8662   ",
+        "Introduction to Credit Risk Modeling in R",
+        "DataCamp   License ad80029a7c69eb418be13491309593371dd9b7a7   ",
+        "Introduction to Portfolio Analysis",
+        "DataCamp   License 69bc785a6eba03a012ba485ed3f840c3ab1db7e6   ",
+        "Writing Functions in R",
+        "DataCamp   License c307a3ea784d4ade02c6bc550379bbd6e7e70bad   ",
+        "Reporting with R Markdown",
+        "DataCamp   License b36c117ef474a6ef83b1c4d892de86926694a560   ",
+        "Organizations",
+        "The American Society for Quality",
+        "Member",
+        "February 2014 to Present",
+        "Rahul Nemani",
+        "Aerospace Engineer"
+    ],
+    "languages": [
+        {
+            "language": "French",
+            "proficiency": "(Limited working proficiency)"
+        },
+        {
+            "language": "Telugu"
+        },
+        {
+            "language": "Italian",
+            "proficiency": "(Limited working proficiency)"
+        }
+    ]
+}

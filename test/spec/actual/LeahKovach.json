@@ -1,0 +1,102 @@
+{
+    "name": "Leah Kovach",
+    "currentJob": "Marketing Specialist - Demand Generation at Movable Ink",
+    "workExperience": [
+        {
+            "jobTitle": "Marketing Specialist - Demand Generation",
+            "organization": "Movable Ink",
+            "startDate": "March 2016",
+            "endDate": "Present",
+            "duration": "5 months",
+            "responsibilities": [
+                "- Manage demand generation projects with key stakeholders across multiple departments, including the company referral program",
+                "- Develop strategy for and maintain all company social platforms (Facebook, Twitter, LinkedIn, Google+, Instagram)",
+                "- Own production, analytics, and strategy for company's weekly email newsletter "
+            ]
+        },
+        {
+            "jobTitle": "Marketing Coordinator - Demand Generation",
+            "organization": "Movable Ink",
+            "startDate": "June 2015",
+            "endDate": "March 2016",
+            "duration": "10 months",
+            "responsibilities": [
+                "As the first-ever marketing coordinator, I took the lead on Movable Ink's social media presence and managed several content marketing / conference initiatives."
+            ]
+        },
+        {
+            "jobTitle": "Sales Development Representative - Apparel/Non-Profit Specialist",
+            "organization": "Movable Ink",
+            "startDate": "October 2013",
+            "endDate": "May 2015",
+            "duration": "1 year 8 months",
+            "responsibilities": [
+                "I introduced our sales team to leads at companies like Aeropostale, Human Rights Campaign, The Humane Society of America, Kohl's, Kate Spade, Tiffany & Co., Staples, and more."
+            ]
+        },
+        {
+            "jobTitle": "Inside Sales Consultant",
+            "organization": "SinglePlatform",
+            "startDate": "July 2013",
+            "endDate": "October 2013",
+            "duration": "4 months",
+            "responsibilities": [
+                "I managed the entire sales cycle, from prospecting leads to account creation."
+            ]
+        },
+        {
+            "jobTitle": "Multicultural Recruitment Fellow",
+            "organization": "Colgate University",
+            "startDate": "August 2012",
+            "endDate": "April 2013",
+            "duration": "9 months",
+            "responsibilities": [
+                "I was one of eight Senior Fellows who conducted informational interviews with prospective students and represented Colgate at local college fairs. I also wrote for the \"Inside the 'Gate,\" the blog of the Office of Admission: ",
+                "http://insidethegate.colgate.edu/2012/08/global-engagement.html",
+                "My main responsibilities pertained to Multicultural Open House (detailed in \"Projects\"). Additionally, I served as a member of the Multicultural Recruitment Committee. We met weekly to examine all facets of the college admissions process; our goal was to increase applicant diversity. As a result of our efforts, the class of 2017 is the most diverse in Colgate's history: http://news.colgate.edu/2013/06/breaking-records-the-class-of-2017.html"
+            ]
+        },
+        {
+            "jobTitle": "Student",
+            "organization": "Tuck Business Bridge Program",
+            "startDate": "July 2011",
+            "endDate": "August 2011",
+            "duration": "2 months",
+            "responsibilities": [
+                "I participated in an intensive month-long program offering courses in finance, accounting, economics, marketing, and management communications. I also attended seminars/information sessions on interview training, resume editing, and career services.",
+                "The experience culminated in a Markstrat simulation and a valuation project, in which my team studied the Packaging Corporation of America."
+            ]
+        }
+    ],
+    "education": [
+        {
+            "school": "Colgate University",
+            "basicInfo": [
+                "Bachelor of Arts",
+                "International Relations; Minor in Sociology and Anthropology",
+                "2010 - 2013"
+            ],
+            "activitiesAndSocieties": "Financial Vice President of Delta Tau of Gamma Phi Beta, Student Caller at Colgate University Annual Fund, Fellow in Office of Admission, Vice President of Finance at Panhellenic Council, Social Media Manager at Colgate University Women In Business"
+        }
+    ],
+    "languages": [
+        {
+            "language": "English",
+            "proficiency": "(Native or bilingual proficiency)"
+        },
+        {
+            "language": "Spanish",
+            "proficiency": "(Limited working proficiency)"
+        },
+        {
+            "language": "French",
+            "proficiency": "(Limited working proficiency)"
+        }
+    ],
+    "unsupported": [
+        "Interests",
+        "Social media, sushi, and discovering New York City.",
+        "Leah Kovach",
+        "Marketing Specialist - Demand Generation at Movable Ink"
+    ]
+}

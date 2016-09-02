@@ -1,0 +1,122 @@
+{
+    "name": "Veronica Shea",
+    "currentJob": "Marketing & Ticketing Assistant at Primary Stages",
+    "workExperience": [
+        {
+            "jobTitle": "Marketing & Ticketing Assistant",
+            "organization": "Primary Stages",
+            "startDate": "May 2015",
+            "endDate": "Present",
+            "duration": "1 year 3 months",
+            "responsibilities": [
+                "• Designed and created email advertising, web images, and other marketing collateral.",
+                "• Managed correspondence and relations for subscribers, single-ticket-buyers, and group sales attendees."
+            ]
+        },
+        {
+            "jobTitle": "Private Tutor",
+            "organization": "Top Test Prep",
+            "startDate": "February 2015",
+            "endDate": "December 2015",
+            "duration": "11 months"
+        },
+        {
+            "jobTitle": "Manager",
+            "organization": "Alice Millar Chapel Choir",
+            "startDate": "October 2013",
+            "endDate": "June 2015",
+            "duration": "1 year 9 months",
+            "responsibilities": [
+                "• Coordinated and managed rehearsals and performance schedule for 50-person student choir; including all music and materials. ",
+                "• Updated and reconstructed computer filing system for over 500 musical scores and choral works using Microsoft Excel."
+            ]
+        },
+        {
+            "jobTitle": "Fundraising Associate",
+            "organization": "Chicago Shakespeare Theater",
+            "startDate": "March 2015",
+            "endDate": "April 2015",
+            "duration": "2 months"
+        },
+        {
+            "jobTitle": "Marketing Coordinator",
+            "organization": "Musical Theatre Factory",
+            "startDate": "June 2014",
+            "endDate": "April 2015",
+            "duration": "11 months",
+            "responsibilities": [
+                "• Created a full-scale marketing campaign for a new non-profit dedicated to the creation of new musical theatre - Delegated marketing tasks between marketing consultants and volunteer staff.",
+                "• Managed various social media accounts and website for the company."
+            ]
+        },
+        {
+            "jobTitle": "Literary Editor",
+            "organization": "Frizzi & Lazzi The Olde Time Italian-American Music & Theatre Company",
+            "startDate": "June 2011",
+            "endDate": "January 2015",
+            "duration": "3 years 8 months"
+        },
+        {
+            "jobTitle": "Bartender",
+            "organization": "Blue Moon Mexican Cafe",
+            "startDate": "June 2014",
+            "endDate": "December 2014",
+            "duration": "7 months"
+        },
+        {
+            "jobTitle": "Intern",
+            "organization": "Wolf Talent Co.",
+            "startDate": "June 2011",
+            "endDate": "September 2011",
+            "duration": "4 months"
+        },
+        {
+            "jobTitle": "Intern",
+            "organization": "How to Succeed In Business Without Really Trying - Broadway",
+            "startDate": "September 2010",
+            "endDate": "June 2011",
+            "duration": "10 months"
+        }
+    ],
+    "education": [
+        {
+            "school": "Northwestern University",
+            "basicInfo": [
+                "Bachelor of Science (B.S.)",
+                "Theatre/Theater",
+                "Psychology",
+                "Legal Studies",
+                "IMC",
+                "2011 - 2014"
+            ],
+            "grade": "3.88",
+            "activitiesAndSocieties": "Alpha Chi Omega - VP Philanthropy, Alice Millar Chapel Choir - Manager, Homecoming - Corporate Relations Chair, Lipstick Theatre - Business Manager, Gamma Sigma Alpha, Order of Omega"
+        },
+        {
+            "school": "Bergen County Academies",
+            "basicInfo": [
+                "High School Diploma",
+                "Theatre/Theater",
+                "2007 - 2011"
+            ]
+        }
+    ],
+    "languages": [
+        {
+            "language": "English",
+            "proficiency": "(Native or bilingual proficiency)"
+        },
+        {
+            "language": "Italian",
+            "proficiency": "(Limited working proficiency)"
+        },
+        {
+            "language": "American Sign Language",
+            "proficiency": "(Elementary proficiency)"
+        }
+    ],
+    "unsupported": [
+        "Veronica Shea",
+        "Marketing & Ticketing Assistant at Primary Stages"
+    ]
+}

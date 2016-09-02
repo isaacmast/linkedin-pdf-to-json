@@ -1,0 +1,77 @@
+{
+    "name": "Michelle Pegler",
+    "currentJob": "Senior Business Intelligence Analyst, Federal Reserve",
+    "workExperience": [
+        {
+            "jobTitle": "Senior Business Intelligence Analyst",
+            "organization": "Federal Reserve Bank of Richmond",
+            "startDate": "July 2015",
+            "endDate": "Present",
+            "duration": "1 year 1 month"
+        },
+        {
+            "jobTitle": "Senior Strategy Analyst, Operations",
+            "organization": "CarMax",
+            "startDate": "December 2012",
+            "endDate": "July 2015",
+            "duration": "2 years 8 months"
+        },
+        {
+            "jobTitle": "Strategy Analyst, Operations",
+            "organization": "CarMax",
+            "startDate": "August 2011",
+            "endDate": "December 2012",
+            "duration": "1 year 5 months"
+        },
+        {
+            "jobTitle": "Resident Tutor - Women's Technology Program",
+            "organization": "Massachusetts Institute of Technology (MIT)",
+            "startDate": "June 2010",
+            "endDate": "August 2010",
+            "duration": "3 months",
+            "responsibilities": [
+                "Helped administer the summer Mechanical Engineering program for high school juniors held on MIT's campus. Duties included contributing to admissions decisions, planning the curriculum, teaching part of curriculum, and tutoring students on homework/projects. "
+            ]
+        },
+        {
+            "jobTitle": "Student Intern",
+            "organization": "Oregon Ballistic Laboratories",
+            "startDate": "June 2008",
+            "endDate": "August 2009",
+            "duration": "1 year 3 months"
+        }
+    ],
+    "education": [
+        {
+            "school": "University of Richmond - Robins School of Business",
+            "basicInfo": [
+                "Master of Business Administration (MBA)",
+                "2014 - 2017"
+            ]
+        },
+        {
+            "school": "Massachusetts Institute of Technology",
+            "basicInfo": [
+                "Bachelor of Science (BS)",
+                "Mechanical Engineering",
+                "2007 - 2011"
+            ]
+        },
+        {
+            "school": "Smartly"
+        },
+        {
+            "school": "Smartly"
+        },
+        {
+            "school": "Smartly"
+        },
+        {
+            "school": "Smartly"
+        }
+    ],
+    "unsupported": [
+        "Michelle Pegler",
+        "Senior Business Intelligence Analyst, Federal Reserve"
+    ]
+}

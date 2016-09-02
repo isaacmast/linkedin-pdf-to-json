@@ -1,0 +1,75 @@
+{
+    "name": "Steven Dang",
+    "currentJob": "Equipment Engineer, Robotics at Tesla Motors",
+    "bio": [
+        "Objective: ",
+        "I am starting on my path to bring Tesla's mission: 'to accelerate the advent of sustainable transport...' to fruition as an Equipment Engineer, Robotics at Tesla Motors. I am excited to see more electric vehicles enter the automotive market and want to see humanity's dependency on crude oil minimized, so that future generations can enjoy life as we have in the past and present.  ",
+        "I am an alumni of Worcester Polytechnic Institute majored in Robotic Engineering and minored in Electrical and Computer Engineering with an emphasis in Embedded Systems. My interests are in mobile development, automotive technologies, and industrial robotics.",
+        "Technical Skills: Operating Systems: UNIX(Linux), Windows XP/Vista/7, Mac OSX Programming Languages: C/C++, Java, Python Web Development Languages: HTML, CSS Extensions: MySQL, Git Applications: Android SDK, Eclipse, Matlab, Microsoft Office Suite, Adobe Creative Suite, Notepad++"
+    ],
+    "workExperience": [
+        {
+            "jobTitle": "Equipment Engineer, Robotics",
+            "organization": "Tesla Motors",
+            "startDate": "July 2015",
+            "endDate": "Present",
+            "duration": "1 year 1 month"
+        },
+        {
+            "jobTitle": "Software Engineering Intern",
+            "organization": "Kiva Systems",
+            "startDate": "May 2014",
+            "endDate": "August 2014",
+            "duration": "4 months"
+        }
+    ],
+    "education": [
+        {
+            "school": "Worcester Polytechnic Institute",
+            "basicInfo": [
+                "Bachelor of Science (B.S.)",
+                "Robotic Engineering",
+                "2011 - 2015"
+            ],
+            "activitiesAndSocieties": "Society of Automotive Engineers, Vietnamese Student Association,"
+        },
+        {
+            "school": "West Memphis High",
+            "basicInfo": [
+                "General",
+                "General Studies",
+                "2007 - 2011"
+            ],
+            "grade": "4.0",
+            "activitiesAndSocieties": "Beta Club, Quiz Bowl, Mu Alpha Theta"
+        }
+    ],
+    "languages": [
+        {
+            "language": "English",
+            "proficiency": "(Native or bilingual proficiency)"
+        },
+        {
+            "language": "German",
+            "proficiency": "(Limited working proficiency)"
+        },
+        {
+            "language": "Vietnamese",
+            "proficiency": "(Elementary proficiency)"
+        }
+    ],
+    "unsupported": [
+        "Interests",
+        "New technologies, automotive technologies, embedded computing, digital photography, road biking, fishing",
+        "Steven Dang",
+        "Equipment Engineer, Robotics at Tesla Motors"
+    ],
+    "volunteerExperience": [
+        {
+            "jobTitle": "Donation Processing Volunteer",
+            "organization": "Habitat for Humanity International",
+            "startDate": "March 2014",
+            "endDate": "May 2014"
+        }
+    ]
+}

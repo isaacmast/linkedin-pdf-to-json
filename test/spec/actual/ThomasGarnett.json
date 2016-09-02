@@ -1,0 +1,113 @@
+{
+    "name": "Thomas Garnett",
+    "currentJob": "Associate Engineer at BMPC",
+    "workExperience": [
+        {
+            "jobTitle": "Associate Engineer",
+            "organization": "Bechtel Marine Propulsion Corporation (BMPC)",
+            "startDate": "March 2016",
+            "endDate": "Present",
+            "duration": "5 months"
+        },
+        {
+            "jobTitle": "Undergraduate Research Assistant - Advanced Power and Propulsion Laboratory",
+            "organization": "Virginia Tech",
+            "startDate": "June 2014",
+            "endDate": "August 2014",
+            "duration": "3 months",
+            "responsibilities": [
+                "Designed rail system and support structure for the high temperature aero-thermal rig using SolidWorks.Assisted in the assembly of the Large Scale Rotor Rig at the Advanced Power and Propulsion Lab.Communicated with third party vendors."
+            ]
+        },
+        {
+            "jobTitle": "Project Engineer Co-op",
+            "organization": "USG",
+            "startDate": "June 2013",
+            "endDate": "December 2013",
+            "duration": "7 months",
+            "responsibilities": [
+                "Trouble-shot plant engineering or production problems. Researched opportunities to enhance manufacturing operations.Developed and implemented capital expenditure projects.Obtained firsthand experience in managing employees and third party contractors.Sharpened technical writing skills."
+            ]
+        },
+        {
+            "jobTitle": "Driver",
+            "organization": "Cool Concessions",
+            "startDate": "August 2008",
+            "endDate": "August 2012",
+            "duration": "4 years 1 month",
+            "responsibilities": [
+                "Developed independent work habits.Communicated with business professionals as well as consumers."
+            ]
+        },
+        {
+            "jobTitle": "Leader in Training/Recreation Aide",
+            "organization": "Hanover County",
+            "startDate": "June 2006",
+            "endDate": "August 2008",
+            "duration": "2 years 3 months",
+            "responsibilities": [
+                "Acquired leadership skills."
+            ]
+        }
+    ],
+    "volunteerExperience": [
+        {
+            "jobTitle": "Leader in Training",
+            "organization": "Hanover County",
+            "startDate": "June 2006",
+            "endDate": "August 2007",
+            "responsibilities": [
+                "I supervised kids at a summer camp."
+            ]
+        }
+    ],
+    "languages": [
+        {
+            "language": "Spanish",
+            "proficiency": "(Elementary proficiency)"
+        },
+        {
+            "language": "English",
+            "proficiency": "(Native or bilingual proficiency)"
+        }
+    ],
+    "education": [
+        {
+            "school": "Virginia Tech",
+            "basicInfo": [
+                "Bachelor of Science (B.S.)",
+                "Mechanical Engineering",
+                "2012 - 2015"
+            ],
+            "grade": "3.38/4.0",
+            "activitiesAndSocieties": "ASME, Intramural Soccer, Pi Tau Sigma"
+        },
+        {
+            "school": "J. Sargeant Reynolds Community College",
+            "basicInfo": [
+                "General Engineering",
+                "2011 - 2012"
+            ],
+            "grade": "3.43/4.0",
+            "activitiesAndSocieties": "Pi Theta Kappa Pi Tau Sigma"
+        },
+        {
+            "school": "smart.ly"
+        },
+        {
+            "school": "smart.ly"
+        }
+    ],
+    "unsupported": [
+        "Thomas Garnett",
+        "Associate Engineer at BMPC",
+        "1",
+        " person has recommended Thomas",
+        "\"Thomas has a good work ethic and gravitates to technology, His involvement with our facility at USG as co-",
+        "op was benificial for our engineering department and staff. Thomas helped evolve the way we use auto cad",
+        "which is utilized daily on current major projects. \"",
+        "— joe scaff",
+        ", Reliability Technician, USG",
+        ", worked directly with Thomas at USG"
+    ]
+}

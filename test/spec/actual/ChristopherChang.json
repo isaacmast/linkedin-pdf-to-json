@@ -1,0 +1,134 @@
+{
+    "name": "Christopher Chang",
+    "currentJob": "FIX Analyst at FolioDynamix",
+    "education": [
+        {
+            "school": "New York University",
+            "basicInfo": [
+                "BA",
+                "Business Studies",
+                "Computer Science",
+                "and Biology",
+                "2004 - 2008"
+            ]
+        }
+    ],
+    "workExperience": [
+        {
+            "jobTitle": "FIX Analyst",
+            "organization": "FolioDynamix",
+            "startDate": "April 2010",
+            "endDate": "Present",
+            "duration": "6 years 4 months",
+            "responsibilities": [
+                "• On-board and maintain FIX connectivity and trade messaging formats utilizing Radianz, VPN, direct connect, XML, and SFTP",
+                "• Enable asset managers & bank trust/sponsors (trade execution, clearing, & custody) to communicate equity, option, mutual fund, trade allocation, and pre-compliance messaging via FIX, real-time XML web service & flat file messaging protocols",
+                "• Standardize trade interface deployment process (SQL Insert & Update / FIX Engine XML update) to decrease time to market",
+                "• Manage system enhancement development through full System Development Life Cycle (SDLC): requirements gathering, high-level system design, system integration, quality assurance testing management, and change management processes",
+                "• Provide level 2 production support to resolve trading issues with regards to both real-time and file-based trade formats via simultaneous investigation of logs across multiple UNIX servers in conjunction with SQL queries to determine root cause",
+                "• Develop and maintain custodial relationships to facilitate the understanding of business needs crucial to successfully deliver full-cycle trade communication, FIX certifications, advanced trade functionality, and trading interface enhancements",
+                "• Plan and execute long-term vision of FIX trading engine disaster recovery strategy through system migration and FIX infrastructure restructuring from Point-to-Point to Service Bureau model to consolidate FIX traffic and reduce overall cost"
+            ]
+        },
+        {
+            "jobTitle": "Managing Partner",
+            "organization": "Attis Capital",
+            "startDate": "2009",
+            "endDate": "Present",
+            "duration": "7 years",
+            "responsibilities": [
+                "• Evaluate and seek accredited investors through bottom line and intangible impact analysis",
+                "• Review and approve all drafts of investor documentation and notices for consistency with investor policy statements",
+                "• Co-approve and verify the validity of all expenses related to seeking new capital"
+            ]
+        },
+        {
+            "jobTitle": "Business Analyst",
+            "organization": "CGI",
+            "startDate": "July 2008",
+            "endDate": "July 2009",
+            "duration": "1 year 1 month",
+            "responsibilities": [
+                "• Implemented multiple nascent proprietary technologies to integrate data between legacy budgeting and accounting systems as part of a system-wide efficiency enhancement billed to the City of New York in excess of $100 million",
+                "• Developed technical and financial expertise of New York City budgeting and accounting systems",
+                "• Interfaced with clients to elucidate enhancements and changes to the technical and functional aspects of the system",
+                "• Provided technical solutions to the development team via the creation and execution of detailed test scripts"
+            ]
+        },
+        {
+            "jobTitle": "Product Manager / Business Analyst",
+            "organization": "N-hega",
+            "startDate": "February 2006",
+            "endDate": "February 2008",
+            "duration": "2 years 1 month",
+            "responsibilities": [
+                "• Gathered and analyzed the unique business requirements of high-profile couture clientele to create enterprise recommendations to the directors of software engineering, marketing, and business development divisions",
+                "• Commissioned with the responsibility for the conception, development, and dissemination of key marketing materials, white papers, product manuals, and virtual product tutorials to diversify, and increase customer base density",
+                "• Provided comprehensive coverage and issue resolution for vital messaging, web, hardware, and software platforms",
+                "• Established diagnostic protocols to facilitate software and hardware defect resolution and development"
+            ]
+        },
+        {
+            "jobTitle": "Corporate Investment Banking IT Summer Analyst",
+            "organization": "Citigroup",
+            "startDate": "June 2007",
+            "endDate": "July 2007",
+            "duration": "2 months",
+            "responsibilities": [
+                "• Improved workflow by implementing best-practice policies via first-hand analysis of over 500 client requests",
+                "• Appointed as team lead and consistently exceeded executive expectations on several time-sensitive projects",
+                "• Assured established protocols were adhered to throughout the software development life cycle",
+                "• Identified, audited, and resolved inconsistencies in hardware and software deployments and processes"
+            ]
+        },
+        {
+            "jobTitle": "Instructor (Princeton University)",
+            "organization": "Internal Drive",
+            "startDate": "July 2005",
+            "endDate": "August 2005",
+            "duration": "2 months",
+            "responsibilities": [
+                "• Adapted pace, difficulty, and teaching methodology dependent on each student’s individual abilities and interests",
+                "• Led and maintained student community given the company-wide best performance rating of all 50 campuses",
+                "• Inculcations: Programming &amp; Robotics, Video Game Modification, and Video Game Creation"
+            ]
+        },
+        {
+            "jobTitle": "Information Systems Intern",
+            "organization": "CentraState Healthcare System",
+            "startDate": "June 2004",
+            "endDate": "August 2004",
+            "duration": "3 months",
+            "responsibilities": [
+                "• Provided technical support to physicians and healthcare personnel on-site and remotely (Real VNC)",
+                "• Coordinated the resolution of operating systems (Windows 2000) and clinical software issues",
+                "• Resolved hardware and networking issues with established guidelines and technical protocol"
+            ]
+        },
+        {
+            "jobTitle": "Tutor",
+            "organization": "Kumon",
+            "startDate": "February 2000",
+            "endDate": "August 2003",
+            "duration": "3 years 7 months",
+            "responsibilities": [
+                "• Tutored children K-12 in mathematic topics ranging from basic addition through pre-calculus",
+                "• Graded sample problem sets and provided feedback to students to gauge level of understanding",
+                "• Encouraged students to challenge themselves with material far beyond the level taught in school"
+            ]
+        }
+    ],
+    "unsupported": [
+        "Interests",
+        "Photography, Travel, International nightlife business development, Chess, Fashion, and Exotic cuisine",
+        "Christopher Chang",
+        "FIX Analyst at FolioDynamix",
+        "1",
+        " person has recommended Christopher",
+        "\"Chris provides keen insight and a unique perspective when discussing new ideas and initiative. In his",
+        "execution, he brings pure professionalism and a diligence to see things through to the end. He has a very",
+        "strong work ethic which is appreciated just as much as his ability to relate and connect with others.\"",
+        "— Morgan Hill",
+        ", worked directly with Christopher at Attis Capital"
+    ]
+}

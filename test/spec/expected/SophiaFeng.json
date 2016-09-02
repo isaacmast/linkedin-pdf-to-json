@@ -1,0 +1,133 @@
+{
+    "name": "Sophia Feng",
+    "currentJob": "Software Engineer at Pinterest",
+    "bio": [
+        "I majored in Computer Science with a minor in Human-Computer Interaction at Carnegie Mellon University. I am passionate about developing practical software solutions for technology that positively influence the individual as well as the community.",
+        "*Please do not contact me asking for job referrals unless we have worked together before. Thank you for understanding!"
+    ],
+    "workExperience": [
+        {
+            "jobTitle": "Software Engineer",
+            "organization": "Pinterest",
+            "startDate": "April 2015",
+            "endDate": "Present",
+            "duration": "1 year 4 months"
+        },
+        {
+            "jobTitle": "Entrepreneurship for Computer Science Teaching Assistant",
+            "organization": "Carnegie Mellon University",
+            "startDate": "August 2014",
+            "endDate": "December 2014",
+            "duration": "5 months"
+        },
+        {
+            "jobTitle": "Software Development Engineer Intern",
+            "organization": "Amazon",
+            "startDate": "June 2014",
+            "endDate": "August 2014",
+            "duration": "3 months",
+            "responsibilities": [
+                "Took on the role of a software engineer intern in the Global Inventory Platform organization on the team responsible for new Vendor Flex program. http://www.npr.org/2013/10/28/240742832/moving-in-with-manufacturers-amazon-delivers-a-new-approach"
+            ]
+        },
+        {
+            "jobTitle": "CAD Methodology/Software Intern",
+            "organization": "Samsung Electronics America",
+            "startDate": "May 2013",
+            "endDate": "August 2013",
+            "duration": "4 months",
+            "responsibilities": [
+                "• Designed efficient version auditing and self-documenting system for maintaining design tools during invocations (Python)",
+                "• Created new features of file system call tracking to support accurate test case documentation (Python)",
+                "• Make improvements and created new features that are considered major improvements in CAD and are currently used by other teams including GPU and Verifications team at Samsung R&D",
+                "• Research portion of internship: o Created python framework of all MIPS instructions, different architecture states, instructions fields o Wrote MIPS-based, non-architecture specific assembler (Python) for assembling .s files into .o files  o Overall detailed understanding of MIPS architecture, general RISC/CISC instruction set architectures, and further understanding of computer systems"
+            ]
+        },
+        {
+            "jobTitle": "Undergraduate Researcher",
+            "organization": "Coral CoBot",
+            "startDate": "January 2012",
+            "endDate": "July 2012",
+            "duration": "7 months",
+            "responsibilities": [
+                "• Developed and designed a sociable receptionist which functions as a robot to be placed in Gates Hillman Center for Computer Science as an interactive feature  ",
+                "• Gained knowledge/experience in working with Kinect SDK and Android SDK to develop robot’s speech and movement recognition",
+                "• Applied human-computer interaction design through studying and improving robot’s social abilities (speech/dialogue) to create a realistic receptionist ",
+                "• Practiced time management and problem solving in creating efficient programs with limited time",
+                "• Communicated ideas in diverse group settings (undergraduates, graduates, professors)"
+            ]
+        },
+        {
+            "jobTitle": "Technician Intern",
+            "organization": "Alameda Family Funeral & Cremation",
+            "startDate": "June 2011",
+            "endDate": "August 2011",
+            "duration": "3 months",
+            "responsibilities": [
+                "• Performed clerical work and file organization on the funeral home's computer system",
+                "• Communicated with clients and partner companies",
+                "• Assisted in organization and preparation during services"
+            ]
+        }
+    ],
+    "education": [
+        {
+            "school": "Carnegie Mellon University",
+            "basicInfo": [
+                "Bachelor of Science (B.S.)",
+                "Computer Science",
+                "Human-Computer Interactions",
+                "2011 - 2014"
+            ],
+            "activitiesAndSocieties": "Awareness of Roots in Chinese Culture, Woman@SCS, TartanHacks"
+        },
+        {
+            "school": "Lynbrook High School",
+            "basicInfo": [
+                "High School Diploma",
+                "2007 - 2011"
+            ],
+            "activitiesAndSocieties": "Key Club, Speech and Debate, French Honor Society, Varsity Badminton"
+        }
+    ],
+    "languages": [
+        {
+            "language": "Chinese",
+            "proficiency": "(Native or bilingual proficiency)"
+        },
+        {
+            "language": "French",
+            "proficiency": "(Limited working proficiency)"
+        },
+        {
+            "language": "Korean",
+            "proficiency": "(Elementary proficiency)"
+        }
+    ],
+    "unsupported": [
+        "Interests",
+        "New technologies, programming, public relations, UI/UX, digital photography, outdoors, computer music,",
+        " bikram yoga, pilates, social media, food",
+        "Sophia Feng",
+        "Software Engineer at Pinterest",
+        "3",
+        " people have recommended Sophia",
+        "\"I had the pleasure working directly with Sophia during her internship with us. She worked hard and smart,",
+        "with great sense of creativity. Her tasks involved difference areas and she was able to learn fast and deliver",
+        "her work quickly in high quality.\"",
+        "— Jingyi Zhou",
+        ", CAD Design/ High Performance Computing Methodology, Samsung Austin R&D",
+        "Center",
+        ", worked directly with Sophia at Samsung Electronics America",
+        "\"Sophia demonstrated great creativity and personal initiative during her internship with us. She worked very",
+        "diligently, learned whatever she had to in order to complete each task successfully, and quickly delivered",
+        "working code to our production flow. We gave her a mix of individual and team-based activities, and she",
+        "demonstrated a commitment to excellence in all of these endeavors.\"",
+        "— Geoffrey Furnish",
+        ", managed Sophia at Samsung Electronics America",
+        "\"Sophia worked for us in the summer 2010. She was very professional and was a delight to work with. She",
+        "followed instructions and completed all tasks thoroughly. We would rehire her given an opportunity.\"",
+        "— Zoe Alameda",
+        ", managed Sophia at Alameda Family Funeral & Cremation"
+    ]
+}

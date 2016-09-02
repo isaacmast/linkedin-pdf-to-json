@@ -1,0 +1,212 @@
+{
+    "name": "Lucas Kaiser",
+    "currentJob": "Engineer & Experienced Project Manager",
+    "bio": [
+        "I am a 2010 graduate of the University of Illinois at Urbana-Champaign, where I completed advanced elective coursework in orbital mechanics, spacecraft control, and propulsion while earning a bachelor's degree in aerospace engineering.",
+        "After graduating, I worked as a management consultant and systems engineer for major aviation OEMs and their suppliers.  I created and refined complex business processes, facilitated communication and visibility between teams, and designed tools to improve progress towards engineering design and testing milestones.  If an engineering program was off-course, I specialized in righting the ship."
+    ],
+    "workExperience": [
+        {
+            "jobTitle": "Senior Consultant",
+            "organization": "P3 Group",
+            "startDate": "October 2011",
+            "endDate": "August 2015",
+            "duration": "3 years 11 months",
+            "responsibilities": [
+                "Management consulting for aviation OEMs and their suppliers, specializing in program recovery through process improvement, budget/schedule management, and tool development for performance tracking."
+            ]
+        },
+        {
+            "jobTitle": "Instructor",
+            "organization": "Mathnasium - The Math Learning Center",
+            "startDate": "November 2010",
+            "endDate": "October 2011",
+            "duration": "1 year",
+            "responsibilities": [
+                "Developed proper math techniques in students from grades 1-12."
+            ]
+        },
+        {
+            "jobTitle": "Engineering Intern",
+            "organization": "Christopher B. Burke Engineering, Ltd.",
+            "startDate": "May 2008",
+            "endDate": "August 2008",
+            "duration": "4 months",
+            "responsibilities": [
+                "Performed flood plain analyses; created hydraulic model designs; delineated watersheds, sub-basins, and tributary areas; and determined excavation volumes as part of a team of professional engineers."
+            ]
+        }
+    ],
+    "skills": [
+        "Matlab",
+        "Engineering",
+        "Labview",
+        " C ",
+        "Fortran",
+        "Systems Engineering",
+        "Aerospace",
+        "Process Improvement",
+        "Program Management",
+        "VBA",
+        "Pro Engineer",
+        "AutoCAD",
+        "Project Management",
+        "CAD",
+        "Aircraft",
+        "Root Cause Analysis",
+        "Inventor",
+        "ANSYS",
+        "Simulink",
+        "Solidworks",
+        "Testing",
+        "Management",
+        "Data Visualization",
+        "STK",
+        "GMAT",
+        "Pro/Engineer",
+        "French",
+        "Python",
+        "NX Unigraphics",
+        "SQL",
+        "Microsoft Excel",
+        "Microsoft Office"
+    ],
+    "education": [
+        {
+            "school": "University of Illinois at Urbana-Champaign",
+            "basicInfo": [
+                "Graduate Coursework",
+                "2015 - 2015"
+            ],
+            "grade": "A"
+        },
+        {
+            "school": "University of Colorado Boulder",
+            "basicInfo": [
+                "Graduate Coursework",
+                "2015 - 2015"
+            ],
+            "grade": "A"
+        },
+        {
+            "school": "University of Illinois at Urbana-Champaign",
+            "basicInfo": [
+                "BS",
+                "Aerospace Engineering",
+                "2006 - 2010"
+            ],
+            "activitiesAndSocieties": "Theta Beta Mach Aerosupport Coalition, AIAA, Illini String Orchestra, Fencing Illini"
+        },
+        {
+            "school": "smartly MBA"
+        }
+    ],
+    "languages": [
+        {
+            "language": "English",
+            "proficiency": "(Native or bilingual proficiency)"
+        },
+        {
+            "language": "French",
+            "proficiency": "(Limited working proficiency)"
+        }
+    ],
+    "unsupported": [
+        "Courses",
+        "BS, Aerospace Engineering",
+        "University of Illinois at Urbana-Champaign",
+        "Aerospace Structures",
+        "AE 322",
+        "Rocket Propulsion",
+        "AE 434",
+        "Spacecraft Attitude Control",
+        "AE 403",
+        "Orbital Mechanics",
+        "AE 402",
+        "Aerospace Propulsion",
+        "AE 433",
+        "Aerospace Systems Design",
+        "AE 440",
+        "Rapid Prototyping & Modeling",
+        "AE 498RPM",
+        "Aerospace Flight Mechanics",
+        "AE 302",
+        "Incompressible / Compressible Flow",
+        "AE 311/312",
+        "Aerospace Dynamics",
+        "AE 352",
+        "Projects",
+        "A Two-Dimensional Path Tracking Control Design For A Planar Quadrotor",
+        "2015 to Present",
+        "Members:Lucas Kaiser",
+        "Application of linear control theory in MATLAB to design a controller for a two-dimensional path tracking",
+        " problem",
+        "Business Aircraft Completions Management",
+        "Established a program management office (processes, tools, and KPIs) for a business aircraft interiors",
+        " program at a Canadian OEM.",
+        "Commercial Aircraft Flight Test Program Management",
+        "2014 to Present",
+        "Development of governance tools and processes for a commercial aircraft flight test program at a Canadian",
+        " OEM",
+        "Commercial Aircraft Ground Test Rig Management",
+        "2013 to Present",
+        "Program schedule improvement and resource management for a commercial aircraft ground test rig upgrade",
+        " at a Canadian OEM",
+        "Oxygen Generator Augmentation",
+        "Root cause analysis of oxygen generator performance for an aviation tier one company in Germany",
+        "Supplier Program Recovery",
+        "2012 to Present",
+        "Construction of a \"program recovery cockpit\", including key performance metrics and automated data",
+        " analysis tools, for an aviation tier one company in Germany",
+        "Supplier Quality Improvement",
+        "-  Re-allocated a $2 million engineering development budget to",
+        "-  minimize program delay for an aviation tier one company in the United States",
+        "Parts Development Program Launch",
+        "Established efficient resource allocations, standardized reporting, and a preliminary program schedule for an",
+        " aviation tier one company in the United States",
+        "Detailed Design Program Schedule Management",
+        "2011 to Present",
+        "Collaborated with cross-functional engineering teams to define and implement a program master schedule",
+        " and schedule management process for an aviation tier one company in the United States",
+        "L2 Space Weather Monitoring",
+        "2010 to Present",
+        "Created a numerical orbit optimizer in MATLAB to define launch windows, delta-Vs, and spacecraft",
+        " trajectories for construction of a nanosatellite constellation at Earth-Sun L2",
+        "Lucas Kaiser",
+        "Engineer & Experienced Project Manager",
+        "4",
+        " people have recommended Lucas",
+        "\"I had the pleasure of working with Luke soon after his graduation. As a recent grad then jumping into a high",
+        "intensity project management consulting environment, Luke's structured problem solving ability, attention",
+        "to detail, and high level of professionalism made him an invaluable asset to the comany. His passion for",
+        "engineering and wealth of knowledge in all things aerospace made working with him a great experience. It",
+        "would definitely be a pleasure to work with Luke again in the future...\"",
+        "— Michael Klopotowski",
+        ", Senior Consultant - Automotive and Aerospace, P3 North America",
+        ", managed",
+        "Lucas at P3 Group",
+        "\"Luke was a superb employee with exemplary math skills. He was collaborative, always willing to take",
+        "on new challenges, and eager to learn. Luke was dedicated to his students. I recommend him highly for a",
+        "position in his chosen field.\"",
+        "— Erin McCune",
+        ", managed Lucas at Mathnasium - The Math Learning Center",
+        "\"I am the Owner and Center Director of Mathnasium – The Math Learning Center located in Glenview, IL.",
+        "Luke has worked for us as an Instructor since Fall 2010. Luke has worked with our students ranging from",
+        "2nd to 10th grade. He also worked with a wide range of students from remedial to gifted. Luke worked in a",
+        "small group setting giving a lot of individualized instruction to our students, including one-on-one tutoring",
+        "with our high school students. Luke is an excellent instructor and has a great rapport with the students.",
+        "He is very confident in his math knowledge which comes across to his students. He is very patient and",
+        "understanding with those needing more attention. Luke is commited to being excellent at what he does and",
+        "is a very motivated individual. I would highly recommend Luke for employment as he has all of the right",
+        "attributes that employers seek for success.\"",
+        "— J Steve Santacruz",
+        ", was Lucas's client",
+        "\"Lucas interened for me two summers ago. He was asked to perform engineering calculations and learn",
+        "computer models for which he did not have a lot of background. I would put Lucas up against 95% of the",
+        "interns who specialize in my area. He showed tremendous ability to learn, retain and excel. I thoroughly",
+        "enjoyed having him work here for the summer and know that he will be successful with his abilities and",
+        "talent.\"",
+        "— Thomas Burke",
+        ", managed Lucas at Christopher B. Burke Engineering, Ltd."
+    ]
+}

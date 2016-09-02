@@ -1,0 +1,115 @@
+{
+    "name": "Madelin Woods",
+    "currentJob": "Engineering Lead, Contractor at IDEO.org",
+    "workExperience": [
+        {
+            "jobTitle": "Engineering Lead, Contractor",
+            "organization": "IDEO.org",
+            "startDate": "March 2016",
+            "endDate": "Present",
+            "duration": "5 months"
+        },
+        {
+            "jobTitle": "Design & Engineering",
+            "organization": "Independent Contractor",
+            "startDate": "May 2015",
+            "endDate": "Present",
+            "duration": "1 year 3 months",
+            "responsibilities": [
+                "I work closely with small & medium-sized startups to help define new products, building wireframes, designing mocks, and writing front-end code (Ruby, JavaScript, HTML5/CSS3). Have a project you'd like to collaborate on? I'm currently available for work on a contract basis."
+            ]
+        },
+        {
+            "jobTitle": "Software Engineer, Front End",
+            "organization": "Square",
+            "startDate": "August 2011",
+            "endDate": "February 2015",
+            "duration": "3 years 7 months",
+            "responsibilities": [
+                "Built web applications, animations, internal tools, & frameworks for various Square products, including: Customer List, Receipts, Market, Wallet, & Gift Cards. "
+            ]
+        },
+        {
+            "jobTitle": "Creative Technical Lead",
+            "organization": "Exygy",
+            "startDate": "February 2011",
+            "endDate": "August 2011",
+            "duration": "7 months"
+        },
+        {
+            "jobTitle": "Web Developer",
+            "organization": "Make Magazine",
+            "startDate": "April 2010",
+            "endDate": "February 2011",
+            "duration": "11 months",
+            "responsibilities": [
+                "Make Magazine, Craft Magazine, etc."
+            ]
+        },
+        {
+            "jobTitle": "Design & Consulting",
+            "organization": "Freelance",
+            "startDate": "2007",
+            "endDate": "2011",
+            "duration": "4 years",
+            "responsibilities": [
+                "Clients include: O'Reilly Media, Airbnb, Agency Charlie, Citizen Space, Tactical Philanthropy, GiveChange, Wolfram Research, Illini Apple Center, Champaign-Urbana Mass Transit District"
+            ]
+        },
+        {
+            "jobTitle": "Graphic / Web Designer",
+            "organization": "National Center for Supercomputing Applications",
+            "startDate": "2009",
+            "endDate": "2010",
+            "duration": "1 year"
+        },
+        {
+            "jobTitle": "Co-founder & Executive Member",
+            "organization": "Champaign Urbana Design Org",
+            "startDate": "2008",
+            "endDate": "2010",
+            "duration": "2 years"
+        },
+        {
+            "jobTitle": "Design Intern",
+            "organization": "Wolfram Research",
+            "startDate": "May 2006",
+            "endDate": "September 2009",
+            "duration": "3 years 5 months"
+        }
+    ],
+    "education": [
+        {
+            "school": "University of Illinois at Urbana-Champaign",
+            "basicInfo": [
+                "Bachelors",
+                "Advertising",
+                "Spanish",
+                "2005 - 2009"
+            ],
+            "activitiesAndSocieties": "ACM SIGGRAPH (UIUC Chapter) - Vice Chair American Advertising Federation - Publications committee"
+        },
+        {
+            "school": "Smartly",
+            "basicInfo": [
+                "Master of Business Administration (MBA)",
+                "2016"
+            ]
+        }
+    ],
+    "unsupported": [
+        "Interests",
+        "oil painting, Illustration, urban gardening, running",
+        "Madelin Woods",
+        "Engineering Lead, Contractor at IDEO.org",
+        "2",
+        " person has recommended Madelin",
+        "\"I had the pleasure of managing Madelin during her tenure at Maker Media. Smart, capable, and easy to work",
+        "with. Extremely skilled at design and a real asset to any organization\"",
+        "— Stefan Antonowicz",
+        ", managed Madelin at Make Magazine",
+        "\"Her ideas are nuggets of gold and her personality is sparkling. You would be amiss not to utilize her.\"",
+        "— Travis Austin",
+        ", studied with Madelin at University of Illinois at Urbana-Champaign"
+    ]
+}

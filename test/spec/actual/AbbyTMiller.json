@@ -1,0 +1,85 @@
+{
+    "name": "Abby T. Miller",
+    "currentJob": "People managing & process tweaking",
+    "workExperience": [
+        {
+            "jobTitle": "Community Growth Team Lead",
+            "organization": "Stack Overflow",
+            "startDate": "July 2011",
+            "endDate": "Present",
+            "duration": "5 years 1 month",
+            "responsibilities": [
+                "Community Growth Operations Manager (April 2015 - present) I lead a small team that maintains and streamlines Community Growth team processes, and support Community Managers as a pluralistic-style manager. And I'm still a part-time podcast producer.",
+                "Senior Community Growth Specialist (September 2012 - April 2015) That title is just a fancy attempt to describe being a jack of all trades on the Community Growth team. I functioned as a part-time community manager, a part-time hiring coordinator, and a part-time operations manager. And a part-time podcast producer.",
+                "Community Development Team Lead (July 2011 - September 2012) (This was the organization formerly known as CHAOS.) I observed and advised a team that oversaw special projects and community events with the goal of strengthening and growing individual sites within the Stack Exchange network. Provided operational support (\"servant leadership\") and reported progress to the Chief of Staff."
+            ]
+        },
+        {
+            "jobTitle": "Administrative and Research Assistant",
+            "organization": "Miller Black Associates",
+            "startDate": "June 2010",
+            "endDate": "July 2011",
+            "duration": "1 year 2 months",
+            "responsibilities": [
+                "Research and administrative support for retained executive search and coaching firm founded by Joanna Miller. Services include retained search, unbundled search services such as research, pre-search market studies, screening, assessment, reference checking and talent pipeline. Performance, transition, career, new-in-role and on-boarding coaching."
+            ]
+        },
+        {
+            "jobTitle": "Stage Manager",
+            "organization": "Northwestern University Summer Music Theatre Festival",
+            "startDate": "May 2007",
+            "endDate": "August 2009",
+            "duration": "2 years 4 months",
+            "responsibilities": [
+                "Stage managed three summers' worth of Dominography. Facilitated communication between actors, directors, administrators, and creative team members. Coordinated artistic rehearsals, technical rehearsals, and performances, merging all technical and artistic aspects of production while ensuring that the team kept to an intricate schedule."
+            ]
+        },
+        {
+            "jobTitle": "Student-Organized Seminar Co-Coordinator/Lecturer",
+            "organization": "Northwestern University Department ofTheatre",
+            "startDate": "June 2008",
+            "endDate": "December 2008",
+            "duration": "7 months",
+            "responsibilities": [
+                "Organized a semester-long seminar on technical theatre with Garen Checkley during our junior year. Structured the curriculum and syllabus, scheduled weekly guest lecturers, and taught lessons. Developed and administered two final exams, one written and one based on practical skills."
+            ]
+        }
+    ],
+    "languages": [
+        {
+            "language": "French",
+            "proficiency": "(Limited working proficiency)"
+        },
+        {
+            "language": "Italian",
+            "proficiency": "(Elementary proficiency)"
+        }
+    ],
+    "education": [
+        {
+            "school": "Northwestern University",
+            "basicInfo": [
+                "Bachelor of Arts",
+                "Theatre Management",
+                "2006 - 2010"
+            ]
+        },
+        {
+            "school": "Kent School",
+            "basicInfo": [
+                "2002 - 2006"
+            ]
+        }
+    ],
+    "unsupported": [
+        "Abby T. Miller",
+        "People managing & process tweaking",
+        "1",
+        " person has recommended Abby T.",
+        "\"Abby T. Miller is not only extremely talented at juggling multiple challenging tasks at once, she is also a",
+        "pleasure to work with. Abby is unique in her ability to merge detail-orientation with a big-picture thought",
+        "process, making her an strong asset to any organization she is involved with.\"",
+        "— Garen Checkley",
+        ", worked directly with Abby T. at Northwestern University Department of Theatre"
+    ]
+}

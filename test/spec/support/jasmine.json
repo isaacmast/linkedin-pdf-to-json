@@ -1,0 +1,8 @@
+{
+    "spec_dir": "test/spec",
+    "spec_files": [
+        "linkedin_pdf_to_json/**/*[sS]pec.js"
+    ],
+    "stopSpecOnExpectationFailure": false,
+    "random": false
+}

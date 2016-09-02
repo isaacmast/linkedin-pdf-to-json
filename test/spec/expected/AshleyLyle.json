@@ -1,0 +1,140 @@
+{
+    "name": "Ashley Lyle",
+    "currentJob": "The Hollywood Reporter/Billboard",
+    "bio": [
+        "Ashley Lyle is a young creative music/entertainment professional living in Los Angeles, CA. She graduated from Stanford University and has worked for companies such as Victoria's Secret PINK, Seventeen Magazine, Epic Records, and Live Nation Entertainment in the areas of A&R, artist management, marketing, and event planning and production. She works well under pressure and pulls from her experience working in highly creative and fast-paced environments to deliver."
+    ],
+    "workExperience": [
+        {
+            "jobTitle": "Executive Assistant",
+            "organization": "The Hollywood Reporter/Billboard",
+            "startDate": "March 2016",
+            "endDate": "Present",
+            "duration": "5 months"
+        },
+        {
+            "jobTitle": "A&R Assistant",
+            "organization": "Epic Records",
+            "startDate": "April 2015",
+            "endDate": "November 2015",
+            "duration": "8 months",
+            "responsibilities": [
+                "Highlight: Travis Scott- Rodeo Album- A&R Coordination",
+                "• Provide administrative support to A&R executives including rolling calls, completing expense reports, making travel arrangements, and scheduling meetings",
+                "• Coordinate record production including working with studio managers, artist managers, and audio engineers to arrange studio time.",
+                "• Provide A&R administrative and research tasks including organizing and gathering song/album credits and researching new acts"
+            ]
+        },
+        {
+            "jobTitle": "Artist Management",
+            "organization": "Benchmark Entertainment",
+            "startDate": "June 2014",
+            "endDate": "February 2015",
+            "duration": "9 months",
+            "responsibilities": [
+                "• Management company to artists Maxwell, Erykah Badu, Ledisi, Leela James, Raheem DeVaughn, and K Michelle.",
+                "• Assists partners in the company through managing schedules, booking travel arrangements, rolling calls, ",
+                "• Aid in day-to-day management of artists through managing calendars, logistics of events/appearances, managing online social media presence",
+                "• Light graphic work and maintenance on Facebook, websites, and other media works for artists"
+            ]
+        },
+        {
+            "jobTitle": "Temp Assistant",
+            "organization": "Capitol Records",
+            "startDate": "February 2014",
+            "endDate": "March 2014",
+            "duration": "2 months",
+            "responsibilities": [
+                "• Administrative office assistant responsible for answering calls.",
+                "• Review and process department invoices.",
+                "• Maintain calendar and make travel arrangements."
+            ]
+        },
+        {
+            "jobTitle": "Assistant to CEO",
+            "organization": "EKAS Studios",
+            "startDate": "June 2013",
+            "endDate": "January 2014",
+            "duration": "8 months",
+            "responsibilities": [
+                "• Executive assistant to CEO of multifaceted entertainment company including record label, publishing, film/ tv, etc. ",
+                "• Corresponds with respective parties regarding events, meetings, etc over email and phone and takes various meeting minutes.",
+                "• Researches and drafts branding and marketing strategies and directives including social media, print, and mobile including Facebook, Twitter, Instagram, and website.",
+                "• Produces information by transcribing, formatting, inputting, editing, retrieving, copying, and transmitting text, data, and graphics"
+            ]
+        },
+        {
+            "jobTitle": "Co-Chair- Blackfest- Annual Concert",
+            "organization": "Stanford University",
+            "startDate": "September 2009",
+            "endDate": "June 2013",
+            "duration": "3 years 10 months",
+            "responsibilities": [
+                "• Co-Chair of largest student run concert event on Stanford’s campus – led organization to record breaking 4,000 attendees in May 2011 up from 1,500 attendees the previous year. ",
+                "• Manage a 10-person committee that secures talent, craft marketing campaign, and execute initiatives for the event. ",
+                "• Develop budget, apply for University grants, fundraise, and secure corporate sponsorship."
+            ]
+        },
+        {
+            "jobTitle": "Intern- Special Events",
+            "organization": "Live Nation",
+            "startDate": "June 2012",
+            "endDate": "August 2012",
+            "duration": "3 months",
+            "responsibilities": [
+                "• Summer intern that helped execute events such as weddings, social gatherings, VIP suites, and concerts.",
+                "• Help generate leads for potential clients through extensive research and crafted exact target virtual marketing materials.",
+                "• Worked with ExactTarget email marketing on the company’s platform"
+            ]
+        }
+    ],
+    "education": [
+        {
+            "school": "Stanford University",
+            "basicInfo": [
+                "BA",
+                "Science",
+                "Technology",
+                "and Society",
+                "2009 - 2013"
+            ],
+            "activitiesAndSocieties": "Delta Sigma Theta Sorority, Incorporated, Co-Chair of the Black Collegiate Gathering Committee, Stanford Marketing Group, Associated Students of Stanford University- Nominations Commission"
+        }
+    ],
+    "volunteerExperience": [
+        {
+            "jobTitle": "Stanford National Black Alumni- Young Alumni Connectors - Event Manager",
+            "organization": "Stanford AlumniAssociation",
+            "startDate": "February 2015",
+            "endDate": "Present",
+            "responsibilities": [
+                "This role focuses on in-person and virtual programming to complement the mentorship program. If you would like to hold this role, please let me know by EOD tomorrow. Otherwise, we'll plan to add this to the list of vacant internal roles. "
+            ]
+        },
+        {
+            "jobTitle": "Los Angeles Founding Host",
+            "organization": "Our Family Dinner",
+            "startDate": "June 2013",
+            "endDate": "August 2015",
+            "responsibilities": [
+                "Plan bi-annual dinners that bring the young professional community of Los Angeles together to engage without the pretense of dating or networking. ",
+                "ourfamilydinner.org."
+            ]
+        },
+        {
+            "jobTitle": "Outreach Alumni Volunteer Link- Member",
+            "organization": "Stanford University",
+            "startDate": "June 2013",
+            "endDate": "Present",
+            "responsibilities": [
+                "- Assists at college fairs in the area giving perspective students and parents information on applying to and student life at Stanford",
+                "- Assist in execution of receptions for admitted students",
+                "-Volunteer at various other admission-related events including panels"
+            ]
+        }
+    ],
+    "unsupported": [
+        "Ashley Lyle",
+        "The Hollywood Reporter/Billboard"
+    ]
+}

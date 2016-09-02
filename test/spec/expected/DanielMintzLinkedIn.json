@@ -1,0 +1,141 @@
+{
+    "name": "Daniel Mintz",
+    "currentJob": "Content Expert at Pedago, LLC",
+    "email": "dvm2@georgetown.edu",
+    "workExperience": [
+        {
+            "jobTitle": "Editor & Content Expert",
+            "organization": "Pedago, LLC",
+            "startDate": "2013",
+            "endDate": "Present",
+            "duration": "3 years",
+            "responsibilities": [
+                "• Research, design and create short, witty educational lessons breaking difficult concepts into bite-sized chunks for on-the-go learning",
+                "• Review and edit content to ensure high quality product output",
+                "• Participate in and contribute to prioritization planning for future content development",
+                "• Work directly with our expert team of developers to propose suggested improvements to the Pedago suite of products",
+                "• Supervise contracted content writers, providing oversight and guidance as necessary to ensure timely completion of projects",
+                "• Serve as content expert in meetings with high-level corporate clientele "
+            ]
+        },
+        {
+            "jobTitle": "Visiting Assistant Professor",
+            "organization": "Georgetown University",
+            "startDate": "2012",
+            "endDate": "2013",
+            "duration": "1 year",
+            "responsibilities": [
+                "Courses taught: Mathematics in Society, Calculus I, Calculus II, and History of Mathematics"
+            ]
+        },
+        {
+            "jobTitle": "Adjunct Lecturer",
+            "organization": "Georgetown University",
+            "startDate": "2011",
+            "endDate": "2012",
+            "duration": "1 year",
+            "responsibilities": [
+                "Courses taught: Calculus I, Statistics with Exploratory Data Analysis"
+            ]
+        },
+        {
+            "jobTitle": "Tutor",
+            "organization": "University of St Andrews",
+            "startDate": "2006",
+            "endDate": "2010",
+            "duration": "4 years",
+            "responsibilities": [
+                "Led weekly tutorial sessions for the following courses: Mathematics Level I, Mathematics Level II, Statistics in Practice, Introduction of Mathematical Information Technology"
+            ]
+        }
+    ],
+    "languages": [
+        {
+            "language": "French",
+            "proficiency": "(Limited working proficiency)"
+        },
+        {
+            "language": "Greek, Ancient (to 1453)",
+            "proficiency": "(Limited working proficiency)"
+        }
+    ],
+    "skills": [
+        "Higher Education",
+        "Calculus",
+        "Teaching",
+        "Mathematics",
+        "Lecturing",
+        "Qualitative Research",
+        "R",
+        "Data Analysis",
+        "Editing",
+        "Quantitative Research",
+        "Written & Oral Presentation Skills",
+        "Microsoft Office",
+        "Mathematica",
+        "History",
+        "Analytical Reasoning",
+        "SPSS",
+        "Problem Solving",
+        "Statistical Data Analysis",
+        "Leadership",
+        "Inductive Reasoning",
+        "Deductive Reasoning",
+        "Logic",
+        "Finance",
+        "Accounting"
+    ],
+    "education": [
+        {
+            "school": "University of St. Andrews",
+            "basicInfo": [
+                "Doctor of Philosophy (Ph.D.)",
+                "Mathematics",
+                "Classics",
+                "2006 - 2011"
+            ]
+        },
+        {
+            "school": "The University of Edinburgh",
+            "basicInfo": [
+                "Certificate in Ancient Greek (non-degree)",
+                "Ancient/Classical Greek Language and Literature",
+                "2007 - 2007"
+            ]
+        },
+        {
+            "school": "Langue Onze Toulouse",
+            "basicInfo": [
+                "Certificate in French (non-degree)",
+                "French Language and Literature",
+                "2006 - 2006"
+            ]
+        },
+        {
+            "school": "Georgetown University",
+            "basicInfo": [
+                "Bachelor of Arts (B.A.)",
+                "Mathematics",
+                "Classics",
+                "2001 - 2004"
+            ]
+        }
+    ],
+    "unsupported": [
+        "Certifications",
+        "Cost of Capital I: Capital Structure",
+        "Smartly by Pedago, LLC      ",
+        "Macroeconomics: International Trade",
+        "Operations Management Fundamentals",
+        "Probability Distributions",
+        "Finance: Time Value of Money",
+        "Operations Management: Managing Uncertainty of Demand",
+        "Theories of Leadership",
+        "Cost of Capital II: The Modigliani-Miller Theorem",
+        "Digital Marketing Fundamentals",
+        "Macroeconomics: US Fiscal and Monetary Policy",
+        "Daniel Mintz",
+        "Content Expert at Pedago, LLC",
+        "dvm2@georgetown.edu"
+    ]
+}

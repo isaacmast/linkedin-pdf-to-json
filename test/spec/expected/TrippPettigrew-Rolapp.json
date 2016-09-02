@@ -1,0 +1,251 @@
+{
+    "name": "Tripp Pettigrew-Rolapp",
+    "currentJob": "Franchise Owner at SMARTBOX Portable Storage",
+    "bio": [
+        "I am currently the Director of Sales and Customer Service for Beverly Hills Transfer and Storage, agent of Allied Van Lines. As Beverly Hills Transfer and Storage is primarily a family business, it is nice to work with my husband in a company that has been the premiere full-service moving company in Southern California since 1924. Together, we also own the SMARTBOX Portable Storage franchise in Los Angeles. ",
+        "In my past careers, I have been both an actor, a mathematics subject matter expert and a managing editor for the creation of standardized assessments for the K-12 market. These skills combine to make me an incredibly personable mover, highly specialized in setting expectations, team building, and account management. ",
+        "For fun, I am the father of three (Alex, Chris, and Kat) while sneaking a run whenever possible.",
+        "Specialties: Highly-skilled in all aspects of PC software, hardware, and networking. Extremely proficient in HTML, JavaScript, XML, C++, Microsoft Office, Adobe Creative Suite, and Communication and Relationships Management."
+    ],
+    "workExperience": [
+        {
+            "jobTitle": "Franchise Owner",
+            "organization": "SMARTBOX Portable Storage",
+            "startDate": "November 2015",
+            "endDate": "Present",
+            "duration": "9 months",
+            "responsibilities": [
+                "I am a franchise owner of SMARTBOX Portable Storage in the greater Los Angeles area. I am primarily focused on sales and customer service within our organization and love maintaining our 5 star presence on Yelp. I am committed to going above and beyond to make sure our customers have the best experience possible during the most stressful time of their life. "
+            ]
+        },
+        {
+            "jobTitle": "Director of Sales and Customer Service",
+            "organization": "Beverly Hills Transfer and Storage",
+            "startDate": "May 2013",
+            "endDate": "Present",
+            "duration": "3 years 3 months",
+            "responsibilities": [
+                "My job is to make sure that customers are happy from the first moment of interaction until their goods (either household or office) are delivered safely at destination for a price that meets their budget. As a Certified Move Consultant and a Certified Office and Industrial Consultant myself, I take great pride in making sure that my team is presenting our customers with the most honest, well-considered price and move plan possible."
+            ]
+        },
+        {
+            "jobTitle": "Freelance Item Writer and Independent Contractor",
+            "organization": "Self Employed",
+            "startDate": "March 2009",
+            "endDate": "May 2013",
+            "duration": "4 years 3 months",
+            "responsibilities": [
+                "- Created and edited content for clients including The Princeton Review, CORE K12 Education, McGraw- Hill/CTB, and Questar Assessment, Inc."
+            ]
+        },
+        {
+            "jobTitle": "Item Development Analyst",
+            "organization": "Core Education & Technologies Limited",
+            "startDate": "February 2013",
+            "endDate": "April 2013",
+            "duration": "3 months",
+            "responsibilities": [
+                "- Supported the Dubai office of CORE ECS for item development training including vertical alignment (cognitive leveling) of items, universal design for assessment, and how to write items that align 100% to standards.",
+                "- Supported the company's responses to RFPs in regards to future assessment development."
+            ]
+        },
+        {
+            "jobTitle": "Test Development Design Analyst",
+            "organization": "CORE ECS",
+            "startDate": "April 2012",
+            "endDate": "February 2013",
+            "duration": "11 months",
+            "responsibilities": [
+                "- Designed internal processes and tools that the company uses to create items and tests for U.S. markets.",
+                "- Designed training program for item writers, test developers, and alignment specialists.",
+                "- Designed and managed the successful creation of an item bank of 7,182 items aligned to the Common Core State Standards for both Mathematics and English Language Arts."
+            ]
+        },
+        {
+            "jobTitle": "Senior Managing Editor",
+            "organization": "CORE K12",
+            "startDate": "October 2010",
+            "endDate": "April 2012",
+            "duration": "1 year 7 months",
+            "responsibilities": [
+                "- Managed 45% of CORE K12 product using follow-the-sun staffing model with a 5 person in-office team and 50 freelance content developers and editors, QA personnel, IT professionals, and administrative assistants.",
+                "- 100% client renewal rate; 44% expansion of contracts rate; 98% accuracy rate. Developed, managed, and delivered products for multi-million dollar contracts focused on educational assessment and data around the country.",
+                "- Standardized processes and increased efficiency by 33% by streamlining communication between multiple departments both in- and out-of-house.",
+                "- 100% on-time project delivery.",
+                "- Provided guidance on development of online systems and proprietary databases.",
+                "- Interfaced with clients directly to interpret, apply, and deliver changes based on unique needs and requirements."
+            ]
+        },
+        {
+            "jobTitle": "Owner",
+            "organization": "Imaginary Theatricals",
+            "startDate": "October 2007",
+            "endDate": "October 2010",
+            "duration": "3 years 1 month",
+            "responsibilities": [
+                "- Designed, created, coded, or consulted on the original websites of marisamichelson.com, stephaniejohnstone.com, tripp-pettigrew.com, bewelltherapies.com, jacobisadog.com, bushwickleaders.org, beverlyhillstransfer.com, beverlyhillsboxstore.com.",
+                "- Coded HTML and JavaScript through Notepad and Dreamweaver.",
+                "- Designed original hand-drawn graphics in the Adobe Creative Suite.",
+                "- 100% client satisfaction rate."
+            ]
+        },
+        {
+            "jobTitle": "Actor",
+            "organization": "Actor's Equity",
+            "startDate": "June 2001",
+            "endDate": "September 2010",
+            "duration": "9 years 4 months"
+        },
+        {
+            "jobTitle": "Math Content Specialist",
+            "organization": "The Princeton Review",
+            "startDate": "October 2006",
+            "endDate": "March 2009",
+            "duration": "2 years 6 months",
+            "responsibilities": [
+                "- Reviewed and finalized 50% of content published by The Princeton Review's K12 department.",
+                "- Independently created 5% of products and increased efficiency by 25%."
+            ]
+        }
+    ],
+    "languages": [
+        {
+            "language": "Japanese"
+        }
+    ],
+    "skills": [
+        "Microsoft Office",
+        "Adobe Creative Suite",
+        "HTML",
+        "XML",
+        "HTML/XML",
+        "HTML + CSS",
+        "C++",
+        "Developing Client Relationships",
+        "Account Management",
+        "Communication Written",
+        "Oral Communications",
+        "Client Retention",
+        "Client Communication",
+        "Client Interfacing",
+        "Databases",
+        "Project Delivery",
+        "On Time Delivery",
+        "Independent",
+        "Editorial",
+        "Education Management",
+        "Educational Leadership",
+        "Customer Retention",
+        "Academic Publishing",
+        "Project Management",
+        "Educational Technology",
+        "Content Development",
+        "Teaching",
+        "Delivery Performance",
+        "Staff Development",
+        "CRM",
+        "Editing",
+        "Copy Editing",
+        "Proofreading",
+        "E-Learning",
+        "Curriculum Design",
+        "Publishing",
+        "Instructional Design",
+        "Content Management",
+        "Research",
+        "Books",
+        "Creative Writing",
+        "Management",
+        "Software Documentation",
+        "Online Publishing",
+        "Ebooks",
+        "Curriculum Development",
+        "Grammar"
+    ],
+    "education": [
+        {
+            "school": "Smartly",
+            "basicInfo": [
+                "Business",
+                "Management",
+                "Marketing",
+                "and Related Support Services",
+                "2016 - 2016"
+            ]
+        },
+        {
+            "school": "New York University",
+            "basicInfo": [
+                "Bachelor's Degree",
+                "Drama",
+                "2001 - 2004"
+            ],
+            "activitiesAndSocieties": "Graduated with Honors in 3 years"
+        }
+    ],
+    "unsupported": [
+        "Certifications",
+        "Certified Move Consultant",
+        "American Moving and Storage Association       March 2014",
+        "Certified Office and Industrial Consultant",
+        "Organizations",
+        "Professional Sales Association",
+        "May 2013 to Present",
+        "Tripp Pettigrew-Rolapp",
+        "Franchise Owner at SMARTBOX Portable Storage",
+        "5",
+        " people have recommended Tripp",
+        "\"I had the pleasure of meeting Tripp when he provided a move estimate for a company I worked for. In",
+        "addition to providing exceptional customer service, Tripp is professional, reliable, and responsive. Through",
+        "the course of further collaboration, I have come to greatly appreciate Tripp's intelligence, thoughtful and",
+        "considerate personality, and his ability to excel at anything he sets his mind to.\"",
+        "— Melissa (McManigal) Hassler",
+        ", Operations Manager - LA, Giant Interactive",
+        ", was Tripp's client",
+        "\"As VP, Content Development at The Princeton Review/CORE K12 from 2006 to 2010, I hired Tripp",
+        "Pettigrew as a contractor on a regular basis to help fulfill custom content requirements for our school district",
+        "clients. Tripp’s major areas of expertise were science and math, but he has that rare quality of also having",
+        "exceptional ELA knowledge. He is a talented writer and thorough and effective editor, having a special eye",
+        "for quality. His work was always superb and on time. I could always depend on him to exceed expectations",
+        "in both quality of work and timelines. Our clients were always satisfied and impressed with his expertise. I",
+        "recommend him highly.\"",
+        "— Roseann Freet",
+        "\"After working closely with Tripp for several years I would be more than happy to recommend him. In his",
+        "current position as Senior Managing Editor at Core K12, he has and continues to excel. He is confident and",
+        "dedicated to his work and consistently delivers quality projects ahead of schedule. He is always willing to",
+        "accept a new challenge and is continually developing his professional skills. Tripp has not only developed",
+        "his own abilities but has trained and managed one of the strongest editorial teams within the company to",
+        "date. He never hesitates to lend a helping hand in other departments, is always reliable and is a consummate",
+        "professional.\"",
+        "— Alisha LoRe",
+        ", worked directly with Tripp at CORE K12",
+        "\"It is a genuine pleasure and honor for me to recommend Tripp Pettigrew-Rolapp. Tripp and I have worked",
+        "together at CORE K12 Education during the past 3 years. He began as a contractor in the Assessment Content",
+        "Department, writing items for assessments and later was promoted to Managing Editor, then to Senior",
+        "Managing Editor. Over the years, I have spent considerable time with him as were were assigned to many of",
+        "the same projects. He is very goal oriented, punctual, and pays close attention to detail. I have consistently",
+        "seen Tripp take on complex projects and deliver results that can only be accomplished through management",
+        "the of countless details while not losing sight of the overall goals of the project. Tripp demonstrated that",
+        "he understood what our business is all about from a very early point. He truly enjoys a challenge and does",
+        "not hesitate to find answers. He proactively communicates solutions before things become a problem and is",
+        "always willing to take on any task asked of him - both large and small. It is wonderful that Tripp is available",
+        "for new challenges and further professional growth. We would love to see him stay, but certainly understand",
+        "his need to advance beyond. In closing, let me say I have no hesitation in recommending Tripp for any",
+        "management position. I feel confident that he would be an asset to your organization. Sincerely, Anne",
+        "d'Epagnier\"",
+        "— Anne d'Epagnier Molina",
+        ", worked with Tripp at CORE K12",
+        "\"I have worked with Tripp at CORE for several years now. When Tripp was promoted to managing the math",
+        "group, I was thrilled and have been very happy with the work he has produced and the way he has led our",
+        "group ever since. I have worked in this position for over 4 years, for many different managers, and Tripp",
+        "has been, far and away, the best one of the bunch. Tripp cares deeply about producing quality products to",
+        "ensure the results align with each of our client's specific wishes. He is very knowledgeable in the content, the",
+        "workings of CORE, and the wishes of each of our various clients. When I have questions or opinions about",
+        "how best to complete a project, Tripp is quick to respond (regardless of the time of day), respectful, helpful,",
+        "and knowledgeable with his answers. He always seems to value my contributions and supports back and forth",
+        "conversations about how we can best work as a team to produce the best quality products that we can. Any",
+        "company would be extremely fortunate to have Tripp working for them.\"",
+        "— Maren Wood Piedrahita",
+        ", reported to Tripp at CORE K12"
+    ]
+}

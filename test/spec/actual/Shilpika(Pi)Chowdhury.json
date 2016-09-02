@@ -1,0 +1,158 @@
+{
+    "name": "Shilpika (Pi) Chowdhury",
+    "currentJob": "Semiconductor and Device Fabrication, Implantable Microsystems, Medical Technology Innovation,",
+    "email": "UX/Product Design",
+    "bio": [
+        "My passion is building things. I'm a Materials Scientist and Bioengineer, but I love all things related to creation. I'm an artist and a scientist (see my website at http://shilpikachowdhury.com) but I also like to explore different industries and learn about new technologies. You may have noticed the diversity of experiences in my profile, and I believe that this experience gives me a fresh perspective when approaching problems. Many people tell me that they appreciate my ability to predict issues right from the start and plan solutions into my designs. ",
+        "My ideal work would be harnessing my ability to quickly understand and communicate facets of new technologies to connect technologies that deserve to be together. I also like to derive mathematic relations (people call them back of the envelope) and to see trends in data and iterate on approaches. I derive a lot of pleasure from carefully designing something that eventually I get to hold in my hands. ",
+        "Most of my experience is in wafer processing (microfab), electron microscopy, and dealing with material- organism interactions. I also use quite a bit of 3D printing for prototyping, and my favorite tool is a laser cutter. ",
+        "I have industry experience, and I like to think that the best way to innovate at this point is to process the IP that already exists and compress that into a paradigm shift. My mission in life is to optimize and initiate the personalized preventative care movement. And to do it right. "
+    ],
+    "workExperience": [
+        {
+            "jobTitle": "Wafer Scale Engineer, Implantable Microsystems",
+            "organization": "Medtronic",
+            "startDate": "July 2015",
+            "endDate": "Present",
+            "duration": "1 year 1 month",
+            "responsibilities": [
+                "Implantable DevicesSemiconductor Fabrication ProcessesWearable TechnologySensors (Implantable, Wearable)Spinal, Cardiac, and Diabetes "
+            ]
+        },
+        {
+            "jobTitle": "Graphic, UX, and Product Design",
+            "organization": "Ferro Technologies",
+            "startDate": "January 2015",
+            "endDate": "Present",
+            "duration": "1 year 7 months"
+        },
+        {
+            "jobTitle": "BioTech Consultant",
+            "organization": "Self Employed",
+            "startDate": "December 2014",
+            "endDate": "Present",
+            "duration": "1 year 8 months",
+            "responsibilities": [
+                "Experimental Overview EvaluationAngel Investment Consulting"
+            ]
+        },
+        {
+            "jobTitle": "Undergraduate Researcher",
+            "organization": "Lawrence Berkeley National Laboratory",
+            "startDate": "June 2012",
+            "endDate": "July 2015",
+            "duration": "3 years 2 months",
+            "responsibilities": [
+                "Developing TEM imaging techniques (UCB NanoLab)Sterile cell culture (Tetrahymena, Chlamydamonas)Micro-scale dissection (Gryllus bimaculatus)Training Incoming ResearchersResin embedding and osmium-stain sample preparationTomography (Particle Estimation for Electron Tomography)Diffraction analysis in TEMIntroduction to polymer characterizationFabrication of graphene and graphene coated TEM gridsPreparation methods for cryomicroscopy"
+            ]
+        },
+        {
+            "jobTitle": "Undergraduate Researcher",
+            "organization": "UC Berkeley",
+            "startDate": "January 2015",
+            "endDate": "June 2015",
+            "duration": "6 months",
+            "responsibilities": [
+                "3D Modeling and Device Design (Resin and Filament)Biomedical devices in Animal Studies Experimental DesignFDA Compliant Polymeric and Biodegradable Material Selection"
+            ]
+        },
+        {
+            "jobTitle": "Wafer Scale Packaging Process Intern",
+            "organization": "Medtronic",
+            "startDate": "May 2014",
+            "endDate": "August 2014",
+            "duration": "4 months",
+            "responsibilities": [
+                "Photolithography, Mask Design, MicrofabricationBiostability & Biocompatibility material propertiesSix Sigma, Lean Sigma, and Designed ExperimentsIP and Patent PreparationReactive Plasma Etch (Metal, SILOX), Sputtering, LPCVDReconciling medical requirements with fabrication limitations Business Relations (Integration of Novel External Resources/New Technologies)Material Characterization"
+            ]
+        },
+        {
+            "jobTitle": "Computing Consultant",
+            "organization": "UC Berkeley Student Affairs Information Technologies",
+            "startDate": "August 2012",
+            "endDate": "September 2013",
+            "duration": "1 year 2 months",
+            "responsibilities": [
+                "Unix Navigation and NetworkingResident RelationsOSX/Linux/Windows TroubleshootingResidential Informational Presentations"
+            ]
+        },
+        {
+            "jobTitle": "Pre-Collegiate Researcher",
+            "organization": "Arizona State University",
+            "startDate": "August 2010",
+            "endDate": "August 2011",
+            "duration": "1 year 1 month",
+            "responsibilities": [
+                "Helped Maintain the Telomerase Database (Sequencing)Executed PCRPoured and ran agarose gelsNanoDrop for protein quantificationLab maintenance and safetyFound DNA BLAST results from NCBI and processed dataCell disruptionBiological culture and DNA/RNA modification"
+            ]
+        },
+        {
+            "jobTitle": "Concert Photographer",
+            "organization": "Mish Mash Magazine",
+            "startDate": "June 2008",
+            "endDate": "July 2011",
+            "duration": "3 years 2 months",
+            "responsibilities": [
+                "Attended and photographed shows for the magazine. http://mishmashmag.blogspot.com/"
+            ]
+        },
+        {
+            "jobTitle": "Medical Equipment Intern",
+            "organization": "Curtis Orthodontics",
+            "startDate": "June 2008",
+            "endDate": "August 2008",
+            "duration": "3 months"
+        }
+    ],
+    "volunteerExperience": [
+        {
+            "jobTitle": "Program Assistant",
+            "organization": "Hope's Crossing",
+            "startDate": "January 2016",
+            "endDate": "Present"
+        },
+        {
+            "jobTitle": "ISEF Grand Award Judge,Biomedical Engineering (ENBM)",
+            "organization": "Society for Science & the Public",
+            "startDate": "May 2016",
+            "endDate": "Present"
+        }
+    ],
+    "languages": [
+        {
+            "language": "Bengali"
+        },
+        {
+            "language": "German"
+        }
+    ],
+    "education": [
+        {
+            "school": "University of California, Berkeley",
+            "basicInfo": [
+                "Bachelor of Science (BS)",
+                "Bioengineering and Material Science Engineering",
+                "2011 - 2015"
+            ],
+            "activitiesAndSocieties": "UCB Democratic Education Program - Stem Cells: Science and Society"
+        }
+    ],
+    "unsupported": [
+        "Interests",
+        "Digital and Film Photography,",
+        "Lithography,",
+        "Neural Interface,",
+        "Literature,",
+        "Mixed Media Art,",
+        "Circuit Design and Construction,",
+        "3D Printing / Additive Manufacturing,",
+        "Medical Technology, Medical Devices,",
+        "Personalized Medicine,",
+        "Preventative Care,",
+        "IoT, M2M,",
+        "Technological Networking and Communications",
+        "Shilpika (Pi) Chowdhury",
+        "Semiconductor and Device Fabrication, Implantable Microsystems, Medical Technology Innovation,",
+        "UX/Product Design"
+    ]
+}

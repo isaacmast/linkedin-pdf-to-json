@@ -1,0 +1,123 @@
+{
+    "name": "Erin Pellegrino",
+    "currentJob": "Tod Williams Billie Tsien Architects",
+    "bio": [
+        "Erin Pellegrino is currently a designer at Tod Williams Billie Tsien Architects, a graduate of the Harvard Graduate School of Design and Cornell University's College of Architecture, Art and Planning.",
+        "She was awarded a Design Honor Award by the American Institute of Architects, New England for the Alpine Shelter project in Slovenia. She was also awarded the Paul M. Heffernan Travel Fellowship, to travel and build the project shelter in the Julian Alps. She has participated in lectures at IUAV in Venice, Italy, the Harvard Graduate School of Design, UVA in Charlottesville, Virginia, and at the Anchorage Museum in Alaska.",
+        "Described by her professors as a “maker and a thinker with a strong emotive dimension to her work”, Erin Pellegrino is interested in the human qualities of architecture. She graduated from Cornell University’s Bachelor of Architecture in 2014 where her design excellence was recognized with the Charles Goodwin Sands Memorial Medal for her thesis on architecture and perfume.",
+        "MiniCity Detroit was awarded first prize in Redesigning Detroit, a competition for the redesign of a vacant city block in Detroit, Michigan. In spring 2013, she was nominated to represent Cornell University’s Bachelor of Architecture program for the AIANYS student work competition. She has also been awarded both the Seipp Prize and York Prize, also from Cornell University. ",
+        "Erin has worked for a range of firms and institutions, as an intern at FXFOWLE, a Studio Coach at NuVu Studio in Cambridge, as a Teaching Associate at Cornell University, and both the Cornell University and Harvard University fabrication shops. ",
+        "In the summer of 2011, Erin traveled to South Africa as a part of a Design + Build team to construct an early education crèche in Johannesburg. Other projects include a collaboration with Jake Rudin on a renovation of a Richard Meier home in Ithaca, NY, which was awarded a Historic Ithaca Preservation Award."
+    ],
+    "education": [
+        {
+            "school": "Harvard University Graduate School of Design",
+            "basicInfo": [
+                "Masters of Architecture",
+                "Architecture",
+                "2014 - 2016"
+            ]
+        },
+        {
+            "school": "Cornell University",
+            "basicInfo": [
+                "Bachelors of Architecture",
+                "Architecture",
+                "Furniture Design",
+                "2009 - 2014"
+            ],
+            "activitiesAndSocieties": "Cornell University Sustainable Design, Association Vol. 6, Senior Class Campaign"
+        }
+    ],
+    "workExperience": [
+        {
+            "jobTitle": "Designer",
+            "organization": "Tod Williams Billie Tsien Architects",
+            "startDate": "June 2016",
+            "endDate": "Present",
+            "duration": "2 months"
+        },
+        {
+            "jobTitle": "Design Coach",
+            "organization": "NuVu",
+            "startDate": "June 2015",
+            "endDate": "May 2016",
+            "duration": "1 year"
+        },
+        {
+            "jobTitle": "Teaching Associate",
+            "organization": "Harvard GSD",
+            "startDate": "2014",
+            "endDate": "May 2016",
+            "duration": "2 years"
+        },
+        {
+            "jobTitle": "Teaching Associate",
+            "organization": "Cornell University",
+            "startDate": "May 2014",
+            "endDate": "August 2014",
+            "duration": "4 months"
+        },
+        {
+            "jobTitle": "Exhibition Designer",
+            "organization": "Cornell University",
+            "startDate": "August 2012",
+            "endDate": "June 2014",
+            "duration": "1 year 11 months"
+        },
+        {
+            "jobTitle": "Teaching Associate",
+            "organization": "Cornell University AAP Shops + Facilities",
+            "startDate": "January 2010",
+            "endDate": "April 2014",
+            "duration": "4 years 4 months",
+            "responsibilities": [
+                "I supervise and instruct methods and techniques in a wood, metal, and digital fabrication facility. Knowledge in safety, first aid, carpentry, metalworking, and operation of a CNC mill and laser cutters."
+            ]
+        },
+        {
+            "jobTitle": "Intern",
+            "organization": "FXFOWLE",
+            "startDate": "May 2013",
+            "endDate": "August 2013",
+            "duration": "4 months"
+        },
+        {
+            "jobTitle": "Intern",
+            "organization": "Cubellis",
+            "startDate": "September 2008",
+            "endDate": "January 2009",
+            "duration": "5 months",
+            "responsibilities": [
+                "I worked on a non-profit project for the design of a sustainable house in the Pinelands on a beaver reservation."
+            ]
+        }
+    ],
+    "languages": [
+        {
+            "language": "English",
+            "proficiency": "(Native or bilingual proficiency)"
+        },
+        {
+            "language": "Italian",
+            "proficiency": "(Elementary proficiency)"
+        }
+    ],
+    "unsupported": [
+        "Interests",
+        "Snowboarding, cycling, boxing, graphic design, cooking, cars, furniture, and travel.",
+        "Erin Pellegrino",
+        "Tod Williams Billie Tsien Architects"
+    ],
+    "volunteerExperience": [
+        {
+            "jobTitle": "Media and Marketing Designer",
+            "organization": "Art For Change",
+            "startDate": "May 2012",
+            "endDate": "August 2012",
+            "responsibilities": [
+                "I filmed and crafted video and marketing materials for Art For Change in Harlem, NYC. Art for Change (AfC) is a 501(c)3 organization that encourages the advancement of progressive social change by using art as a catalyst for disseminating information to people. They provide space to discuss and explore that information, stimulating individual and collective reflection, which leads to action and change."
+            ]
+        }
+    ]
+}

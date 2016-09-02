@@ -1,0 +1,295 @@
+{
+    "name": "Tanzim Milkey",
+    "currentJob": "Product Marketing Manager who wields data and creativity to lead development and drive results.",
+    "bio": [
+        "A product marketing professional with management, research, and analysis experience in technology and consumer goods. My career has included varied projects, such as creating multi-faceted social media campaigns, designing, launching, and managing new products, and promoting efficiency by changing business infrastructure."
+    ],
+    "workExperience": [
+        {
+            "jobTitle": "Product Marketing Manager",
+            "organization": "MBI Inc.",
+            "startDate": "July 2015",
+            "endDate": "Present",
+            "duration": "1 year 1 month",
+            "responsibilities": [
+                "I work in the jewelry division of The Danbury Mint, overseeing a variety of products throughout their life cycles. My responsibilities include managing vendors, executing media, mail, and digital efforts, coordinating customer relations, and product development and analysis."
+            ]
+        },
+        {
+            "jobTitle": "Student Technology Consultant Manager",
+            "organization": "Williams College",
+            "startDate": "October 2012",
+            "endDate": "May 2015",
+            "duration": "2 years 8 months",
+            "responsibilities": [
+                "Handled a variety of computer issues that students, faculty, and staff experienced, including both online and offline security, software troubleshooting, fixing hardware, and addressing network issues. "
+            ]
+        },
+        {
+            "jobTitle": "Chemistry Stockroom Monitor",
+            "organization": "Williams College",
+            "startDate": "September 2012",
+            "endDate": "May 2015",
+            "duration": "2 years 9 months",
+            "responsibilities": [
+                "Distributed chemistry equipment to students and faculty; also prepared solutions and cleared out volatile substances post-lab."
+            ]
+        },
+        {
+            "jobTitle": "Consultant",
+            "organization": "SmartBrief",
+            "startDate": "September 2014",
+            "endDate": "January 2015",
+            "duration": "5 months",
+            "responsibilities": [
+                "Collaborated with the CEO in order to devise effective solutions for the company, keep informed on the latest trends and innovations, and address social media and business best practices."
+            ]
+        },
+        {
+            "jobTitle": "Product Team Intern",
+            "organization": "SmartBrief",
+            "startDate": "June 2014",
+            "endDate": "August 2014",
+            "duration": "3 months",
+            "responsibilities": [
+                "Worked on a variety of projects including product development, marketing design, company branding solutions, and competitor research."
+            ]
+        },
+        {
+            "jobTitle": "Youth Development Counselor",
+            "organization": "Hillcrest Educational Centers",
+            "startDate": "July 2013",
+            "endDate": "August 2013",
+            "duration": "2 months",
+            "responsibilities": [
+                "Worked at both the Highpoint and Fernbrook campuses to provide care and aid for boys aged 13-20 who have had histories of violent criminal behavior and sexual trauma. "
+            ]
+        },
+        {
+            "jobTitle": "Business Development Associate",
+            "organization": "Teal Orbit - Palette Group",
+            "startDate": "June 2012",
+            "endDate": "August 2012",
+            "duration": "3 months",
+            "responsibilities": [
+                "Sought out and helped maintain the social media presence of various clients, ranging from a beer festival to a natural beauty products company; also worked on improving the brand presence of the start-up itself."
+            ]
+        },
+        {
+            "jobTitle": "Inventory Manager",
+            "organization": "Valero Energy Corporation",
+            "startDate": "June 2012",
+            "endDate": "August 2012",
+            "duration": "3 months",
+            "responsibilities": [
+                "Chose the items the store would carry based on data analysis, assigned prices to stock, and ordered and distributed the inventory."
+            ]
+        },
+        {
+            "jobTitle": "Manager",
+            "organization": "Horizon Effect",
+            "startDate": "January 2011",
+            "endDate": "2012",
+            "duration": "1 year",
+            "responsibilities": [
+                "Managed the band's websites, booked shows, and took care of general logistics, maintenance, and production."
+            ]
+        },
+        {
+            "jobTitle": "Video Editor",
+            "organization": "Simons Films",
+            "startDate": "October 2011",
+            "endDate": "November 2011",
+            "duration": "2 months",
+            "responsibilities": [
+                "Worked with Final Cut Pro in order to sort through soccer footage and collect highlights."
+            ]
+        },
+        {
+            "jobTitle": "Canvasser",
+            "organization": "Democratic Party of Georgia",
+            "startDate": "May 2011",
+            "endDate": "June 2011",
+            "duration": "2 months",
+            "responsibilities": [
+                "Went door-to-door in order to collect contributions for the DPG and informed people of developments from within the party that the major news outlets did not have access to; also raised awareness of both local and national issues."
+            ]
+        },
+        {
+            "jobTitle": "Technology Association of Georgia Intern",
+            "organization": "Verint",
+            "startDate": "June 2010",
+            "endDate": "July 2010",
+            "duration": "2 months",
+            "responsibilities": [
+                "Worked in the Project Management Office in order to organize and improve the company’s customer database."
+            ]
+        },
+        {
+            "jobTitle": "Senior Capstone Intern",
+            "organization": "Gwinnett Technical College",
+            "startDate": "January 2010",
+            "endDate": "May 2010",
+            "duration": "5 months",
+            "responsibilities": [
+                "Worked under the head of the horticulture department in order to learn basic laboratory skills as well as participate in a collegiate class experience."
+            ]
+        },
+        {
+            "jobTitle": "Cashier",
+            "organization": "Yum! Restaurants International",
+            "startDate": "June 2009",
+            "endDate": "July 2009",
+            "duration": "2 months",
+            "responsibilities": [
+                "Handled the financial transactions of customers; prepared food items; took orders over the intercom; took orders at the front register."
+            ]
+        }
+    ],
+    "education": [
+        {
+            "school": "Williams College",
+            "basicInfo": [
+                "Bachelor’s Degree",
+                "Psychology (focus: Cognitive Science)",
+                "Leadership Studies & International Studies",
+                "2011 - 2015"
+            ],
+            "activitiesAndSocieties": "QuestBridge, The SpringStreeters, South Asian Students Association"
+        },
+        {
+            "school": "Smartly MBA Program",
+            "basicInfo": [
+                "Master of Business Administration (M.B.A.)",
+                "2016 - 2016"
+            ]
+        },
+        {
+            "school": "Bosphorus University",
+            "basicInfo": [
+                "Semester Abroad",
+                "2013 - 2013"
+            ],
+            "activitiesAndSocieties": "BUMK Rock Korusu, IES Istanbul, weloveistanbul"
+        },
+        {
+            "school": "Gwinnett School of Mathematics, Science, and Technology",
+            "basicInfo": [
+                "High School Diploma",
+                "Bioscience",
+                "2007 - 2011"
+            ],
+            "activitiesAndSocieties": "GSMST Chorus, National Honors Society, Stock Market Club, Yearbook Committee, Student Government Association, Peer Tutoring"
+        },
+        {
+            "school": "Georgia State University",
+            "basicInfo": [
+                "Information Technology",
+                "2010 - 2010"
+            ]
+        }
+    ],
+    "unsupported": [
+        "Courses",
+        "High School Diploma, Bioscience",
+        "Gwinnett School of Mathematics, Science, and",
+        "Technology",
+        "Engineering",
+        "Economics",
+        "Information Technology",
+        "Georgia State University",
+        "Bachelor’s Degree, Psychology (focus: Cognitive",
+        "Science), Leadership Studies & International",
+        "Studies",
+        "Williams College",
+        "Political Theory",
+        "Cognitive Psychology",
+        "Comparative Literature",
+        "Developmental Psychology",
+        "Sociology",
+        "Social Psychology",
+        "Leadership & Management",
+        "Neuroscience",
+        "Experimentation & Statistics",
+        "Certifications",
+        "Finance: Time Value of Money",
+        "Smartly by Pedago, LLC      ",
+        "Accounting I: Fundamentals",
+        "Microeconomics I: Supply and Demand",
+        "Marketing Fundamentals",
+        "One-Variable Statistics",
+        "Two-Variable Statistics",
+        "Accounting II: Revenues and Expenses",
+        "Stocks and Bonds",
+        "Interests",
+        "Music, Technology, Books, Films, Cooking, Television.",
+        "Tanzim Milkey",
+        "Product Marketing Manager who wields data and creativity to lead development and drive results."
+    ],
+    "skills": [
+        "Social Media",
+        "PowerPoint",
+        "Microsoft Office",
+        "Public Speaking",
+        "Time Management",
+        "Microsoft Word",
+        "Microsoft Excel",
+        "Social Networking",
+        "Microsoft Publisher",
+        "Community Outreach",
+        "Windows",
+        "Leadership",
+        "People Skills",
+        "Retail",
+        "Music",
+        "Teaching",
+        "Nonprofits",
+        "Creative Writing",
+        "Databases",
+        "Performing Arts",
+        "Inventory Management",
+        "Business",
+        "Management",
+        "First Aid",
+        "Event Planning",
+        "Critical Thinking",
+        "Technology",
+        "Diversity",
+        "Therapeutic Communication",
+        "Computers",
+        "Communication",
+        "Email",
+        "Presentations",
+        "Marketo",
+        "Photoshop Elements",
+        "Google Docs",
+        "Market Research",
+        "Internal Audit",
+        "Operating Budgets",
+        "Research",
+        "Data Analysis",
+        "SPSS",
+        "SQL",
+        "P&L Management",
+        "Project Management",
+        "ROI Management",
+        "A/B Testing",
+        "Google Drive",
+        "Agile Project Management",
+        "Editing"
+    ],
+    "languages": [
+        {
+            "language": "Bengali",
+            "proficiency": "(Native or bilingual proficiency)"
+        },
+        {
+            "language": "English",
+            "proficiency": "(Native or bilingual proficiency)"
+        },
+        {
+            "language": "Turkish",
+            "proficiency": "(Limited working proficiency)"
+        }
+    ]
+}

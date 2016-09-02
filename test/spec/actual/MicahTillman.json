@@ -1,0 +1,207 @@
+{
+    "name": "Micah Tillman",
+    "currentJob": "Content Developer at Smartly by Pedago, LLC",
+    "email": "micahtillman@gmail.com",
+    "bio": [
+        "I create course content for Pedago's e-learning platform, Smartly. Prior to joining Pedago, I taught philosophy in Washington, DC-area universities for 9.5 years. I have a Ph.D. in philosophy from The Catholic University of America, an M.A. in philosophy from West Chester University of Pennsylvania, and a B.A. in computer science from Messiah College."
+    ],
+    "unsupported": [
+        "Projects",
+        "Chambergon Battle Logic",
+        "August 2013 to Present",
+        "Members:Micah Tillman",
+        "Chambergon Battle Logic (\"CBL\") is a puzzle-solving computer card game I designed, and continue to",
+        " improve, for teaching symbolic logic. I used the program as my main in-class, homework, and testing tool",
+        " for teaching two semesters of symbolic logic at McDaniel College.",
+        "Philosophy in Four Questions",
+        "2014 to 2015",
+        "This is a textbook I wrote to introduce high schoolers to philosophy. It is intended primarily for use as part",
+        " of homeschooling curricula, but is appropriate for anyone wanting a broad and entertaining introduction to",
+        " philosophy. (Published in 2015 by 7 Sisters IHH, LLC.)",
+        "Philosophy of Music",
+        "2013 to 2014",
+        "I proposed, developed, and taught a course for McDaniel College on the sociology, neuroscience, and",
+        " philosophy of music. (The course was given in the spring semester of 2014, but development began in 2013.)",
+        "Song Lyrics: Principles of the Lyricist's Art",
+        "2013 to Present",
+        "This is a textbook I was asked to write for a high school course on theater and music. It was meant for",
+        " the second half of the course, and was used at Mt. Sophia Academy (Newark, DE) during the 2013-2014",
+        " academic year. The book will be published by 7 Sisters IHH, LLC.",
+        "Top 40 Philosophy",
+        "November 2014 to Present",
+        "This is a blog and e-book series I began to introduce people to important philosophical topics through popular",
+        " music.",
+        "Publications",
+        "7 Sisters Innovative Homeschool Helps, LLC   November 17, 2015",
+        "Authors: Micah Tillman",
+        "A textbook for introducing high schoolers to philosophy.",
+        "Genesis 1’s Solution to the Euthyphro Problem",
+        "Philosophy & Theology 26, no. 1 (2014): 207–19   2014",
+        "Husserl’s Mereological Semiotics: Indication, Expression, Surrogation",
+        "The New Yearbook for Phenomenology and Phenomenological Philosophy 12 (2012): 69–108   2012",
+        "Husserl’s Genetic Philosophy of Arithmetic",
+        "American Dialectic 2, no. 2 (May 2012): 141–90   2012",
+        "Interests",
+        "Education, Music, Philosophy, and Theology",
+        "Organizations",
+        "American Philosophical Association",
+        "May 2011 to Present",
+        "Micah Tillman",
+        "Content Developer at Smartly by Pedago, LLC",
+        "micahtillman@gmail.com"
+    ],
+    "workExperience": [
+        {
+            "jobTitle": "Content Developer",
+            "organization": "Smartly by Pedago, LLC",
+            "startDate": "February 2016",
+            "endDate": "Present",
+            "duration": "6 months",
+            "responsibilities": [
+                "I research, create, and edit courses for Smartly, Pedago's e-learning platform."
+            ]
+        },
+        {
+            "jobTitle": "Visiting Assistant Professor",
+            "organization": "George Washington University, University Honors Program",
+            "startDate": "August 2015",
+            "endDate": "December 2015",
+            "duration": "5 months",
+            "responsibilities": [
+                "I taught two sections of \"Origins and Evolution of Modern Thought,\" focusing on Ancient Greek, Indian, and Chinese texts."
+            ]
+        },
+        {
+            "jobTitle": "Adjunct Lecturer",
+            "organization": "McDaniel College",
+            "startDate": "January 2013",
+            "endDate": "December 2015",
+            "duration": "3 years",
+            "responsibilities": [
+                "I regularly taught Symbolic Logic. I used a computer game I designed for the class to make the course accessible to students who do not enjoy the algebraic/mathlike nature of the subject. I also taught:",
+                "--Intro to Philosophy, ",
+                "--Critical Thinking,",
+                "--Philosophy of Mind, ",
+                "--Philosophy of Language,",
+                "--Philosophy of Music, and",
+                "--Philosophy of Science"
+            ]
+        },
+        {
+            "jobTitle": "Adjunct Lecturer",
+            "organization": "University of Maryland",
+            "startDate": "September 2011",
+            "endDate": "December 2015",
+            "duration": "4 years 4 months",
+            "responsibilities": [
+                "I taught:",
+                "--Existentialism (Fall, 2011)",
+                "--Contemporary Ethics (Fall, 2014)",
+                "--Contemporary Ethics (Fall, 2015)"
+            ]
+        },
+        {
+            "jobTitle": "Adjunct Lecturer",
+            "organization": "Mount St. Mary's University",
+            "startDate": "August 2012",
+            "endDate": "May 2014",
+            "duration": "1 year 10 months",
+            "responsibilities": [
+                "I taught classical and modern philosophy."
+            ]
+        },
+        {
+            "jobTitle": "Graduate Teaching Fellow / Adjunct Lecturer",
+            "organization": "The Catholic University of America",
+            "startDate": "September 2006",
+            "endDate": "October 2012",
+            "duration": "6 years 2 months",
+            "responsibilities": [
+                "I taught the two-course history of philosophy sequence (\"Classical\" and \"Modern\").I also taught Philosophy of God, Symbolic Logic, and Contemporary Philosophy (Analytic and Continental)."
+            ]
+        },
+        {
+            "jobTitle": "Math Tutor",
+            "organization": "West Chester University",
+            "startDate": "January 2003",
+            "endDate": "August 2005",
+            "duration": "2 years 8 months",
+            "responsibilities": [
+                "Tutored mathematics (College and Remedial Algebra, Consumer Math, Calculus) for the Learning Assistance & Resource Center (LARC) at West Chester University Spring '03 – Spring '04, as well as Summers of '03, '04, and '05 for the Academic Development Program (ADP). Taught math review sessions at the LARC for PRAXIS Exams."
+            ]
+        },
+        {
+            "jobTitle": "Software Developer",
+            "organization": "Supply Chain Consultants (now Arkieva)",
+            "startDate": "May 2002",
+            "endDate": "August 2002",
+            "duration": "4 months",
+            "responsibilities": [
+                "I worked between semesters with the software team to convert old C++ functions to a new framework."
+            ]
+        }
+    ],
+    "skills": [
+        "Programming Languages",
+        "Curriculum Design",
+        "Instructional Design",
+        "Teaching",
+        "Tutoring",
+        "Social Media",
+        "Philosophy",
+        "Academic Writing",
+        "Higher Education",
+        "Political Philosophy",
+        "Public Speaking",
+        "University Teaching",
+        "History of Philosophy",
+        "Ethics",
+        "Student Development",
+        "Curriculum Development",
+        "Phenomenology",
+        "Literature",
+        "Editing"
+    ],
+    "education": [
+        {
+            "school": "The Catholic University of America",
+            "basicInfo": [
+                "Ph.D.",
+                "Philosophy",
+                "2004 - 2011"
+            ],
+            "activitiesAndSocieties": "Graduate Philosophical Society"
+        },
+        {
+            "school": "West Chester University of Pennsylvania",
+            "basicInfo": [
+                "MA",
+                "Philosophy",
+                "2002 - 2004"
+            ]
+        },
+        {
+            "school": "Messiah College",
+            "basicInfo": [
+                "BA",
+                "Computer Science (Minor in Music)",
+                "1998 - 2002"
+            ],
+            "activitiesAndSocieties": "Outdoors Club"
+        }
+    ],
+    "languages": [
+        {
+            "language": "English",
+            "proficiency": "(Native or bilingual proficiency)"
+        },
+        {
+            "language": "French",
+            "proficiency": "(Elementary proficiency)"
+        },
+        {
+            "language": "German",
+            "proficiency": "(Elementary proficiency)"
+        }
+    ]
+}

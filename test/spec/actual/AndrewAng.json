@@ -1,0 +1,102 @@
+{
+    "name": "Andrew Ang",
+    "currentJob": "Data Engineer at Harvard",
+    "bio": [
+        "Data analyst and engineer, experienced in applying data science to a variety of domains. I currently develop the research & analytics data infrastructure for Harvard's edX and Canvas courses.",
+        "I received my B.S.E. in Biomedical Engineering from Duke University, after attending Phillips Academy Andover. My current interests include data engineering and visualization technologies, Bayesian machine learning, and online education."
+    ],
+    "workExperience": [
+        {
+            "jobTitle": "Data Engineer",
+            "organization": "Harvard University",
+            "startDate": "2016",
+            "endDate": "Present",
+            "duration": "less than a year",
+            "responsibilities": [
+                "VPAL Research Group, Office of the Vice Provost for Advances in LearningDeveloping the research & analytics data infrastructure for Harvard's edX and Canvas courses."
+            ]
+        },
+        {
+            "jobTitle": "Data Analyst",
+            "organization": "Harvard Stem Cell Institute",
+            "startDate": "2014",
+            "endDate": "2015",
+            "duration": "1 year",
+            "responsibilities": [
+                "Using data science to support strategic planning for type 1 diabetes research.Development of a data management platform for the Melton Lab beta cell production group."
+            ]
+        },
+        {
+            "jobTitle": "Research Assistant",
+            "organization": "MIT Laboratory for Financial Engineering",
+            "startDate": "2013",
+            "endDate": "2015",
+            "duration": "2 years",
+            "responsibilities": [
+                "Exploring relationships between trading, personality and physiology using real-time physiological data from financial traders. Research supervised by Andrew Lo."
+            ]
+        },
+        {
+            "jobTitle": "Summer Research Student",
+            "organization": "Dana-Farber Cancer Institute",
+            "startDate": "2011",
+            "endDate": "2013",
+            "duration": "2 years",
+            "responsibilities": [
+                "Pre-clinical studies of PI3K inhibitors for cancer treatment."
+            ]
+        }
+    ],
+    "education": [
+        {
+            "school": "HBX / Harvard Business School",
+            "basicInfo": [
+                "CORe: Credential of Readiness",
+                "2016"
+            ],
+            "grade": "Pass with Honors"
+        },
+        {
+            "school": "Harvard University",
+            "basicInfo": [
+                "Non-degree graduate student",
+                "Statistics",
+                "2015 - 2016"
+            ]
+        },
+        {
+            "school": "Duke University",
+            "basicInfo": [
+                "Bachelor’s Degree",
+                "Biomedical Engineering",
+                "2014"
+            ],
+            "activitiesAndSocieties": "Duke Asian Students Association, Duke Squash, Rhythm & Blue, Scale and Coin"
+        },
+        {
+            "school": "Phillips Academy Andover",
+            "basicInfo": [
+                "High School",
+                "2009"
+            ]
+        }
+    ],
+    "volunteerExperience": [
+        {
+            "jobTitle": "New England Regional Leadership Team",
+            "organization": "Phillips Academy",
+            "startDate": "May 2015",
+            "endDate": "Present",
+            "responsibilities": [
+                "Assisting the Office of Alumni Engagement in event planning to connect and engage Andover alumni in the New England area."
+            ]
+        }
+    ],
+    "unsupported": [
+        "Interests",
+        "Machine learning, data science, web development, algorithmic trading with Quantopian, health wearables,",
+        " squash",
+        "Andrew Ang",
+        "Data Engineer at Harvard"
+    ]
+}

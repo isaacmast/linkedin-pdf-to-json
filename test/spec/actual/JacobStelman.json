@@ -1,0 +1,146 @@
+{
+    "name": "Jacob Stelman",
+    "currentJob": "Google",
+    "bio": [
+        "For more information: jakestelman.com"
+    ],
+    "workExperience": [
+        {
+            "jobTitle": "Hardware Engineer, Loon, Google [X]",
+            "organization": "Google",
+            "startDate": "June 2016",
+            "endDate": "Present",
+            "duration": "2 months",
+            "responsibilities": [
+                "Loon"
+            ]
+        },
+        {
+            "jobTitle": "Control Systems Engineer",
+            "organization": "Facebook",
+            "startDate": "June 2015",
+            "endDate": "September 2015",
+            "duration": "4 months",
+            "responsibilities": [
+                "Summary: Made extensive use of cloud computing to perform computationally intensive analyses on large data sets regarding topics for which I had little or no prior knowledge. Mechanical design from optical raytraces, packaged communication payload for high altitude long endurance (HALE) UAV, and designed with respect to fast deadlines and multidisciplinary requirements.",
+                "Created high fidelity solar energy analysis framework for general (folded vs fixed-wing) aircraft.",
+                "#Parses aircraft geometry from solid model and approximates with tessellated mesh.",
+                "#Custom raytracing algorithm calculates shadows aircraft casts on itself. Raytracing algorithm written in C++ with MATLAB interface.",
+                "#Created generic flight dynamics model to compute aircraft attitude from flight path.",
+                "#Analysis propagates UAV along flight path in discrete time steps, and calculates aircraft solar energy absorption from local sun position, current aircraft attitude, and current shadows on solar surfaces.",
+                "Global Climate Statistical Analysis Library: Created MATLAB library to analyze the long term statistical trends of climate quantities across the world.",
+                "#Used cloud computing to process over 80GB of raw NOAA weather balloon telemetry data as well as vector GIS data and performed statistical operations to form a global climate database.",
+                "Custom metrology instrument and lab fixture for optical alignment of FSO (free space optical) communication payload.",
+                "#Designed metrology instrument to measure relative alignment (angular and position) error of payload's constituent optics with respect to it's optic axes.",
+                "#Lab fixture precisely locates payload and instrument in multiple configurations to align different payload optic axes. Packaged RF communication payload for HALE UAV.",
+                "#Designed concepts for RF electronics packaging that will serve as bases for vendors' final designs.",
+                "#Designed custom gimbal to give payload required field of view, a custom raydome as well as custom aircraft panel to house payload."
+            ]
+        },
+        {
+            "jobTitle": "Mechanical Engineering Intern, Integrated Sensor Design and Development Group",
+            "organization": "The AerospaceCorporation",
+            "startDate": "June 2014",
+            "endDate": "September 2014",
+            "duration": "4 months",
+            "responsibilities": [
+                "Performed analyses for airborne remote sensing instruments in MATLAB and Python.",
+                "Developed general purpose Field of View (FOV) analysis software that extracts instrument and airborne host geometry from a CAD model and determines optimum placement of instrument relative to airborne host to mitigate sight obstructions.",
+                "Designed and fabricated flight hardware for airborne remote sensing instrument.",
+                "Created 3D solid models and technical drawings for remote sensing instruments.",
+                "Designed and fabricated focal plane lab testing configurations.",
+                "Taught a corporate Python seminar."
+            ]
+        },
+        {
+            "jobTitle": "5-Axis Robotic Arm",
+            "organization": "Personal Projects",
+            "startDate": "July 2014",
+            "endDate": "July 2014",
+            "duration": "1 month",
+            "responsibilities": [
+                "I am currently constructing a 5-axis robotic arm. I have 3D printed all of the components and completed the mechanical and electrical assembly of the arm. The arm has a webcam mounted to its end effector (gripper) and I will use computer vision to determine the location of objects and direct the arm to their location to pick them up. The computer vision will be done in MATLAB’s Computer Vision System’s tool box, and I plan to have the arm play tic-tac-toe against me. I used graphical linkage synthesis to design the gripper “fingers” so that they always remain parallel to one another."
+            ]
+        },
+        {
+            "jobTitle": "Manufacturing Design Consultant",
+            "organization": "Ticla",
+            "startDate": "September 2013",
+            "endDate": "March 2014",
+            "duration": "7 months",
+            "responsibilities": [
+                "Product Design, Prototyping.Refined product ideas for functionality and ease of manufacturing."
+            ]
+        },
+        {
+            "jobTitle": "Manufacturing and Mechanical Engineering Intern",
+            "organization": "Sessa Manufacturing",
+            "startDate": "June 2013",
+            "endDate": "September 2013",
+            "duration": "4 months",
+            "responsibilities": [
+                "High Volume Manufacturing"
+            ]
+        },
+        {
+            "jobTitle": "Electrical Engineering Assistant",
+            "organization": "C. Hood & Associates, Inc. Consulting Electrical Engineers",
+            "startDate": "June 2013",
+            "endDate": "September 2013",
+            "duration": "4 months"
+        },
+        {
+            "jobTitle": "CNC Pen Plotter",
+            "organization": "Personal Projects",
+            "startDate": "June 2013",
+            "endDate": "August 2013",
+            "duration": "3 months",
+            "responsibilities": [
+                "Built a robotic, Computer Numerically Controlled (CNC), pen plotter capable of interpreting CAM (Computer Aided Machining) G-Code. I salvaged parts from a printer, scanner, and CD drive and created a 3D model of how I wanted the machine to look and perform. From this model, I was able to create a wooden frame and complete the mechanical assembly of the plotter. Then using a standard microcontroller, I was able to create an electrical distribution system that gave each motor the right amount of power. I customized firmware for the microcontroller to accurately drive my salvaged motors. The completed plotter interprets g-code to create drawings.VIDEO CAN BE SEEN HERE: www.dropbox.com/s/xcau5kzvdnt5esq/cncpencil.mp4?dl=0"
+            ]
+        }
+    ],
+    "education": [
+        {
+            "school": "University of California, Davis",
+            "basicInfo": [
+                "Bachelor's Degree",
+                "Mechanical Engineering",
+                "2013 - 2017"
+            ],
+            "grade": "Second Year (Junior in terms of credits)"
+        }
+    ],
+    "languages": [
+        {
+            "language": "English"
+        },
+        {
+            "language": "Spanish (Elementary)"
+        }
+    ],
+    "volunteerExperience": [
+        {
+            "jobTitle": "Mentor",
+            "organization": "Ventura High School AP Computer Science Class",
+            "responsibilities": [
+                "I have mentored the AP Computer Science classes taught at Ventura High School, by giving them guest lectures, and creating video tutorials.",
+                "Here is a tutorial I created to show students how to use Object Oriented Programming and a simple graphics library to create the game snake: www.youtube.com/watch?v=QaFPh9NGhzw",
+                "Here is a tutorial I created to give students an introductory exposure to creating GUI's (Graphical User Interfaces) : www.youtube.com/watch?v=Wk3VUgU80Ks"
+            ]
+        },
+        {
+            "jobTitle": "SolidWorks Trainer",
+            "organization": "SME",
+            "startDate": "April 2015",
+            "endDate": "Present",
+            "responsibilities": [
+                "I held two SME sponsored SolidWorks training sessions to prepare students to take the CSWA (Certified SolidWorks Associate) exam."
+            ]
+        }
+    ],
+    "unsupported": [
+        "Jacob Stelman",
+        "Google"
+    ]
+}

@@ -1,0 +1,160 @@
+{
+    "name": "Jocelyn Jackson",
+    "currentJob": "Senior Project Manager at Ketchum",
+    "unsupported": [
+        "Specialties",
+        "Communications research, verbal and written communication, data analysis, media analysis, program",
+        " evaluation,  public relations and branding, consulting, Microsoft Office Suite, including Excel (Intermediate)",
+        " and Access (Basic), SPSS, Adobe Photoshop and Illustrator (Basic)",
+        "Interests",
+        "corporate communication, photography, painting, graphic design, international travel, reading (fiction and non-",
+        "fiction)",
+        "Jocelyn Jackson",
+        "Senior Project Manager at Ketchum",
+        "2",
+        " people have recommended Jocelyn",
+        "\"Jocelyn is a quick thinker and hard worker. She processed information on the go as needed in our meetings,",
+        "produced cogent and intelligent writing, and was always a pleasure to work with. She has great energy and",
+        "professionalism, and I would recommend Jocelyn as an asset to any department or organization.\"",
+        "— Summer Brennan",
+        ", managed Jocelyn indirectly at United Nations",
+        "\"I have known Jocelyn Jackson for several years and I found her to be consistently pleasant, tackling all",
+        "assignments with dedication and a smile. Besides being a joy to work with, Jocelyn is a take-charge person",
+        "who is able to present creative ideas and communicate the benefits. She has successfully developed several",
+        "international marketing skills while serving in OCONUS position as a Diplomat for our country.. During her",
+        "tenure, she has broaden her ability to work as a team player and concentrate on the mission. Ms Jackson is a",
+        "extraordinarily helpful in other areas of the advertising position in which she has been employed. In addition",
+        "to writing effective training modules for sales representatives, Jocelyn assumed a leadership role in sales",
+        "meetings, inspiring and motivating other employees. I highly recommend Jocelyn for employment. She is a",
+        "team player and would make a great asset to any organization.\"",
+        "— Charles (Chuck) Burgman",
+        ", worked with Jocelyn at United Nations"
+    ],
+    "workExperience": [
+        {
+            "jobTitle": "Senior Project Manager",
+            "organization": "Ketchum",
+            "startDate": "November 2014",
+            "endDate": "Present",
+            "duration": "1 year 9 months"
+        },
+        {
+            "jobTitle": "Research Manager",
+            "organization": "Illuminas",
+            "startDate": "March 2014",
+            "endDate": "November 2014",
+            "duration": "9 months"
+        },
+        {
+            "jobTitle": "Project Manager, Ketchum Global Research and Analytics",
+            "organization": "Ketchum",
+            "startDate": "July 2012",
+            "endDate": "March 2014",
+            "duration": "1 year 9 months"
+        },
+        {
+            "jobTitle": "Assistant Programme Officer",
+            "organization": "United Nations",
+            "startDate": "2009",
+            "endDate": "July 2012",
+            "duration": "3 years",
+            "responsibilities": [
+                "Conducted internal communications research on an ad hoc basis, including surveys and media monitoring and analysis."
+            ]
+        },
+        {
+            "jobTitle": "Assistant Press Officer",
+            "organization": "United Nations",
+            "startDate": "2010",
+            "endDate": "2010",
+            "duration": "less than a year",
+            "responsibilities": [
+                "Drafted daily press releases on United Nations events such as press briefings, conferences, and meetings of the General Assembly, Security Council and the Economic and Social Council (ECOSOC)."
+            ]
+        },
+        {
+            "jobTitle": "Media Analysis Consultant",
+            "organization": "United Nations",
+            "startDate": "2008",
+            "endDate": "2009",
+            "duration": "1 year",
+            "responsibilities": [
+                "Designed and delivered three media monitoring and analysis projects."
+            ]
+        },
+        {
+            "jobTitle": "Operations Manager",
+            "organization": "Media Tenor International",
+            "startDate": "2007",
+            "endDate": "2008",
+            "duration": "1 year",
+            "responsibilities": [
+                "Oversaw all operations for the New York office of an international communications research company, including media monitoring, analysis and reporting projects, employee training, and human resources.  Developed curriculum for and conducted employee training programs in company offices in New York, South Africa and Germany.  Directly managed 18 employees."
+            ]
+        },
+        {
+            "jobTitle": "Public Relations Intern",
+            "organization": "Cynthia Rowley",
+            "startDate": "2007",
+            "endDate": "2007",
+            "duration": "less than a year",
+            "responsibilities": [
+                "Maintained relationships with key media contacts, publicists and stylists."
+            ]
+        },
+        {
+            "jobTitle": "Media Researcher/ Trainer",
+            "organization": "Media Tenor International",
+            "startDate": "2006",
+            "endDate": "2007",
+            "duration": "1 year",
+            "responsibilities": [
+                "Performed media monitoring on the banking, insurance and software industries, as well as the U.S. economy, the U.S. government and its officials by analyzing media coverage on each within specific guidelines. Conducted survey and processed resulting information on CEOs at 100 U.S. companies for the “Reputation and Crisis Management” report produced in cooperation with the Harvard Business Review.  Trained new employees on media analysis methodology. Promoted to Operations Manager within one year."
+            ]
+        },
+        {
+            "jobTitle": "Assistant to the Director of Public Relations",
+            "organization": "Double Happiness Jewelry",
+            "startDate": "2004",
+            "endDate": "2005",
+            "duration": "1 year",
+            "responsibilities": [
+                "Conducted market research. Worked closely with editorial departments at leading fashion publications. Contributed to public relations campaigns that attracted celebrity clients."
+            ]
+        }
+    ],
+    "languages": [
+        {
+            "language": "French"
+        }
+    ],
+    "volunteerExperience": [
+        {
+            "jobTitle": "Volunteer and Teaching Artist",
+            "organization": "The Studio Museum in Harlem",
+            "startDate": "January 2009",
+            "endDate": "April 2011",
+            "responsibilities": [
+                "Teaching artist on Target Free Sundays; museum docent (short-term) and volunteer with guest services"
+            ]
+        }
+    ],
+    "education": [
+        {
+            "school": "Baruch College",
+            "basicInfo": [
+                "MS",
+                "Corporate Communications",
+                "2011 - 2013"
+            ]
+        },
+        {
+            "school": "New York University, Stern School of Business",
+            "basicInfo": [
+                "BS",
+                "Business Administration",
+                "2003 - 2007"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,74 @@
+{
+    "name": "Mason Brunnick",
+    "currentJob": "Estimator at Hunter Roberts Construction Group",
+    "bio": [
+        "Specialties: Construction, Estimating, Project Management, Business Development"
+    ],
+    "workExperience": [
+        {
+            "jobTitle": "Estimator",
+            "organization": "Hunter Roberts Construction Group",
+            "startDate": "July 2014",
+            "endDate": "Present",
+            "duration": "2 years 1 month",
+            "responsibilities": [
+                "Pre-Construction Estimating Conceptual Budgets Value Engineering Business Development",
+                "Projects include:",
+                "* Coney Island Seaside Park and Community Arts Center ",
+                "* Manhattan West Residential Tower ",
+                "* Pier 17 South Street Seaport",
+                "* 50 West Street ",
+                "* 625 West 57th Street ",
+                "Market sectors include:",
+                "* High-Rise Residential",
+                "* Healthcare",
+                "* Core & Shell",
+                "* Cultural",
+                "* Sports & Entertainment",
+                "* Interiors"
+            ]
+        },
+        {
+            "jobTitle": "Assistant Estimator",
+            "organization": "Hunter Roberts Construction Group",
+            "startDate": "August 2013",
+            "endDate": "July 2014",
+            "duration": "1 year"
+        },
+        {
+            "jobTitle": "Consultant",
+            "organization": "Hoffman Alvary & Company LLC",
+            "startDate": "November 2011",
+            "endDate": "July 2013",
+            "duration": "1 year 9 months",
+            "responsibilities": [
+                "Assessed damages arising from intellectual property infringement disputes through the use of accounting and financial analysis."
+            ]
+        },
+        {
+            "jobTitle": "Engineering Senior Design Thesis",
+            "organization": "Harvard University",
+            "startDate": "August 2010",
+            "endDate": "April 2011",
+            "duration": "9 months",
+            "responsibilities": [
+                "Designed and assembled a working grain harvester for small scale farming. Implemented the first mechanical system of this scale for individual use."
+            ]
+        }
+    ],
+    "education": [
+        {
+            "school": "Harvard University",
+            "basicInfo": [
+                "Bachelor of Science (B.S.)",
+                "Mechanical Engineering",
+                "2006 - 2011"
+            ],
+            "activitiesAndSocieties": "Harvard Men's Swimming and Diving"
+        }
+    ],
+    "unsupported": [
+        "Mason Brunnick",
+        "Estimator at Hunter Roberts Construction Group"
+    ]
+}

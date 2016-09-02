@@ -1,0 +1,118 @@
+{
+    "name": "Sam Stoner",
+    "currentJob": "Campus Sustainability Coordinator",
+    "email": "samrs116@gmail.com",
+    "bio": [
+        "I have a strong desire to learn more about the environment and I am willing to get involved. I work well in a team or independently and I am motivated to get the job done in the best and most efficient way possible."
+    ],
+    "workExperience": [
+        {
+            "jobTitle": "Campus Sustainability Coordinator",
+            "organization": "Secure Futures LLC",
+            "startDate": "June 2016",
+            "endDate": "Present",
+            "duration": "3 months"
+        },
+        {
+            "jobTitle": "Assistant Resident Director",
+            "organization": "Eastern Mennonite University",
+            "startDate": "August 2015",
+            "endDate": "April 2016",
+            "duration": "9 months",
+            "responsibilities": [
+                "This is my third year working with Residence Life at Eastern Mennonite University. This position is designed to help some younger Community Advisers through mentor programs and assisting in whatever the Resident Director needs help with."
+            ]
+        },
+        {
+            "jobTitle": "Intern",
+            "organization": "Secure Futures",
+            "startDate": "April 2015",
+            "endDate": "May 2015",
+            "duration": "2 months"
+        },
+        {
+            "jobTitle": "Community Advisor",
+            "organization": "Eastern Mennonite University",
+            "startDate": "August 2013",
+            "endDate": "April 2015",
+            "duration": "1 year 9 months",
+            "responsibilities": [
+                "Serve in a leadership position for residents on a dormitory hall. I am in charge of facilitating activities based around community building and creating an positive atmosphere for those on my hall."
+            ]
+        },
+        {
+            "jobTitle": "Seasonal Grounds Worker",
+            "organization": "Landis Homes",
+            "startDate": "May 2014",
+            "endDate": "August 2014",
+            "duration": "4 months",
+            "responsibilities": [
+                "Care for the grounds on the campus of Landis Homes Retirement Community. Daily tasks include lawn mowing, weed eating, mulching, tree trimming, and other lawn care jobs."
+            ]
+        },
+        {
+            "jobTitle": "Subcontractor",
+            "organization": "Longview Structures",
+            "startDate": "May 2013",
+            "endDate": "August 2013",
+            "duration": "4 months",
+            "responsibilities": [
+                "Worked construction for big and small jobs. Experienced the start-up construction of a sustainable straw-bale house."
+            ]
+        }
+    ],
+    "skills": [
+        "Leadership",
+        "Start-ups",
+        "Teamwork",
+        "Sustainability",
+        "Community Outreach",
+        "Research",
+        "Construction",
+        "Grant Writing",
+        "Report Writing",
+        "Public Speaking",
+        "Community Development",
+        "Volunteer Management",
+        "Environmental Policy",
+        "Nonprofits",
+        "Higher Education",
+        "Teaching",
+        "SPSS",
+        "Conflict Resolution"
+    ],
+    "volunteerExperience": [
+        {
+            "jobTitle": "Volunteer",
+            "organization": "Mennonite Disaster Service",
+            "startDate": "July 2012",
+            "endDate": "Present",
+            "responsibilities": [
+                "Worked on several different projects, repairing houses damaged by flooding in Minot, North Dakota"
+            ]
+        }
+    ],
+    "education": [
+        {
+            "school": "Eastern Mennonite University",
+            "basicInfo": [
+                "Bachelor’s Degree",
+                "Environmental Sustainability",
+                "2013 - 2016"
+            ]
+        },
+        {
+            "school": "Lancaster Mennonite High School",
+            "basicInfo": [
+                "2008 - 2012"
+            ]
+        }
+    ],
+    "unsupported": [
+        "Interests",
+        "Helping others, athletic activities, new technologies, music, animals, nature",
+        "Sam Stoner",
+        "Campus Sustainability Coordinator",
+        "samrs116@gmail.com"
+    ]
+}

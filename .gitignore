@@ -6,15 +6,14 @@
 # npm debug log
 npm-debug.log
 
-# Resumes directory that contains resumes for testing
-Resumes/
-
 # Installed node modules
 node_modules/
-
-# Shell script to run module against test resumes in Resumes directory
-parse_test_resumes.sh
 
 # Sublime Text project configuration files
 linkedin-pdf-to-json.sublime-project
 linkedin-pdf-to-json.sublime-workspace
+
+# jasmine examples
+lib/
+spec/jasmine_examples
+spec/helpers/jasmine_examples

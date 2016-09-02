@@ -1,0 +1,190 @@
+{
+    "name": "Jonny Leaton",
+    "currentJob": "Financial Consultant, Wells Fargo",
+    "bio": [
+        "I graduated from the University of Virginia's McIntire School of Commerce in May 2013 with a Bachelor of Science in Commerce. My concentrations were in Finance and Information Technology, with an academic track completed in Business Analytics. I also completed a second major in Political Science. After graduating, I joined Wells Fargo's Wealth, Brokerage, and Retirement Analyst development program, where I performed Fed stress testing and FP&A modeling on over $400B of assets for the world's most valuable bank."
+    ],
+    "workExperience": [
+        {
+            "jobTitle": "Financial Consultant",
+            "organization": "Wells Fargo Advisors",
+            "startDate": "May 2015",
+            "endDate": "Present",
+            "duration": "1 year 3 months",
+            "responsibilities": [
+                "Prepared and managed the firm's monthly income statement and forecasting across ~$1B of revenue and provided variance analysis of actuals vs. forecast. Monthly processes include revenue modeling, accruals, allocations, data-warehousing, commissions, metrics, and headcount. Built and ran database using Salesforce inputs to track advisor-level performance on $40B of assets. Analyzed 5 years of historical general ledger data and built model to project firm's 2016 commission expense payout to advisors.  Updated financial model and methodology for managed net flows forecasting for 2016 CCAR stress tests."
+            ]
+        },
+        {
+            "jobTitle": "Investment Banking Analyst - Asset-Backed Finance & Securitization",
+            "organization": "Wells Fargo Securities",
+            "startDate": "November 2014",
+            "endDate": "May 2015",
+            "duration": "7 months",
+            "responsibilities": [
+                "Underwrote term and warehouse securitizations across 12 live deals, staffed on 24 deals total.  Asset classes included aircraft, railcars, shipping vessels, and containers.  Information included deal terms, structural features, industry analysis, modeling results, and financial statement analysis.  Served as data integrity officer in validating execution of deals and partnering with Operations and Finance to bring deals onto Wells Fargo’s platform through Salesforce.  Created client-ready decks and pitchbooks; met with clients while conducting due diligence."
+            ]
+        },
+        {
+            "jobTitle": "Financial Analyst - Wealth, Brokerage, and Retirement",
+            "organization": "Wells Fargo Advisors",
+            "startDate": "July 2013",
+            "endDate": "November 2014",
+            "duration": "1 year 5 months",
+            "responsibilities": [
+                "Conducted monthly scenario analyses, data extracts, and modeling for corporate reporting of advisory assets under management of over $400B.  Built and ran model to perform regulatory Fed stress tests on managed advisory assets; worked in cross-functional project teams on Mid-Cycle and CCAR stress tests; researched and built methodology to forecast over $50B in net flow assets for 2.5 years.  Presented corporate-wide strategic iniative surrounding the millennial advisor business model to executive committee of Wealth, Brokerage, and Retirement."
+            ]
+        },
+        {
+            "jobTitle": "Research Assistant",
+            "organization": "University of Virginia",
+            "startDate": "August 2012",
+            "endDate": "May 2013",
+            "duration": "10 months",
+            "responsibilities": [
+                "Analyzed corporations' bankruptcy filings and legal documents for study around mechanics of the 363 Asset Sale process in the restructuring of corporations."
+            ]
+        },
+        {
+            "jobTitle": "Finance Intern",
+            "organization": "Allianz Global Assistance",
+            "startDate": "June 2012",
+            "endDate": "August 2012",
+            "duration": "3 months",
+            "responsibilities": [
+                "Built dashboard to consolidate data into balance sheet line items, track KPIs, and compare business units.  Analyzed insurance claims data to create regression model for indication of ultimate claims expenses."
+            ]
+        }
+    ],
+    "skills": [
+        "Microsoft Excel",
+        "PowerPoint",
+        "Financial Modeling",
+        "Leadership",
+        "Forecasting",
+        "Analytics",
+        "Strategy",
+        "SQL",
+        "Valuation",
+        "Access",
+        "Social Media",
+        "Positive Psychology",
+        "Financial Reporting",
+        "Teamwork",
+        "Data Warehousing",
+        "Scenario Analysis",
+        "Mindfulness Meditation",
+        "Corporate Finance",
+        "Investments",
+        "Management",
+        "Web Design",
+        "Essbase",
+        "Marketing",
+        "Toad",
+        "HTML",
+        "JavaScript",
+        "Social Networking",
+        "Public Speaking",
+        "Business Intelligence",
+        "Financial Analysis",
+        "Tennis",
+        "Salesforce.com"
+    ],
+    "education": [
+        {
+            "school": "McIntire School of Commerce",
+            "basicInfo": [
+                "Bachelor of Science (B.S.)",
+                "Finance",
+                "Information Technology",
+                "Business Analytics",
+                "2011 - 2013"
+            ],
+            "grade": "GPA: 3.7"
+        },
+        {
+            "school": "University of Virginia",
+            "basicInfo": [
+                "B.S. Commerce",
+                "Government",
+                "Finance",
+                "IT",
+                "2009 - 2013"
+            ],
+            "activitiesAndSocieties": "Student Entrepreneurs for Economic Development, Phi Eta Sigma, Reformed University Fellowship, Sigma Alpha Lambda, Dean's List"
+        },
+        {
+            "school": "Midlothian High School",
+            "activitiesAndSocieties": "Ranked top 1% in class of 367 students, President of National Spanish Honor Society, Honor Court member, Varsity Tennis Team, Marching Band Pit Percussion, Show Choir Pianist and Drummer, Percussion Ensemble Member, National Honor Society, Math Honor Society, AP Scholar with honors"
+        }
+    ],
+    "volunteerExperience": [
+        {
+            "jobTitle": "Volunteer",
+            "organization": "Hope for All Dogs",
+            "startDate": "January 2016",
+            "endDate": "Present",
+            "responsibilities": [
+                "Hope for All Dogs is an all-breed no-kill Rescue. We rescue stray and unwanted dogs from high-kill shelters before they are euthanized. We focus on special needs dogs."
+            ]
+        },
+        {
+            "jobTitle": "Tutor and Organizer",
+            "organization": "St. Louis Public Schools",
+            "startDate": "August 2013",
+            "endDate": "October 2014",
+            "responsibilities": [
+                "As part of Wells Fargo's partnership with St. Louis Public Schools, I oversaw logistics of weekly tutoring sessions at Dunbar Elementary as the point person for 70 tutors. This included matching tutors with students, overseeing and arranging for weekly absences or unplanned events, and tracking metrics of the program to identify areas of improvement. I also participated as a reading tutor for 3 semesters for 5 students."
+            ]
+        },
+        {
+            "jobTitle": "Volunteer Staff",
+            "organization": "TEDxCharlotte",
+            "startDate": "October 2015",
+            "endDate": "Present"
+        },
+        {
+            "jobTitle": "Team Member",
+            "organization": "Uganda Mission Team - Stony Point Presbyterian Church",
+            "startDate": "June 2010",
+            "endDate": "July 2010",
+            "responsibilities": [
+                "Traveled throughout the southern region of Uganda and taught students about malaria prevention, issues facing teens, and relationship management. Organized and distributed medical and personal supplies in a local orphanage, hospital, and several churches."
+            ]
+        }
+    ],
+    "unsupported": [
+        "Certifications",
+        "Series 79 - Investment Banking Analyst License",
+        "Financial Industry Regulatory Authority (FINRA)       February 2015",
+        "Padi Open Water Certified Diver",
+        "PADI       July 2014",
+        "Honors and Awards",
+        "Excellence First Award",
+        "April 2015",
+        "Award for net flow modeling for 2015 Mid-Cycle stress tests.  Excellence First recognizes team members",
+        " who exceed service expectations and provide effective activity, accomplishments, and successful results.",
+        "T.O.P. (Truly Outstanding Performance) Results Award",
+        "November 2014",
+        "Award for providing outstanding service and dedication on construction of the managed advisory model used",
+        " for 2014 CCAR stress test submissions to the Fed.",
+        "Google Online Marketing Challenge",
+        "September 2013",
+        "Placed 94th percentile worldwide in the Google Online Marketing Challenge, rebuilding our client's website,",
+        " RaggedMountainRunning.com, from scratch, and using SEO and paid search to optimize our client's",
+        " visibility.  Initiated a redeemable coupon to increase in-store sales. ",
+        "http://www.raggedmountainrunning.com/ ",
+        "https://www.commerce.virginia.edu/features/bridging-analytical-divide",
+        "Jonny Leaton",
+        "Financial Consultant, Wells Fargo"
+    ],
+    "languages": [
+        {
+            "language": "English",
+            "proficiency": "(Native or bilingual proficiency)"
+        },
+        {
+            "language": "Spanish"
+        }
+    ]
+}

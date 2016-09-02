@@ -1,0 +1,145 @@
+{
+    "name": "Rosalyn Lau",
+    "currentJob": "HTS Operations Lead",
+    "bio": [
+        "Experienced biotechnology professional in high-throughput screening operations, high-throughput plate- based assay development, and working with liquid handling platforms. Also experienced with miniaturizing enzymatic assays for industrial application needs. Strong communicator and team player in a fast-paced multicultural and global environment. ",
+        "Past experience includes characterization of various enzyme families for industrial usage and algae strains for biofuels. Experienced in medium and large scale application research for Fabric & Household Care, particularly in laundry detergent and automatic dish washing products. Exposed to and knowledgeable in the development of developing and emerging markets, in the area of Fabric & Household Care. ",
+        "Direct experience with facilitating process transfer and implementing operational methods from scratch, while managing and generating capital expenditure proposals to support technology transfer. ",
+        "Specialties: High-throughput (HTS) assay development. Application research. Renewable Energy. Industrial enzymes. Algae for Biofuels. Laboratory Automation."
+    ],
+    "workExperience": [
+        {
+            "jobTitle": "Operations Lead-HTS",
+            "organization": "Bolt Threads",
+            "startDate": "December 2015",
+            "endDate": "Present",
+            "duration": "8 months",
+            "responsibilities": [
+                "• Operations lead of high-throughput screening team",
+                "-- Develop and optimize cell-based assays to predict relative strain performances in the fermentation tanks.",
+                "-- Plan, manage, and execute high-throughput screening operations.",
+                "-- Maintain and troubleshoot all automation platforms. "
+            ]
+        },
+        {
+            "jobTitle": "Senior Research Associate",
+            "organization": "Bolt Threads",
+            "startDate": "2015",
+            "endDate": "Present",
+            "duration": "1 year",
+            "responsibilities": [
+                "Focus on optimizing and implementing automation tools. ",
+                "• Develop and optimize liquid handling methods on Beckman Coulter's Biomek FX/FXp platforms.",
+                "• Develop and optimize colony picking methods on Molecular Devices QPix system. ",
+                "• Increased high-throughput screening capacity from 1000 bacterial strains per week to 5000        strains per week. "
+            ]
+        },
+        {
+            "jobTitle": "Research Associate-Strain Improvement",
+            "organization": "Aurora Algae, Inc",
+            "startDate": "2013",
+            "endDate": "2014",
+            "duration": "1 year",
+            "responsibilities": [
+                "• Part of the Biofuels Project to conduct high-throughput screenings of mutagenized algal strains using colony picking and liquid handling platforms (Tecan Freedom Evo and Biomek NX systems).",
+                "-- Developed algae liquid growth assay methods to improve algae biomass productivity.",
+                "-- Tracked algal strains screening on internal LIMS system. ",
+                "• Assisted in operating GC-PAL system to detect and analyze extracted fatty acid samples; also familiar with operating and writing methods for ARI Phoenix organic solvent liquid handling system"
+            ]
+        },
+        {
+            "jobTitle": "Research Associate",
+            "organization": "DuPont (DuPont Industrial Biosciences, formerly Genencor)",
+            "startDate": "2011",
+            "endDate": "2012",
+            "duration": "1 year",
+            "responsibilities": [
+                "Project Task Leader",
+                "• Successfully led team in executing critical tasks to meet project goals in time for global product launch in Q3 of 2012. Led applications research team to",
+                "- design and execute experimental methods to identify laundry performances for developing & emerging (D&E) markets, primarily China. ",
+                "- perform competitive analyses of household care products available in China, US, and EU. ",
+                "- design and coordinate experimental methods to identify fabric care benefits from cellulase addition (de- pilling, anti-graying, tensile strength) in Western EU laundry detergents.",
+                "• Worked with international vendor to design Chinese-specific stains. ",
+                "• Managed and reviewed results with project leader and business team. ",
+                "• Mentored team members to grow and develop new skills.",
+                "• Effectively coordinated, communicated, and managed technology sharing between R&D and global business teams.",
+                "Research & Development - Biochemistry",
+                "- Developed high-throughput biochemistry assays to identify new industrial enzyme potentials (amylase, protease, cellulase, xylanase, phytase, and mannanase).",
+                "- Miniaturized industrial assays to lab bench high-throughput enzyme assays.",
+                "- Involved in global high-throughput enzyme screening efforts using Biomek FX platforms.",
+                "- Played an integral role in discovering the next generation of enzymes for new product development.",
+                "- Authored invention disclosures and contributed towards patent applications/patent landscaping.",
+                "- Utilized TIBCO Spotfire software for data management and rapid data analysis.",
+                "- Strong communication skills - presented at high-level meetings and global project meetings.",
+                "- Trained new employees and peers.",
+                "Additional activities:",
+                "- Team Building Committee Chairperson - played key role in organizing first Team Building Event between two Shanghai research sites - Shanghai's DuPont CTC and DuPont IB's China Research Center."
+            ]
+        },
+        {
+            "jobTitle": "Research Assistant",
+            "organization": "Genencor China Research Center, Danisco China",
+            "startDate": "2008",
+            "endDate": "2011",
+            "duration": "3 years",
+            "responsibilities": [
+                "Research & Development - Biochemistry",
+                "- Part of the pioneer start-up team to grow and expand the Shanghai China Research Center in becoming the center of excellence for gene discovery.",
+                "- Developed, identified, and managed high-throughput screening methods for industrial enzymes (lipase, amylase, cellulase, protease, CBHs, xylanase) used in the areas of grain processing, cellulosic ethanol, animal feed, and laundry cleaning.",
+                "- Utilized SigmaPlot to analyze enzyme inhibition studies.",
+                "- Experienced with facilitation of technology transfer between two global R&D sites.",
+                "- Set-up and maintained Thermo Scientific's Konelab 20 Analyzer to perform enzymatic assays."
+            ]
+        },
+        {
+            "jobTitle": "Research Assistant",
+            "organization": "Genencor, A Danisco Division",
+            "startDate": "2007",
+            "endDate": "2008",
+            "duration": "1 year",
+            "responsibilities": [
+                "Applications Research Conducted medium and large scale industrial application screening assays, with a focus in fabric and household care industry",
+                "--Part of a dynamic project team that researched and developed the next-generation of high-performing enzyme products in laundry detergents. ",
+                "R&D Biochemistry High-throughput assay development work"
+            ]
+        }
+    ],
+    "volunteerExperience": [
+        {
+            "jobTitle": "Volunteer",
+            "organization": "Masonic Homes of California",
+            "startDate": "February 2013",
+            "endDate": "Present"
+        }
+    ],
+    "education": [
+        {
+            "school": "University of California, Davis",
+            "basicInfo": [
+                "BS",
+                "Biochemistry and Molecular Biology"
+            ],
+            "activitiesAndSocieties": "Assistant Director for UC Davis Picnic Day, Undergraduate Researcher of Dr. Andrew Fisher's Lab"
+        }
+    ],
+    "languages": [
+        {
+            "language": "English",
+            "proficiency": "(Native or bilingual proficiency)"
+        },
+        {
+            "language": "Chinese",
+            "proficiency": "(Professional working proficiency)"
+        },
+        {
+            "language": "Cantonese",
+            "proficiency": "(Professional working proficiency)"
+        }
+    ],
+    "unsupported": [
+        "Interests",
+        "Yoga, reading, writing",
+        "Rosalyn Lau",
+        "HTS Operations Lead"
+    ]
+}

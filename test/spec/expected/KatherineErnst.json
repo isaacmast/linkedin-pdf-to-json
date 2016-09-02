@@ -1,0 +1,97 @@
+{
+    "name": "Katherine Ernst",
+    "currentJob": "Field Engineer at Northrop Grumman Corporation",
+    "workExperience": [
+        {
+            "jobTitle": "Field Engineer",
+            "organization": "Northrop Grumman Corporation",
+            "startDate": "July 2016",
+            "endDate": "Present",
+            "duration": "1 month"
+        },
+        {
+            "jobTitle": "Mechanical Engineer - Professional Development Program",
+            "organization": "Northrop Grumman Corporation",
+            "startDate": "June 2015",
+            "endDate": "July 2016",
+            "duration": "1 year 2 months"
+        },
+        {
+            "jobTitle": "Teaching Assistant",
+            "organization": "Duke University",
+            "startDate": "January 2015",
+            "endDate": "May 2015",
+            "duration": "5 months",
+            "responsibilities": [
+                "•       Guided students through 3D modeling (SolidWorks), circuitry, and report/presentation etiquette",
+                "• Supervised and assisted student projects in a machine shop",
+                "• Graded technical lab reports "
+            ]
+        },
+        {
+            "jobTitle": "President",
+            "organization": "American Society of Mechanical Engineers, Duke Chapter",
+            "startDate": "April 2013",
+            "endDate": "September 2014",
+            "duration": "1 year 6 months",
+            "responsibilities": [
+                "• Led executive board of ten and facilitated weekly meetings",
+                "• Worked with administrators and faculty advisor to meet department goals",
+                "• Initiated monthly general body meetings to increase membership and participation"
+            ]
+        },
+        {
+            "jobTitle": "Research and Development Intern",
+            "organization": "Newell Rubbermaid",
+            "startDate": "May 2014",
+            "endDate": "August 2014",
+            "duration": "4 months",
+            "responsibilities": [
+                "• Investigated field failures of electromechanical side bins using Shainin. Wrote and carried out test procedures, analyzed data, and identified Green Y of voltage to activate motor. Visited hospital with high failure rates, observed workflow, and recommended solutions.",
+                "• Modeled various assemblies for QMS records in Creo; performed model cleanup. Modeled assembly templates for production plant and created assembly drawings for work instructions; rapid prototyped templates using FDM, SLA, and die-cut machine.",
+                "• Performed validation of Lithium Ion 24V batteries for use in hospital carts. Determined that suspect batteries met safety and quality standards; compiled graphical evidence in Matlab and Excel. Presented findings and recommendation for action.",
+                "• Created a database of all casters used in division, profiled options for consolidation, and created standard testing procedure. Found over $100,000 annually in consolidations, and up to $600,000 annually in future productivity projects.",
+                "• Completed Quality Management System and FDA Compliance Training."
+            ]
+        },
+        {
+            "jobTitle": "Engineering Intern",
+            "organization": "Tshulu Trust",
+            "startDate": "May 2013",
+            "endDate": "August 2013",
+            "duration": "4 months",
+            "responsibilities": [
+                "• Organized plans for a water purification project in rural South Africa with another student and a faculty member; obtained funding to carry out the plans through DukeEngage",
+                "• Led a group of local construction workers ",
+                "• Constructed two slow sand filters: one grey water recycling system and one filter to clean water from the Mutale River for safe use",
+                "• Navigated cultural and language barriers within a group dynamic to successfully complete the project"
+            ]
+        }
+    ],
+    "education": [
+        {
+            "school": "Duke University",
+            "basicInfo": [
+                "Bachelor of Science in Engineering (BSE)",
+                "Mechanical Engineering and Materials Science",
+                "2011 - 2015"
+            ],
+            "activitiesAndSocieties": "American Society of Mechanical Engineers President, Varsity Cheerleading, Duke University E-Team (Engineering Peer Advising), Pi Tau Sigma, Alpha Phi"
+        },
+        {
+            "school": "Duke University",
+            "basicInfo": [
+                "Certificate",
+                "Energy and the Environment",
+                "2011 - 2015"
+            ]
+        },
+        {
+            "school": "Smartly"
+        }
+    ],
+    "unsupported": [
+        "Katherine Ernst",
+        "Field Engineer at Northrop Grumman Corporation"
+    ]
+}

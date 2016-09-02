@@ -1,0 +1,189 @@
+{
+    "name": "Pavel Gurevich",
+    "currentJob": "Director of Research at LabDoor",
+    "bio": [
+        "Passionate about analytics, data visualization, neuroscience, and behavioral economics. Data + dashboarding enthusiast. Love thinking about how people think, using data to drive decisions, and leveraging technology to build products that have the ability to inform decisions, reshape habits, and improve lives.",
+        "Web/Hybrid Mobile App Development: HTML5/CSS3, Javascript, Angular.JS, Ionic Framework, Bootstrap, Node.js, Express.js, MongoDB, Firebase, D3.js, Chart.js, Highcharts.js, Grunt.",
+        "Analytics: R, Python, SQL, Excel."
+    ],
+    "workExperience": [
+        {
+            "jobTitle": "Director of Research",
+            "organization": "LabDoor",
+            "startDate": "October 2015",
+            "endDate": "June 2016",
+            "duration": "9 months",
+            "responsibilities": [
+                "1. Created product roadmaps, defined and prioritized requirements, and coordinated 3-week category life cycle with Design, Content, Engineering, and Operations teams.",
+                "2. Led recruiting (source candidates, conducted phone & in-person interviews) for the research team."
+            ]
+        },
+        {
+            "jobTitle": "Scientist/Project Manager (1st employee)",
+            "organization": "LabDoor",
+            "startDate": "September 2013",
+            "endDate": "October 2015",
+            "duration": "2 years 2 months",
+            "responsibilities": [
+                "1. Helped develop product quality and value ranking algorithms.",
+                "2. Led descriptive analytics efforts for all tested products (based on lab-tested and claimed data). Identified category-wide trends and developed analytical reports. Developed automation tool (in R) to streamline report generation and product scoring.",
+                "3. Managed Labdoor’s testing pipeline: product selection, processing, analytical testing, data analysis, and report generation.",
+                "4. Built a web-based news aggregation program (using AngularJS + Node.js) that scraped 10+ websites for supplement/health related news.",
+                "5. Helped launch Labdoor Magazine. Served as chief editor and largest contributor to the Magazine (wrote 70+ articles for the Science & Health sections)."
+            ]
+        },
+        {
+            "jobTitle": "Research Associate, Data Management and Analysis",
+            "organization": "Genentech",
+            "startDate": "March 2011",
+            "endDate": "July 2012",
+            "duration": "1 year 5 months",
+            "responsibilities": [
+                "Used data analytics to help develop and refine dosing regimens (dose amount, dosing intervals, and length of treatment) of preclinical large-molecule oncology drugs for use in clinical study.Software used: R, SAS, Excel, and MATLAB."
+            ]
+        },
+        {
+            "jobTitle": "Intern/Research Assistant",
+            "organization": "University of California, San Francisco",
+            "startDate": "June 2009",
+            "endDate": "December 2009",
+            "duration": "7 months",
+            "responsibilities": [
+                "Investigated TGF-# involvement in the development and progression of diabetes and cancer."
+            ]
+        },
+        {
+            "jobTitle": "Summer Intern",
+            "organization": "Salk Institute for Biological Studies",
+            "startDate": "June 2008",
+            "endDate": "August 2008",
+            "duration": "3 months",
+            "responsibilities": [
+                "TAM receptor inhibition of the innate immune response."
+            ]
+        }
+    ],
+    "unsupported": [
+        "Certifications",
+        "Data Manipulation in R with dplyr",
+        "DataCamp   License 9b76c21481a7bbab2c27448d37b7b3eb8de697c3    September 2015",
+        "Data Visualization in R with ggvis",
+        "DataCamp   License f7ae07d403a47eecd407b0b69a34aaf706aaa214    September 2015",
+        "Reporting with R Markdown",
+        "DataCamp   License 4554fb2b64de251ef8c7915074d7409ab9519c93    September 2015",
+        "How to work with Quandl in R",
+        "DataCamp   License c6759799e3af7098ce0bf4bab0c6a5c8ef33cd4c    September 2015",
+        "Introduction to Machine Learning",
+        "DataCamp   License d76abc589c00b41ffce433e75d4a3cc1d84b615d    September 2015",
+        "Big Data Analysis with Revolution R Enterprise",
+        "DataCamp   License acff0e15614a29867675ea9b0aaa0718edd456b9   ",
+        "Intro to Python for Data Science",
+        "DataCamp   License a5d44ed9ba63863807c4b1b56edb8b4590f1cc33   ",
+        "Intermediate Python for Data Science",
+        "DataCamp   License ed3af735c0eb592c4c44059ebe4ab3cb50ea6371   ",
+        "Intermediate R",
+        "DataCamp   License f29176841ac5b8b404306968ed5092bc22edfb7e   ",
+        "Courses",
+        "Independent Coursework",
+        "Data Analysis and Statistical Inference (Duke",
+        "University | Coursera)",
+        "People Analytics (University of Pennsylvania |",
+        "Coursera)",
+        "The Analytics Edge (MIT | edX)",
+        "In Progress: Agile Development Specialization",
+        "(University of Virginia, Darden School of Business |",
+        "Behavioral Economics (Duke University | Coursera)",
+        "Rapid Prototyping with Ionic (Udemy)",
+        "Foundations of Business Analytics (ESSEC Business",
+        "School | Coursera)",
+        "Foundations of Marketing Analytics (ESSEC Business",
+        "Interests",
+        "Behavioral Economics, Consumer Neuroscience, Predictive Analytics, Digital Health, Basketball, Hiking,",
+        " Traveling.",
+        "Projects",
+        "Report/Analytics Automation",
+        "Members:Pavel Gurevich",
+        "Developed automation tool to streamline report generation and product scoring. Developed in R.",
+        "Nutrition Tracker",
+        "In Progress. A data + visualization driven tracker intended to inform dietary decision by helping consumers",
+        " understand the impact of a product's full nutritional profile on daily nutrient intake. Consumes USDA API.",
+        " Developed using Ionic + AngularJS + Firebase + D3.js.",
+        "Expense Tracker (Web)",
+        "Expense tracker featuring data analytics and graphical dashboard. Developed using the MEAN (MongoDB,",
+        " Express.js, AngularJS, Node.js) Stack + Chart.js.",
+        "Expense Tracker (Mobile)",
+        "Mobile expense tracker featuring a report-card style UI. Developed using Ionic + AngularJS + Firebase +",
+        " Highcharts.js.",
+        "Stock Tracker",
+        "Hybrid mobile app for real-time tracking and visualizing stock performance + following latest news related",
+        " to company being viewed. Consumes Yahoo Finance API. Developed using Ionic + AngularJS + Firebase +",
+        " D3.js.",
+        "News Aggregation System",
+        "Built a web-based news aggregation tool delivering health-related headlines and recently published research.",
+        " Developed using Node.js + AngularJS.",
+        "Labdoor Magazine: Content Developer and Editor",
+        "September 2013 to November 2015",
+        "Content exploring the science behind health and wellness.",
+        "Pavel Gurevich",
+        "Director of Research at LabDoor",
+        "1",
+        " person has recommended Pavel",
+        "\"Pasha was a valuable teammate at Labdoor, covering a variety of research and project management roles",
+        "over the last three years. He works hard, is very organized, and likes to think about the big picture. I'm",
+        "excited to see what he does next.\"",
+        "— Neil Thanedar",
+        ", CEO & Founder, LabDoor",
+        ", managed Pavel at LabDoor"
+    ],
+    "volunteerExperience": [
+        {
+            "jobTitle": "Post-Op Patient Volunteer",
+            "organization": "UCSF",
+            "startDate": "September 2004",
+            "endDate": "January 2006"
+        }
+    ],
+    "skills": [
+        "Predictive Analytics",
+        "Data Analysis",
+        "R",
+        "Python",
+        "SQL",
+        "AngularJS",
+        "JavaScript",
+        "HTML5",
+        "CSS",
+        "Node.js",
+        "MongoDB",
+        "Regression Analysis",
+        "Cluster Analysis",
+        "Decision Trees",
+        "Recommender Systems",
+        "Biochemistry",
+        "Nutritional Analysis",
+        "Life Sciences",
+        "Project Management"
+    ],
+    "education": [
+        {
+            "school": "University of California, Berkeley",
+            "basicInfo": [
+                "Bachelor of Arts (B.A.)",
+                "Molecular and Cell Biology (Neuroscience Track)",
+                "2006 - 2010"
+            ],
+            "activitiesAndSocieties": "Intramural Basketball, Organic Chemistry and Calculus Tutor."
+        }
+    ],
+    "languages": [
+        {
+            "language": "English"
+        },
+        {
+            "language": "Russian"
+        },
+        {
+            "language": "Hebrew"
+        }
+    ]
+}

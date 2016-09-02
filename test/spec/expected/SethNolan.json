@@ -1,0 +1,94 @@
+{
+    "name": "Seth Nolan",
+    "currentJob": "Senior Consultant at Beacon Hill Pharma",
+    "bio": [
+        "At Beacon Hill, my areas of focus include Bioanalytical and DMPK in both Discovery and Clinical settings, as well as US, Global, and HCP Marketing, National Sales, and Commercial build-outs. "
+    ],
+    "workExperience": [
+        {
+            "jobTitle": "Senior Consultant",
+            "organization": "Beacon Hill Staffing Group - Pharma Division",
+            "startDate": "May 2016",
+            "endDate": "Present",
+            "duration": "3 months",
+            "responsibilities": [
+                "From staff augmentation and project/business specific solutions to direct (permanent) placement services, Beacon Hill Pharma’s dedicated team of recruiting and staffing experts consistently delivers quality professionals on a time-sensitive basis. ",
+                "Specialties: Specialize in all levels of Clinical Research, Medical Directors, Project Management, Data Management, Biometrics, Drug Safety, Medical Writing, Regulatory Affairs, Quality, Document Management, Medical Affairs, core platform functions, executive placements, and pharmaceutical recruiter placement."
+            ]
+        },
+        {
+            "jobTitle": "Life Science Recruiting Consultant",
+            "organization": "ConnectedSearch",
+            "startDate": "2015",
+            "endDate": "April 2016",
+            "duration": "1 year"
+        },
+        {
+            "jobTitle": "Account Manager",
+            "organization": "LVI Boston",
+            "startDate": "August 2013",
+            "endDate": "2015",
+            "duration": "2 years",
+            "responsibilities": [
+                "Acquired new customers for various Fortune 100 and 500 clients through a direct approach sales system. ",
+                "Conducted preliminary, secondary, and final interviews for applicants. Responsible for training entry-level employees, as well as managing a team of 5-10 people on a daily basis. ",
+                "Learned the in's and outs of small business management, developed strong sales skills via building rapore, trust, and finding value; learned how to effectively and efficiently manage a team of coworkers."
+            ]
+        },
+        {
+            "jobTitle": "Chief Operating Officer",
+            "organization": "Fanium LLC",
+            "startDate": "April 2011",
+            "endDate": "June 2013",
+            "duration": "2 years 3 months",
+            "responsibilities": [
+                "Oversaw many day to day operational tasks within the company, ranging from, but not limited to managing summer internships, running payroll, and tracking all financial credits and debits. Responsible for organizing the companies financial system, to ensure efficiency. Finalized multiple deals to license Faniums tweet feeder API to partners within the Fantasy Space. ",
+                "Developed strong organizational skills, an ability to manage a team, and gained extensive experience working with QuickBooks, excel, and other payroll systems."
+            ]
+        }
+    ],
+    "skills": [
+        "Start-ups",
+        "Microsoft Office",
+        "Public Speaking",
+        "Microsoft Excel",
+        "Social Media",
+        "PowerPoint",
+        "Research",
+        "Microsoft Word",
+        "Event Planning",
+        "Sports",
+        "Project Management",
+        "Business Strategy",
+        "Social Networking",
+        "Leadership",
+        "Management",
+        "Social Media Marketing",
+        "Customer Service",
+        "Sales",
+        "Fundraising"
+    ],
+    "education": [
+        {
+            "school": "Brown University",
+            "basicInfo": [
+                "Bachelor of Arts (B.A.)",
+                "Human Biology: Human Health and Disease"
+            ],
+            "activitiesAndSocieties": "GoLudo, Wrestling, College Hill Events, Relay for Life Team Leader, Junior Achievement, Main Green TV,"
+        }
+    ],
+    "unsupported": [
+        "Publications",
+        "Introducing Fanium, the First Social Network for Sports",
+        "thereformedbroker.com   May 3, 2012",
+        "Authors: Seth Nolan",
+        "Details Fanium's first web based sports network, which we built at the beginning of 2012.",
+        "Certifications",
+        "Finance: Time Value of Money",
+        "Smartly by Pedago, LLC      ",
+        "Accounting I: Fundamentals",
+        "Seth Nolan",
+        "Senior Consultant at Beacon Hill Pharma"
+    ]
+}

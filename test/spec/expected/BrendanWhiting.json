@@ -1,0 +1,51 @@
+{
+    "name": "Brendan Whiting",
+    "currentJob": "Music Professional",
+    "workExperience": [
+        {
+            "jobTitle": "Music Assistant, Rehearsal Pianist, Sub Keyboards at Aladdin, Newsies",
+            "organization": "Disney Theatrical Group",
+            "startDate": "May 2011",
+            "endDate": "September 2014",
+            "duration": "3 years 5 months"
+        },
+        {
+            "jobTitle": "Assistant Music Director",
+            "organization": "Gateway Playhouse",
+            "startDate": "2005",
+            "endDate": "2009",
+            "duration": "4 years"
+        },
+        {
+            "jobTitle": "Music Director",
+            "organization": "Western Canada Theatre",
+            "startDate": "November 2008",
+            "endDate": "December 2008",
+            "duration": "2 months",
+            "responsibilities": [
+                "Music Director of \"Seussical\""
+            ]
+        }
+    ],
+    "education": [
+        {
+            "school": "Wilfrid Laurier University",
+            "basicInfo": [
+                "Music",
+                "2003 - 2007"
+            ],
+            "activitiesAndSocieties": "Laurier Musical Theatre"
+        }
+    ],
+    "unsupported": [
+        "Brendan Whiting",
+        "Music Professional",
+        "1",
+        " person has recommended Brendan",
+        "\"Brendan is a hard-working, competent and extremely self-motivated individual. He collaborates well with",
+        "others while still maintaining strong leadership skills. He is always up for a challenge and naturally creates",
+        "balance within a group. I highly recommend Brendan for his outstanding abilities and talents.\"",
+        "— Clara Hilts",
+        ", studied with Brendan at Wilfrid Laurier University"
+    ]
+}
