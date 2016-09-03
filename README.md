@@ -22,6 +22,30 @@ If a JSON output file is passed as an argument the parsed JSON will be written a
 node node_modules/linkedin-pdf-to-json/index.js JohnnyAppleseed.pdf JohnnyAppleseed.json
 ```
 
+## Supported Sections
+
+* Summary
+* Experience
+* Education
+* Volunteer Experience
+* Languages
+* Skills & Expertise
+
+## Unsupported Sections
+
+Currently unsupported sections include:
+
+* Publications
+* Projects
+* Certifications
+* Specialties
+* Honors and Awards
+* Interests
+* Courses
+* Recommendations
+
+## Example
+
 Example JSON output file
 
 ```json
@@ -35,19 +59,34 @@ Example JSON output file
         "- Self-starter who enjoys learning in a fast-paced environment. ",
         "- Always excited to learn a new skill to help create the best possible product. "
     ],
+    "education": [
+        {
+            "school": "Eastern Mennonite University",
+            "basicInfo": [
+                "Bachelor of Science (B.S.)",
+                "Computer Science",
+                "2012 - 2016"
+            ],
+            "grade": "Career GPA: 3.49",
+            "activitiesAndSocieties": "Association for Computing Machinery (ACM) Club, Table Tennis Club, intramural sports"
+        },
+        {
+            "school": "Lancaster Mennonite School"
+        }
+    ],
     "workExperience": [
         {
             "jobTitle": "Software Development Intern",
             "organization": "Smartly by Pedago, LLC",
             "startDate": "June 2016",
             "endDate": "Present",
-            "duration": "3 months",
+            "duration": "4 months",
             "responsibilities": [
                 "- Helped maintain and implement new features for Smartly, a mobile-friendly online learning platform by Pedago.",
                 "- Operated in an agile software development environment using the scrum management framework coupled with a continuous integration workflow for a very communicative and efficient working atmosphere. ",
-                "- Created and published a Node.js module to npm for Smartly called linkedin-pdf-to-json, which is a JavaScript recursive descent parser Node.js command line tool for storing extracted LinkedIn profile PDF text in JSON. View the source code at https://github.com/isaacmast/linkedin-pdf-to-json.",
+                "- Created and published a Node.js module to npm for Smartly called linkedin-pdf-to-json, a JavaScript recursive descent parser Node.js command line tool for storing extracted LinkedIn profile PDF text in JSON format, which can then be printed to the console or written and saved in a file. View the source code at https://github.com/isaacmast/linkedin-pdf-to-json.",
                 "- Utilized development tools and programming techniques such as Gulp.js, bower, npm, and test-driven development to help create scalable and maintainable code. ",
-                "- Gained valuable experience with AngularJS, Ruby on Rails, PostrgreSQL, Cordova, Node.js, Chrome DevTools, AWS, Git, Bitbucket, and Unix. "
+                "- Gained valuable experience with AngularJS, Ruby on Rails, PostrgreSQL, Cordova, Node.js, Chrome DevTools, Facebook JavaScript SDK & Graph API, AWS, Git, Bitbucket, and Unix. "
             ]
         },
         {
@@ -120,17 +159,24 @@ Example JSON output file
         "Python",
         "Git",
         "AngularJS",
-        "HTML5",
-        "CSS3",
+        "Node.js",
         "Ruby",
         "Ruby on Rails",
-        "MVC",
+        "npm",
+        "Bower",
         "Gulp.js",
+        "PostgreSQL",
+        "HTML5",
+        "CSS3",
+        "Apache Cordova",
+        "MVC",
+        "GitHub",
+        "Bitbucket",
         "PHP",
         "MySQL",
-        "PostgreSQL",
         "Apache",
         "Linux Desktop",
+        "Unix",
         "Teamwork",
         "Community Outreach",
         "Team Leadership",
@@ -143,16 +189,23 @@ Example JSON output file
         "Public Speaking"
     ],
     "unsupported": [
-        "Education",
-        "Eastern Mennonite University",
-        "Bachelor of Science (B.S.), Computer Science, 2012 - 2016",
-        "Grade:  ",
-        "Career GPA: 3.49",
-        "Activities and Societies:  ",
-        "Association for Computing Machinery (ACM) Club, Table Tennis Club, intramural",
-        " sports",
+        "Projects",
+        "linkedin-pdf-to-json",
+        "August 2016 to Present",
+        "Members:Isaac Mast",
+        "linkedin-pdf-to-json is a JavaScript recursive descent parser Node.js command line tool for storing extracted",
+        " text from LinkedIn profile PDFs in JSON format that can be either printed to the console or written and",
+        " saved in a JSON file. ",
+        "GitHub repository: https://github.com/isaacmast/linkedin-pdf-to-json",
+        "npm webpage: https://www.npmjs.com/package/linkedin-pdf-to-json",
+        "The BruCrew Project Database",
+        "September 2015 to December 2015",
+        "The BruCrew Project Database is a central hub for BruCrew employees to log their work hours and any",
+        " details about the tasks that they worked on during those hours. ",
+        "GitHub repository: https://github.com/brucrew/brucrew",
         "Courses",
         "Bachelor of Science (B.S.), Computer Science",
+        "Eastern Mennonite University",
         "Software Engineering",
         "370",
         "Programming Languages",
@@ -191,25 +244,3 @@ Example JSON output file
     ]
 }
 ```
-
-## Supported Sections
-
-* Summary
-* Experience
-* Volunteer Experience
-* Languages
-* Skills & Expertise
-
-## Unsupported Sections
-
-Currently unsupported sections include:
-
-* Education
-* Publications
-* Projects
-* Certifications
-* Specialties
-* Honors and Awards
-* Interests
-* Courses
-* Recommendations
