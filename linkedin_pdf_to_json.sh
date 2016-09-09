@@ -1,6 +1,6 @@
 #! /bin/bash
 
-if [[ "$1" =~ ^\-h ]]; then
+if [[ "$1" =~ ^\-h ]] || [[ "$1" =~ ^\--help ]]; then
     echo
     echo "USAGE"
     echo "      <linkedin-pdf-to-json>/parse.sh [-aeit]"
