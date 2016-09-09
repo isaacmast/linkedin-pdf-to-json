@@ -10,16 +10,41 @@ npm install --save-dev linkedin-pdf-to-json
 
 ## Usage
 
-Specifying a file to store the retrieved JSON in is optional and if none is given, the JSON is printed to the console.
+Use the `parse` command followed by the path to a LinkedIn profile PDF to parse it and output the JSON to the console.
 
 ```
-node node_modules/linkedin-pdf-to-json/index.js JohnnyAppleseed.pdf
+parse ~/Downloads/JohnnyAppleseed.pdf
 ```
 
-If a JSON output file is passed as an argument the parsed JSON will be written and saved to the file.
+Passing the path and name of a JSON file as an additional argument will write and save the parsed JSON to the file.
 
 ```
-node node_modules/linkedin-pdf-to-json/index.js JohnnyAppleseed.pdf JohnnyAppleseed.json
+parse ~/Downloads/JohnnyAppleseed.pdf ./JohnnyAppleseed.json
+```
+
+## Testing
+
+Run `npm test` to run the Jasmine specs.
+
+The test suite consists of a Jasmine file in the [linkedin_pdf_to_json](./test/spec/linkedin_pdf_to_json) subdirectory that will simply compare the contents of the JSON files in the [actual](./test/spec/actual) and [expected](./test/spec/expected) subdirectories.
+
+The *actual* directory houses the JSON files that are *actual*ly created by the parser.
+
+The *expected* directory contains files with the same names as the files in the *actual* directory, but the contents of these files is what the parsed JSON is *expected* to be.
+
+linkedin_pdf_to_json.sh is a bash script that will run the parser against all of the PDFs in the [profiles](./test/spec/profiles) subdirectory.
+
+Run `./linkedin_pdf_to_json.sh -h` to see documentation on the available command line arguments.
+
+### A Typical Test Flow
+
+```
+# Make some changes
+
+# Alter the JSON files in test/spec/expected to reflect the expected output
+
+# Run the bash script to update the JSON files in test/spec/actual/ and run the test suite
+$ ./linkedin_pdf_to_json.sh -at
 ```
 
 ## Supported Sections
@@ -50,9 +75,9 @@ Example JSON output file
 
 ```json
 {
-    "name": "Isaac Mast",
+    "name": "Johnny Appleseed",
     "currentJob": "Software Development Intern at Smartly by Pedago, LLC",
-    "email": "isaac.k.mast@gmail.com",
+    "email": "johnny.appleseed@foobar.com",
     "bio": [
         "- Graduated from Eastern Mennonite University with a Bachelor of Science degree in computer science in May of 2016.",
         "- 4 years of programming experience and website management. ",
@@ -84,7 +109,7 @@ Example JSON output file
             "responsibilities": [
                 "- Helped maintain and implement new features for Smartly, a mobile-friendly online learning platform by Pedago.",
                 "- Operated in an agile software development environment using the scrum management framework coupled with a continuous integration workflow for a very communicative and efficient working atmosphere. ",
-                "- Created and published a Node.js module to npm for Smartly called linkedin-pdf-to-json, a JavaScript recursive descent parser Node.js command line tool for storing extracted LinkedIn profile PDF text in JSON format, which can then be printed to the console or written and saved in a file. View the source code at https://github.com/isaacmast/linkedin-pdf-to-json.",
+                "- Created and published a Node.js module to npm for Smartly called linkedin-pdf-to-json, a JavaScript recursive descent parser Node.js command line tool for storing extracted LinkedIn profile PDF text in JSON format, which can then be printed to the console or written and saved in a file.",
                 "- Utilized development tools and programming techniques such as Gulp.js, bower, npm, and test-driven development to help create scalable and maintainable code. ",
                 "- Gained valuable experience with AngularJS, Ruby on Rails, PostrgreSQL, Cordova, Node.js, Chrome DevTools, Facebook JavaScript SDK & Graph API, AWS, Git, Bitbucket, and Unix. "
             ]
@@ -192,12 +217,10 @@ Example JSON output file
         "Projects",
         "linkedin-pdf-to-json",
         "August 2016 to Present",
-        "Members:Isaac Mast",
+        "Members:Johnny Appleseed",
         "linkedin-pdf-to-json is a JavaScript recursive descent parser Node.js command line tool for storing extracted",
         " text from LinkedIn profile PDFs in JSON format that can be either printed to the console or written and",
         " saved in a JSON file. ",
-        "GitHub repository: https://github.com/isaacmast/linkedin-pdf-to-json",
-        "npm webpage: https://www.npmjs.com/package/linkedin-pdf-to-json",
         "The BruCrew Project Database",
         "September 2015 to December 2015",
         "The BruCrew Project Database is a central hub for BruCrew employees to log their work hours and any",
@@ -238,9 +261,9 @@ Example JSON output file
         "Organizations",
         "ACM",
         "September 2015 to Present",
-        "Isaac Mast",
+        "Johnny Appleseed",
         "Software Development Intern at Smartly by Pedago, LLC",
-        "isaac.k.mast@gmail.com"
+        "johnny.appleseed@foobar.com"
     ]
 }
 ```
