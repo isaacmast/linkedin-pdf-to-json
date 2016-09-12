@@ -1,6 +1,6 @@
 {
     "name": "linkedin-pdf-to-json",
-    "version": "1.4.0",
+    "version": "1.5.0",
     "description": "Converts a LinkedIn profile PDF to JSON.",
     "main": "./index.js",
     "scripts": {
