@@ -166,27 +166,30 @@
         {
             "school": "The Catholic University of America",
             "basicInfo": [
-                "Ph.D.",
-                "Philosophy",
-                "2004 - 2011"
+                "Philosophy"
             ],
+            "degree": "Ph.D.",
+            "startDate": "2004",
+            "endDate": "2011",
             "activitiesAndSocieties": "Graduate Philosophical Society"
         },
         {
             "school": "West Chester University of Pennsylvania",
             "basicInfo": [
                 "MA",
-                "Philosophy",
-                "2002 - 2004"
-            ]
+                "Philosophy"
+            ],
+            "startDate": "2002",
+            "endDate": "2004"
         },
         {
             "school": "Messiah College",
             "basicInfo": [
-                "BA",
-                "Computer Science (Minor in Music)",
-                "1998 - 2002"
+                "Computer Science (Minor in Music)"
             ],
+            "degree": "BA",
+            "startDate": "1998",
+            "endDate": "2002",
             "activitiesAndSocieties": "Outdoors Club"
         }
     ],

@@ -191,20 +191,22 @@
         {
             "school": "Carnegie Mellon University",
             "basicInfo": [
-                "Master’s Degree",
-                "Integrated Product Development",
-                "2015 - 2017"
+                "Integrated Product Development"
             ],
+            "degree": "Master’s Degree",
+            "startDate": "2015",
+            "endDate": "2017",
             "activitiesAndSocieties": "Industrial Design Society of America, Disney Imagineering Contest, Impact-A-thon"
         },
         {
             "school": "University of North Carolina at Chapel Hill - Kenan-Flagler Business School",
             "basicInfo": [
-                "BSBA",
                 "Entrepreneurship",
-                "Political Science",
-                "2008 - 2012"
+                "Political Science"
             ],
+            "degree": "BSBA",
+            "startDate": "2008",
+            "endDate": "2012",
             "activitiesAndSocieties": "The Honors Program, Daily Tar Heel, Institute for Practical Politics, Executive Branch of Student Government, Association of Student Governments, CUAB, Chancellor's Student Innovation Team, Carolina Creates, Carolina Union Board of Directors"
         },
         {

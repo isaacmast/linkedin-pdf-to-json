@@ -72,9 +72,9 @@
         {
             "school": "Brown University",
             "basicInfo": [
-                "Bachelor of Arts (B.A.)",
                 "Human Biology: Human Health and Disease"
             ],
+            "degree": "Bachelor of Arts (B.A.)",
             "activitiesAndSocieties": "GoLudo, Wrestling, College Hill Events, Relay for Life Team Leader, Junior Achievement, Main Green TV,"
         }
     ],

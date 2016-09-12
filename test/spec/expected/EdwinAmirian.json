@@ -109,10 +109,11 @@
         {
             "school": "UC Santa Barbara",
             "basicInfo": [
-                "Bachelor of Arts (B.A.)",
-                "Business Economics",
-                "2007 - 2011"
-            ]
+                "Business Economics"
+            ],
+            "degree": "Bachelor of Arts (B.A.)",
+            "startDate": "2007",
+            "endDate": "2011"
         }
     ],
     "languages": [

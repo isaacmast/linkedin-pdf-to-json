@@ -98,25 +98,28 @@
             "school": "Missouri University of Science and Technology",
             "basicInfo": [
                 "MS",
-                "Aerospace Engineering",
-                "2010 - 2012"
-            ]
+                "Aerospace Engineering"
+            ],
+            "startDate": "2010",
+            "endDate": "2012"
         },
         {
             "school": "University of Michigan",
             "basicInfo": [
-                "BS",
-                "Aerospace Engineering",
-                "2005 - 2009"
+                "Aerospace Engineering"
             ],
+            "degree": "BS",
+            "startDate": "2005",
+            "endDate": "2009",
             "activitiesAndSocieties": "Indian American Student Association"
         },
         {
             "school": "Mehlville High School",
             "basicInfo": [
-                "High School",
-                "2001 - 2005"
-            ]
+                "High School"
+            ],
+            "startDate": "2001",
+            "endDate": "2005"
         },
         {
             "school": "Smartly"

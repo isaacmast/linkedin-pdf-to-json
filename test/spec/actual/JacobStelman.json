@@ -104,10 +104,11 @@
         {
             "school": "University of California, Davis",
             "basicInfo": [
-                "Bachelor's Degree",
-                "Mechanical Engineering",
-                "2013 - 2017"
+                "Mechanical Engineering"
             ],
+            "degree": "Bachelor's Degree",
+            "startDate": "2013",
+            "endDate": "2017",
             "grade": "Second Year (Junior in terms of credits)"
         }
     ],

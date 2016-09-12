@@ -57,25 +57,27 @@
         {
             "school": "Princeton University",
             "basicInfo": [
-                "AB cum laude",
-                "Computer Science",
-                "1997 - 2001"
+                "Computer Science"
             ],
+            "degree": "AB cum laude",
+            "startDate": "1997",
+            "endDate": "2001",
             "activitiesAndSocieties": "Sigma-Xi Scientific Research Society (2001), Ferris Grant, Humanities Council (1998), Contributor to the Daily Princetonian and Nassau Weekly, Campus Club Officer, Vice-President, ACM, Senior Thesis: “Architecture for a Universal Digital Music Library”"
         },
         {
             "school": "Benjamin N. Cardozo School of Law, Yeshiva University",
             "basicInfo": [
-                "JD",
-                "2003 - 2007"
+                "JD"
             ],
+            "startDate": "2003",
+            "endDate": "2007",
             "activitiesAndSocieties": "Cardozo Law Review, Dean's Merit Scholarship, Howard M. Squadron Program in Media, Law & Society, Cardozo IP Society"
         },
         {
             "school": "Fair Lawn High School",
-            "basicInfo": [
-                "1993 - 1997"
-            ]
+            "basicInfo": [],
+            "startDate": "1993",
+            "endDate": "1997"
         }
     ],
     "languages": [

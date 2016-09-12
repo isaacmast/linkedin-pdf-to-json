@@ -29,7 +29,7 @@ function LinkedInPdfToJson() {
     this.SECTION_HEADERS = {
         'Summary': 'bio',
         'Languages': 'languages',
-        'Education': 'education',
+        'Education': 'educationExperience',
         'Experience': 'workExperience',
         'Skills & Expertise': 'skills',
         'Volunteer Experience': 'volunteerExperience',
@@ -249,6 +249,17 @@ LinkedInPdfToJson.prototype.parseEducation = function() {
             this.getNextToken();
         }
         this.json[currentSection][this.count].basicInfo = basicInfo.split(/\,\s*/);
+        if (this.json[currentSection][this.count].basicInfo[0].match(/(Bachelor|B\.?A\.?|B\.?S\.?|A\.?B\.?|Master|Ph\.D\.)/)) {
+            this.json[currentSection][this.count].degree = this.json[currentSection][this.count].basicInfo[0];
+            this.json[currentSection][this.count].basicInfo.splice(0, 1);
+        }
+        var length = this.json[currentSection][this.count].basicInfo.length;
+        if (this.json[currentSection][this.count].basicInfo[length - 1].match(/^\w*\s*\d+\s+\-\s+\w*\s*\d*/)) {
+            var dates = this.json[currentSection][this.count].basicInfo[length - 1].split(/\s\-\s/);
+            this.json[currentSection][this.count].startDate = dates[0];
+            this.json[currentSection][this.count].endDate = dates[1];
+            this.json[currentSection][this.count].basicInfo.splice(length - 1, 1);
+        }
     }
     if (this.token === this.TOKENS.EDU_GRADE_LABEL) {
         this.getNextToken();

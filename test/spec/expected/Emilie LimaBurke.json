@@ -178,21 +178,23 @@
         {
             "school": "Princeton University",
             "basicInfo": [
-                "Bachelor of Arts (B.A.)",
                 "American Politics with Latin American Studies",
                 "American Studies",
-                "and Portuguese Language and Culture",
-                "2011 - 2015"
+                "and Portuguese Language and Culture"
             ],
+            "degree": "Bachelor of Arts (B.A.)",
+            "startDate": "2011",
+            "endDate": "2015",
             "activitiesAndSocieties": "Princeton University Women’s Rugby FC, President; Kappa Kappa Gamma (KK#) Women’s Fraternity, Zeta Phi Chapter, New Member & Marshall Committees; Community-Based Learning Initiative, Trustee; Law and Public Affairs Association, Undergraduate Fellow; Sport Clubs Executive Council, Secretary; Cloister Inn, Member; Latino Unidos Networking Association, Mentor"
         },
         {
             "school": "Benedictine Academy",
             "basicInfo": [
                 "High School",
-                "General Education",
-                "2007 - 2011"
+                "General Education"
             ],
+            "startDate": "2007",
+            "endDate": "2011",
             "grade": "4.0",
             "activitiesAndSocieties": "Varsity Soccer, Captain; Varsity Swimming, Captain; Varsity Softball, Captain; Junior State of America, Chapter President; Peer Mentor; Ambassador; Development Volunteer; National Honor Society."
         }

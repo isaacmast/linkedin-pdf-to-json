@@ -150,43 +150,47 @@
         {
             "school": "Williams College",
             "basicInfo": [
-                "Bachelor’s Degree",
                 "Psychology (focus: Cognitive Science)",
-                "Leadership Studies & International Studies",
-                "2011 - 2015"
+                "Leadership Studies & International Studies"
             ],
+            "degree": "Bachelor’s Degree",
+            "startDate": "2011",
+            "endDate": "2015",
             "activitiesAndSocieties": "QuestBridge, The SpringStreeters, South Asian Students Association"
         },
         {
             "school": "Smartly MBA Program",
-            "basicInfo": [
-                "Master of Business Administration (M.B.A.)",
-                "2016 - 2016"
-            ]
+            "basicInfo": [],
+            "degree": "Master of Business Administration (M.B.A.)",
+            "startDate": "2016",
+            "endDate": "2016"
         },
         {
             "school": "Bosphorus University",
             "basicInfo": [
-                "Semester Abroad",
-                "2013 - 2013"
+                "Semester Abroad"
             ],
+            "startDate": "2013",
+            "endDate": "2013",
             "activitiesAndSocieties": "BUMK Rock Korusu, IES Istanbul, weloveistanbul"
         },
         {
             "school": "Gwinnett School of Mathematics, Science, and Technology",
             "basicInfo": [
                 "High School Diploma",
-                "Bioscience",
-                "2007 - 2011"
+                "Bioscience"
             ],
+            "startDate": "2007",
+            "endDate": "2011",
             "activitiesAndSocieties": "GSMST Chorus, National Honors Society, Stock Market Club, Yearbook Committee, Student Government Association, Peer Tutoring"
         },
         {
             "school": "Georgia State University",
             "basicInfo": [
-                "Information Technology",
-                "2010 - 2010"
-            ]
+                "Information Technology"
+            ],
+            "startDate": "2010",
+            "endDate": "2010"
         }
     ],
     "unsupported": [

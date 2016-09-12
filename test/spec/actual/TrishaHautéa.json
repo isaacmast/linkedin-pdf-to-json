@@ -90,10 +90,11 @@
         {
             "school": "Tufts University",
             "basicInfo": [
-                "Masters of Arts in Teaching (MAT)",
-                "Education",
-                "2015 - 2016"
-            ]
+                "Education"
+            ],
+            "degree": "Masters of Arts in Teaching (MAT)",
+            "startDate": "2015",
+            "endDate": "2016"
         },
         {
             "school": "University of Pennsylvania - The Wharton School",
@@ -105,25 +106,28 @@
         {
             "school": "Tufts University",
             "basicInfo": [
-                "Bachelor of Fine Arts (BFA)",
                 "Art History",
-                "Criticism and Conservation",
-                "2011 - 2015"
-            ]
+                "Criticism and Conservation"
+            ],
+            "degree": "Bachelor of Fine Arts (BFA)",
+            "startDate": "2011",
+            "endDate": "2015"
         },
         {
             "school": "School of the Museum of Fine Arts",
             "basicInfo": [
-                "Fine and Studio Arts",
-                "2011 - 2015"
-            ]
+                "Fine and Studio Arts"
+            ],
+            "startDate": "2011",
+            "endDate": "2015"
         },
         {
             "school": "Fiorello H. LaGuardia High School of Music & Art and Performing Arts",
             "basicInfo": [
-                "Visual and Performing Arts",
-                "2007 - 2011"
-            ]
+                "Visual and Performing Arts"
+            ],
+            "startDate": "2007",
+            "endDate": "2011"
         }
     ],
     "unsupported": [

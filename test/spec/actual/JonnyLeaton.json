@@ -94,23 +94,25 @@
         {
             "school": "McIntire School of Commerce",
             "basicInfo": [
-                "Bachelor of Science (B.S.)",
                 "Finance",
                 "Information Technology",
-                "Business Analytics",
-                "2011 - 2013"
+                "Business Analytics"
             ],
+            "degree": "Bachelor of Science (B.S.)",
+            "startDate": "2011",
+            "endDate": "2013",
             "grade": "GPA: 3.7"
         },
         {
             "school": "University of Virginia",
             "basicInfo": [
-                "B.S. Commerce",
                 "Government",
                 "Finance",
-                "IT",
-                "2009 - 2013"
+                "IT"
             ],
+            "degree": "B.S. Commerce",
+            "startDate": "2009",
+            "endDate": "2013",
             "activitiesAndSocieties": "Student Entrepreneurs for Economic Development, Phi Eta Sigma, Reformed University Fellowship, Sigma Alpha Lambda, Dean's List"
         },
         {

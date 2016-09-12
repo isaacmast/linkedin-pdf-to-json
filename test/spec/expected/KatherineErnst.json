@@ -72,19 +72,21 @@
         {
             "school": "Duke University",
             "basicInfo": [
-                "Bachelor of Science in Engineering (BSE)",
-                "Mechanical Engineering and Materials Science",
-                "2011 - 2015"
+                "Mechanical Engineering and Materials Science"
             ],
+            "degree": "Bachelor of Science in Engineering (BSE)",
+            "startDate": "2011",
+            "endDate": "2015",
             "activitiesAndSocieties": "American Society of Mechanical Engineers President, Varsity Cheerleading, Duke University E-Team (Engineering Peer Advising), Pi Tau Sigma, Alpha Phi"
         },
         {
             "school": "Duke University",
             "basicInfo": [
                 "Certificate",
-                "Energy and the Environment",
-                "2011 - 2015"
-            ]
+                "Energy and the Environment"
+            ],
+            "startDate": "2011",
+            "endDate": "2015"
         },
         {
             "school": "Smartly"

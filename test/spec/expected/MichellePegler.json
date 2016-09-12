@@ -44,18 +44,19 @@
     "education": [
         {
             "school": "University of Richmond - Robins School of Business",
-            "basicInfo": [
-                "Master of Business Administration (MBA)",
-                "2014 - 2017"
-            ]
+            "basicInfo": [],
+            "degree": "Master of Business Administration (MBA)",
+            "startDate": "2014",
+            "endDate": "2017"
         },
         {
             "school": "Massachusetts Institute of Technology",
             "basicInfo": [
-                "Bachelor of Science (BS)",
-                "Mechanical Engineering",
-                "2007 - 2011"
-            ]
+                "Mechanical Engineering"
+            ],
+            "degree": "Bachelor of Science (BS)",
+            "startDate": "2007",
+            "endDate": "2011"
         },
         {
             "school": "Smartly"

@@ -96,16 +96,17 @@
         {
             "school": "Eastern Mennonite University",
             "basicInfo": [
-                "Bachelor’s Degree",
-                "Environmental Sustainability",
-                "2013 - 2016"
-            ]
+                "Environmental Sustainability"
+            ],
+            "degree": "Bachelor’s Degree",
+            "startDate": "2013",
+            "endDate": "2016"
         },
         {
             "school": "Lancaster Mennonite High School",
-            "basicInfo": [
-                "2008 - 2012"
-            ]
+            "basicInfo": [],
+            "startDate": "2008",
+            "endDate": "2012"
         }
     ],
     "unsupported": [

@@ -74,19 +74,21 @@
         {
             "school": "Carnegie Mellon University",
             "basicInfo": [
-                "Bachelor of Science (B.S.)",
                 "Computer Science",
-                "Human-Computer Interactions",
-                "2011 - 2014"
+                "Human-Computer Interactions"
             ],
+            "degree": "Bachelor of Science (B.S.)",
+            "startDate": "2011",
+            "endDate": "2014",
             "activitiesAndSocieties": "Awareness of Roots in Chinese Culture, Woman@SCS, TartanHacks"
         },
         {
             "school": "Lynbrook High School",
             "basicInfo": [
-                "High School Diploma",
-                "2007 - 2011"
+                "High School Diploma"
             ],
+            "startDate": "2007",
+            "endDate": "2011",
             "activitiesAndSocieties": "Key Club, Speech and Debate, French Honor Society, Varsity Badminton"
         }
     ],

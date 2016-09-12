@@ -169,17 +169,19 @@
                 "Business",
                 "Management",
                 "Marketing",
-                "and Related Support Services",
-                "2016 - 2016"
-            ]
+                "and Related Support Services"
+            ],
+            "startDate": "2016",
+            "endDate": "2016"
         },
         {
             "school": "New York University",
             "basicInfo": [
-                "Bachelor's Degree",
-                "Drama",
-                "2001 - 2004"
+                "Drama"
             ],
+            "degree": "Bachelor's Degree",
+            "startDate": "2001",
+            "endDate": "2004",
             "activitiesAndSocieties": "Graduated with Honors in 3 years"
         }
     ],

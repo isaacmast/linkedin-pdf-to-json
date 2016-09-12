@@ -83,17 +83,18 @@
         {
             "school": "Massachusetts Institute of Technology",
             "basicInfo": [
-                "Bachelor of Science (B.S.)",
-                "Architecture",
-                "2010 - 2014"
+                "Architecture"
             ],
+            "degree": "Bachelor of Science (B.S.)",
+            "startDate": "2010",
+            "endDate": "2014",
             "activitiesAndSocieties": "MIT Syncopasian, Alpha Chi Omega Sorority"
         },
         {
             "school": "Shrewsbury International School",
-            "basicInfo": [
-                "2004 - 2010"
-            ],
+            "basicInfo": [],
+            "startDate": "2004",
+            "endDate": "2010",
             "activitiesAndSocieties": "Student Government, Community Service, Basketball, Duke of Edinburgh International Award"
         }
     ],

@@ -116,9 +116,9 @@
         {
             "school": "University of California, Davis",
             "basicInfo": [
-                "BS",
                 "Biochemistry and Molecular Biology"
             ],
+            "degree": "BS",
             "activitiesAndSocieties": "Assistant Director for UC Davis Picnic Day, Undergraduate Researcher of Dr. Andrew Fisher's Lab"
         }
     ],

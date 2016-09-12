@@ -118,26 +118,29 @@
         {
             "school": "Emory University - Goizueta Business School",
             "basicInfo": [
-                "Bachelor of Business Administration (B.B.A.)",
                 "Marketing",
-                "Information Systems and Operations Management",
-                "2010 - 2014"
+                "Information Systems and Operations Management"
             ],
+            "degree": "Bachelor of Business Administration (B.B.A.)",
+            "startDate": "2010",
+            "endDate": "2014",
             "activitiesAndSocieties": "Association of Caribbean Educators and Students, OISL (Office of International Student Life), EBSU (Emory Black Student Union), Vibez Dance Troupe, Crossroads, Spanish Case Competition Team"
         },
         {
             "school": "Facultad Latinoamericana de Ciencias Sociales",
             "basicInfo": [
-                "Sociology and Anthropology",
-                "2012 - 2012"
-            ]
+                "Sociology and Anthropology"
+            ],
+            "startDate": "2012",
+            "endDate": "2012"
         },
         {
             "school": "Universidad Politécnica Salesiana",
             "basicInfo": [
-                "Sociology",
-                "2012 - 2012"
-            ]
+                "Sociology"
+            ],
+            "startDate": "2012",
+            "endDate": "2012"
         }
     ],
     "volunteerExperience": [

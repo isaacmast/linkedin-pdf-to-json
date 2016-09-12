@@ -27,19 +27,21 @@
         {
             "school": "Worcester Polytechnic Institute",
             "basicInfo": [
-                "Bachelor of Science (B.S.)",
-                "Robotic Engineering",
-                "2011 - 2015"
+                "Robotic Engineering"
             ],
+            "degree": "Bachelor of Science (B.S.)",
+            "startDate": "2011",
+            "endDate": "2015",
             "activitiesAndSocieties": "Society of Automotive Engineers, Vietnamese Student Association,"
         },
         {
             "school": "West Memphis High",
             "basicInfo": [
                 "General",
-                "General Studies",
-                "2007 - 2011"
+                "General Studies"
             ],
+            "startDate": "2007",
+            "endDate": "2011",
             "grade": "4.0",
             "activitiesAndSocieties": "Beta Club, Quiz Bowl, Mu Alpha Theta"
         }

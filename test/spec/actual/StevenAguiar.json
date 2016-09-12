@@ -128,18 +128,19 @@
         {
             "school": "Brown University",
             "basicInfo": [
-                "B.A.",
                 "Economics",
-                "Hispanic Studies",
-                "2007 - 2011"
+                "Hispanic Studies"
             ],
+            "degree": "B.A.",
+            "startDate": "2007",
+            "endDate": "2011",
             "activitiesAndSocieties": "Brown Rugby, City Brothers"
         },
         {
             "school": "Regis",
-            "basicInfo": [
-                "2003 - 2007"
-            ]
+            "basicInfo": [],
+            "startDate": "2003",
+            "endDate": "2007"
         },
         {
             "school": "Smartly"

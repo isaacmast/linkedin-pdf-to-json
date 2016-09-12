@@ -144,17 +144,19 @@
             "school": "Baruch College",
             "basicInfo": [
                 "MS",
-                "Corporate Communications",
-                "2011 - 2013"
-            ]
+                "Corporate Communications"
+            ],
+            "startDate": "2011",
+            "endDate": "2013"
         },
         {
             "school": "New York University, Stern School of Business",
             "basicInfo": [
-                "BS",
-                "Business Administration",
-                "2003 - 2007"
-            ]
+                "Business Administration"
+            ],
+            "degree": "BS",
+            "startDate": "2003",
+            "endDate": "2007"
         }
     ]
 }

@@ -92,12 +92,13 @@
         {
             "school": "Stanford University",
             "basicInfo": [
-                "BA",
                 "Science",
                 "Technology",
-                "and Society",
-                "2009 - 2013"
+                "and Society"
             ],
+            "degree": "BA",
+            "startDate": "2009",
+            "endDate": "2013",
             "activitiesAndSocieties": "Delta Sigma Theta Sorority, Incorporated, Co-Chair of the Black Collegiate Gathering Committee, Stanford Marketing Group, Associated Students of Stanford University- Nominations Commission"
         }
     ],

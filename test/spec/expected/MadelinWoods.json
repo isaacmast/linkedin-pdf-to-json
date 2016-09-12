@@ -82,19 +82,20 @@
         {
             "school": "University of Illinois at Urbana-Champaign",
             "basicInfo": [
-                "Bachelors",
                 "Advertising",
-                "Spanish",
-                "2005 - 2009"
+                "Spanish"
             ],
+            "degree": "Bachelors",
+            "startDate": "2005",
+            "endDate": "2009",
             "activitiesAndSocieties": "ACM SIGGRAPH (UIUC Chapter) - Vice Chair American Advertising Federation - Publications committee"
         },
         {
             "school": "Smartly",
             "basicInfo": [
-                "Master of Business Administration (MBA)",
                 "2016"
-            ]
+            ],
+            "degree": "Master of Business Administration (MBA)"
         }
     ],
     "unsupported": [

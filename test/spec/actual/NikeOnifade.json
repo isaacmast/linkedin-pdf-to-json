@@ -64,19 +64,21 @@
         {
             "school": "Cornell University",
             "basicInfo": [
-                "B.S.",
                 "Biology & Society",
-                "Minor in Nutrition & Health",
-                "2004 - 2008"
+                "Minor in Nutrition & Health"
             ],
+            "degree": "B.S.",
+            "startDate": "2004",
+            "endDate": "2008",
             "activitiesAndSocieties": "Student Health Alliance at Cornell, Biomedical & Technical Association"
         },
         {
             "school": "Harvard University",
             "basicInfo": [
-                "Postbaccalaureate Studies",
-                "2008 - 2009"
+                "Postbaccalaureate Studies"
             ],
+            "startDate": "2008",
+            "endDate": "2009",
             "activitiesAndSocieties": "Harvard Extension Pre-Health Society"
         },
         {
@@ -84,9 +86,10 @@
             "basicInfo": [
                 "M.S.",
                 "Healthcare Policy & Management",
-                "Concentration in Management & Organization",
-                "2010 - 2012"
+                "Concentration in Management & Organization"
             ],
+            "startDate": "2010",
+            "endDate": "2012",
             "activitiesAndSocieties": "Heinz Healthcare Club, Heinz Consulting Club"
         },
         {

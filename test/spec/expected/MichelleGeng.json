@@ -138,10 +138,11 @@
         {
             "school": "Harvard University",
             "basicInfo": [
-                "B.A.",
-                "Applied Mathematics and Government",
-                "2011 - 2015"
+                "Applied Mathematics and Government"
             ],
+            "degree": "B.A.",
+            "startDate": "2011",
+            "endDate": "2015",
             "grade": "Cum Laude with Honors"
         }
     ],

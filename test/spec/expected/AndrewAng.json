@@ -60,17 +60,18 @@
             "school": "Harvard University",
             "basicInfo": [
                 "Non-degree graduate student",
-                "Statistics",
-                "2015 - 2016"
-            ]
+                "Statistics"
+            ],
+            "startDate": "2015",
+            "endDate": "2016"
         },
         {
             "school": "Duke University",
             "basicInfo": [
-                "Bachelor’s Degree",
                 "Biomedical Engineering",
                 "2014"
             ],
+            "degree": "Bachelor’s Degree",
             "activitiesAndSocieties": "Duke Asian Students Association, Duke Squash, Rhythm & Blue, Scale and Coin"
         },
         {

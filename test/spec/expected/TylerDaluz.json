@@ -83,10 +83,11 @@
         {
             "school": "University of North Carolina at Chapel Hill",
             "basicInfo": [
-                "BA",
-                "Environmental Studies and International Relations",
-                "2003 - 2007"
+                "Environmental Studies and International Relations"
             ],
+            "degree": "BA",
+            "startDate": "2003",
+            "endDate": "2007",
             "activitiesAndSocieties": "UNC Mens Crew, Co-Founder of Students Working in the Environment for Active Transformation (SWEAT), Founding Member of Carolina Microfinance Initiative (CMI), Treasurer of Epsilon Eta Environmental Honors Fraternity, Student Government Environmental Affairs Committee"
         }
     ],

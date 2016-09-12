@@ -59,16 +59,17 @@
         {
             "school": "Northwestern University",
             "basicInfo": [
-                "Bachelor of Arts",
-                "Theatre Management",
-                "2006 - 2010"
-            ]
+                "Theatre Management"
+            ],
+            "degree": "Bachelor of Arts",
+            "startDate": "2006",
+            "endDate": "2010"
         },
         {
             "school": "Kent School",
-            "basicInfo": [
-                "2002 - 2006"
-            ]
+            "basicInfo": [],
+            "startDate": "2002",
+            "endDate": "2006"
         }
     ],
     "unsupported": [

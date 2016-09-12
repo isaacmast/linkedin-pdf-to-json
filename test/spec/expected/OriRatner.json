@@ -151,9 +151,10 @@
             "school": "University of Virginia",
             "basicInfo": [
                 "BE",
-                "Computer Science",
-                "2001 - 2005"
+                "Computer Science"
             ],
+            "startDate": "2001",
+            "endDate": "2005",
             "activitiesAndSocieties": "ACM leadership council (event planning, marketing, hosting), Rodman Scholars Engineering Honors Program, UVa Graphics Lab (undergraduate researcher), TA for Engineering Ethics (TCC 201, 3 years)"
         }
     ],

@@ -72,10 +72,11 @@
         {
             "school": "Colgate University",
             "basicInfo": [
-                "Bachelor of Arts",
-                "International Relations; Minor in Sociology and Anthropology",
-                "2010 - 2013"
+                "International Relations; Minor in Sociology and Anthropology"
             ],
+            "degree": "Bachelor of Arts",
+            "startDate": "2010",
+            "endDate": "2013",
             "activitiesAndSocieties": "Financial Vice President of Delta Tau of Gamma Phi Beta, Student Caller at Colgate University Annual Fund, Fellow in Office of Admission, Vice President of Finance at Panhellenic Council, Social Media Manager at Colgate University Women In Business"
         }
     ],

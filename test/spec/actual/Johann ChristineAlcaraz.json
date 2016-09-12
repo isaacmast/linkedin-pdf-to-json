@@ -240,40 +240,44 @@
         {
             "school": "University of California, Berkeley",
             "basicInfo": [
-                "Bachelor’s Degree",
                 "Legal Studies (Major)",
-                "Asian American & Asian Diaspora Studies (Minor)",
-                "2009 - 2012"
+                "Asian American & Asian Diaspora Studies (Minor)"
             ],
+            "degree": "Bachelor’s Degree",
+            "startDate": "2009",
+            "endDate": "2012",
             "grade": "3.462 GPA",
             "activitiesAndSocieties": "Sigma Alpha Pi (The National Society of Leadership and Success), {m}aganda magazine, Intervarsity- Kapwa, Pilipin@ Community Council Representative, Dwinelle Hall Breakers, Oakland Asian Student Educational Services (OASES), YWCA Pre-Kindergarten Enrichment Program (PEP), Pilipino Cultural Night (PCN), Restorative Justice for Oakland Youth (RJOY)"
         },
         {
             "school": "San Francisco State University",
             "basicInfo": [
-                "ABA-Approved Paralegal Certificate",
-                "Legal Assistant/Paralegal",
-                "2015 - 2017"
+                "Legal Assistant/Paralegal"
             ],
+            "degree": "ABA-Approved Paralegal Certificate",
+            "startDate": "2015",
+            "endDate": "2017",
             "grade": "3.75 GPA",
             "activitiesAndSocieties": "Bay Area JusticeCorps"
         },
         {
             "school": "Smartly MBA Program",
             "basicInfo": [
-                "Master of Business Administration (M.B.A.)",
                 "Business Administration and Management",
-                "General",
-                "2016 - 2017"
-            ]
+                "General"
+            ],
+            "degree": "Master of Business Administration (M.B.A.)",
+            "startDate": "2016",
+            "endDate": "2017"
         },
         {
             "school": "Vallejo High School",
             "basicInfo": [
                 "High School",
-                "High School/Secondary Diplomas and Certificates",
-                "2005 - 2009"
+                "High School/Secondary Diplomas and Certificates"
             ],
+            "startDate": "2005",
+            "endDate": "2009",
             "grade": "4.3714 GPA",
             "activitiesAndSocieties": "California Scholarship Federation (CSF), Leadership, AP Club, Academic Decathlon, Filipino Club, Chess Club, Colorguard, Powder Puff"
         }

@@ -20,10 +20,11 @@
         {
             "school": "Cornell University",
             "basicInfo": [
-                "B.S.",
-                "Industrial & Labor Relations | Minors in Real Estate & Business",
-                "2010 - 2014"
+                "Industrial & Labor Relations | Minors in Real Estate & Business"
             ],
+            "degree": "B.S.",
+            "startDate": "2010",
+            "endDate": "2014",
             "activitiesAndSocieties": "Sigma Chi Fraternity, Cornell Real Estate Club, Entrepreneurship@Cornell, Cornell Tradition Fellow"
         }
     ],

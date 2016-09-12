@@ -82,13 +82,14 @@
         {
             "school": "Northwestern University",
             "basicInfo": [
-                "Bachelor of Science (B.S.)",
                 "Theatre/Theater",
                 "Psychology",
                 "Legal Studies",
-                "IMC",
-                "2011 - 2014"
+                "IMC"
             ],
+            "degree": "Bachelor of Science (B.S.)",
+            "startDate": "2011",
+            "endDate": "2014",
             "grade": "3.88",
             "activitiesAndSocieties": "Alpha Chi Omega - VP Philanthropy, Alice Millar Chapel Choir - Manager, Homecoming - Corporate Relations Chair, Lipstick Theatre - Business Manager, Gamma Sigma Alpha, Order of Omega"
         },
@@ -96,9 +97,10 @@
             "school": "Bergen County Academies",
             "basicInfo": [
                 "High School Diploma",
-                "Theatre/Theater",
-                "2007 - 2011"
-            ]
+                "Theatre/Theater"
+            ],
+            "startDate": "2007",
+            "endDate": "2011"
         }
     ],
     "languages": [

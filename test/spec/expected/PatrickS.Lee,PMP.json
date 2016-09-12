@@ -144,9 +144,9 @@
         {
             "school": "Tufts University",
             "basicInfo": [
-                "B.A.",
                 "International Relations & Japanese Double-Major"
             ],
+            "degree": "B.A.",
             "grade": "Summa Cum Laude",
             "activitiesAndSocieties": "Sigma Iota Rho Honors Society"
         },

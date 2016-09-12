@@ -5,12 +5,13 @@
         {
             "school": "New York University",
             "basicInfo": [
-                "BA",
                 "Business Studies",
                 "Computer Science",
-                "and Biology",
-                "2004 - 2008"
-            ]
+                "and Biology"
+            ],
+            "degree": "BA",
+            "startDate": "2004",
+            "endDate": "2008"
         }
     ],
     "workExperience": [

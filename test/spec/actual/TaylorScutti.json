@@ -35,10 +35,11 @@
         {
             "school": "Pennsylvania State University",
             "basicInfo": [
-                "Bachelor’s Degree",
-                "Mechanical Engineering",
-                "2011 - 2015"
+                "Mechanical Engineering"
             ],
+            "degree": "Bachelor’s Degree",
+            "startDate": "2011",
+            "endDate": "2015",
             "activitiesAndSocieties": "Phi Sigma Rho Engineering Sorority, Apollo Benefitting THON Organization"
         }
     ],

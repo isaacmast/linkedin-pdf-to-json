@@ -75,19 +75,21 @@
         {
             "school": "Virginia Tech",
             "basicInfo": [
-                "Bachelor of Science (B.S.)",
-                "Mechanical Engineering",
-                "2012 - 2015"
+                "Mechanical Engineering"
             ],
+            "degree": "Bachelor of Science (B.S.)",
+            "startDate": "2012",
+            "endDate": "2015",
             "grade": "3.38/4.0",
             "activitiesAndSocieties": "ASME, Intramural Soccer, Pi Tau Sigma"
         },
         {
             "school": "J. Sargeant Reynolds Community College",
             "basicInfo": [
-                "General Engineering",
-                "2011 - 2012"
+                "General Engineering"
             ],
+            "startDate": "2011",
+            "endDate": "2012",
             "grade": "3.43/4.0",
             "activitiesAndSocieties": "Pi Theta Kappa Pi Tau Sigma"
         },

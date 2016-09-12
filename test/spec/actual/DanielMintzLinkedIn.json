@@ -89,36 +89,40 @@
         {
             "school": "University of St. Andrews",
             "basicInfo": [
-                "Doctor of Philosophy (Ph.D.)",
                 "Mathematics",
-                "Classics",
-                "2006 - 2011"
-            ]
+                "Classics"
+            ],
+            "degree": "Doctor of Philosophy (Ph.D.)",
+            "startDate": "2006",
+            "endDate": "2011"
         },
         {
             "school": "The University of Edinburgh",
             "basicInfo": [
                 "Certificate in Ancient Greek (non-degree)",
-                "Ancient/Classical Greek Language and Literature",
-                "2007 - 2007"
-            ]
+                "Ancient/Classical Greek Language and Literature"
+            ],
+            "startDate": "2007",
+            "endDate": "2007"
         },
         {
             "school": "Langue Onze Toulouse",
             "basicInfo": [
                 "Certificate in French (non-degree)",
-                "French Language and Literature",
-                "2006 - 2006"
-            ]
+                "French Language and Literature"
+            ],
+            "startDate": "2006",
+            "endDate": "2006"
         },
         {
             "school": "Georgetown University",
             "basicInfo": [
-                "Bachelor of Arts (B.A.)",
                 "Mathematics",
-                "Classics",
-                "2001 - 2004"
-            ]
+                "Classics"
+            ],
+            "degree": "Bachelor of Arts (B.A.)",
+            "startDate": "2001",
+            "endDate": "2004"
         }
     ],
     "unsupported": [

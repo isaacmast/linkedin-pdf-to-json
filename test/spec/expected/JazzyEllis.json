@@ -248,19 +248,20 @@
         {
             "school": "Princeton University",
             "basicInfo": [
-                "A.B.",
                 "Religion",
                 "Spanish Language and Culture Certificate",
-                "Pre-med",
-                "2006 - 2010"
+                "Pre-med"
             ],
+            "degree": "A.B.",
+            "startDate": "2006",
+            "endDate": "2010",
             "activitiesAndSocieties": "Delta Sigma Theta Sorority, Inc.,President Princeton NAACP College Chapter, President Sympoh Urban Arts Crew TapCats Dance Company eXpressions Dance Company Princeton University Ballet Company"
         },
         {
             "school": "The College of New Jersey",
-            "basicInfo": [
-                "2008 - 2008"
-            ]
+            "basicInfo": [],
+            "startDate": "2008",
+            "endDate": "2008"
         }
     ],
     "unsupported": [

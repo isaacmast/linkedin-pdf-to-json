@@ -31,9 +31,10 @@
         {
             "school": "Wilfrid Laurier University",
             "basicInfo": [
-                "Music",
-                "2003 - 2007"
+                "Music"
             ],
+            "startDate": "2003",
+            "endDate": "2007",
             "activitiesAndSocieties": "Laurier Musical Theatre"
         }
     ],

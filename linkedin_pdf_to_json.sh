@@ -22,9 +22,9 @@ SAVEIFS=$IFS
 IFS=$(echo -en "\n\b")
 
 # process PDFs
-actual_dir="./test/spec/actual/"
-expected_dir="./test/spec/expected/"
-profiles_dir="./test/spec/profiles/"
+actual_dir="test/spec/actual/"
+expected_dir="test/spec/expected/"
+profiles_dir="test/spec/profiles/"
 for file in $( ls "$profiles_dir" ); do
     original="$(basename $file)"
     if [[ "$1" =~ a ]]; then
@@ -42,23 +42,23 @@ echo
 
 # argument handilng
 if [[ "$1" =~ ^\- ]]; then
-    for file in $( ls "$profiles_dir" ); do
-            if [[ "$1" =~ e ]]; then
-                if [[ "$1" =~ i ]]; then
-                    if [[ -e "$expected_dir$file" ]]; then
-                        echo -n "A file already exists with the name $file. Replace it? (y/n) "
-                        read answer
-                        if [[ "$answer" =~ ^[yY] ]]; then
-                            cp "$actual_dir$file" "$expected_dir$file"
-                        fi
-                    else
+    if [[ "$1" =~ e ]]; then
+        if [[ "$1" =~ i ]]; then
+            for file in $( ls "$profiles_dir" ); do
+                if [[ -e "$expected_dir$file" ]]; then
+                    echo -n "A file already exists with the name $file. Replace it? (y/n) "
+                    read answer
+                    if [[ "$answer" =~ ^[yY] ]]; then
                         cp "$actual_dir$file" "$expected_dir$file"
                     fi
                 else
                     cp "$actual_dir$file" "$expected_dir$file"
                 fi
-            fi
-    done
+            done
+        else
+            cp "$actual_dir*" "$expected_dir"
+        fi
+    fi
     if [[ "$1" =~ t ]]; then
         node test/test.js
     fi

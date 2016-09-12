@@ -12,10 +12,11 @@
         {
             "school": "Eastern Mennonite University",
             "basicInfo": [
-                "Bachelor of Science (B.S.)",
-                "Computer Science",
-                "2012 - 2016"
+                "Computer Science"
             ],
+            "degree": "Bachelor of Science (B.S.)",
+            "startDate": "2012",
+            "endDate": "2016",
             "grade": "Career GPA: 3.49",
             "activitiesAndSocieties": "Association for Computing Machinery (ACM) Club, Table Tennis Club, intramural sports"
         },

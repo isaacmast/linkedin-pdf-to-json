@@ -281,10 +281,11 @@
         {
             "school": "Cornell University",
             "basicInfo": [
-                "Bachelor of Science (BS)",
-                "Industrial and Labor Relations",
-                "2013 - 2016"
+                "Industrial and Labor Relations"
             ],
+            "degree": "Bachelor of Science (BS)",
+            "startDate": "2013",
+            "endDate": "2016",
             "activitiesAndSocieties": "Cornell Gourmet Club, Campus Connection, Hans Bethe House Council, Red Carpet Society, CU IMAGE, National Residence Hall Honorary (NRHH)"
         }
     ]
