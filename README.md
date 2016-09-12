@@ -84,14 +84,15 @@ Example JSON output file
         "- Self-starter who enjoys learning in a fast-paced environment. ",
         "- Always excited to learn a new skill to help create the best possible product. "
     ],
-    "education": [
+    "educationExperience": [
         {
             "school": "Eastern Mennonite University",
             "basicInfo": [
-                "Bachelor of Science (B.S.)",
-                "Computer Science",
-                "2012 - 2016"
+                "Computer Science"
             ],
+            "degree": "Bachelor of Science (B.S.)",
+            "startDate": "2012",
+            "endDate": "2016",
             "grade": "Career GPA: 3.49",
             "activitiesAndSocieties": "Association for Computing Machinery (ACM) Club, Table Tennis Club, intramural sports"
         },
@@ -213,6 +214,17 @@ Example JSON output file
         "Social Networking",
         "Public Speaking"
     ],
+    "volunteerExperience": [
+        {
+            "jobTitle": "Bar",
+            "organization": "Foo",
+            "startDate": "January 2013",
+            "endDate": "Present",
+            "responsibilities": [
+                "Baz"
+            ]
+        }
+    ],
     "unsupported": [
         "Projects",
         "linkedin-pdf-to-json",
@@ -221,6 +233,7 @@ Example JSON output file
         "linkedin-pdf-to-json is a JavaScript recursive descent parser Node.js command line tool for storing extracted",
         " text from LinkedIn profile PDFs in JSON format that can be either printed to the console or written and",
         " saved in a JSON file. ",
+        "npm webpage: https://www.npmjs.com/package/linkedin-pdf-to-json",
         "The BruCrew Project Database",
         "September 2015 to December 2015",
         "The BruCrew Project Database is a central hub for BruCrew employees to log their work hours and any",
