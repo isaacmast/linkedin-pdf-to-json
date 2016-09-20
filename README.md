@@ -4,22 +4,36 @@ linkedin-pdf-to-json is a JavaScript recursive descent parser Node.js command li
 
 ## Installation
 
+### Global install
+
+```
+npm install -g linkedin-pdf-to-json
+```
+
+Global installation will create the `lptj` command and add it to your `/usr/local/bin/` directory for use outside of your project directory.
+
+### Local install
+
 ```
 npm install --save-dev linkedin-pdf-to-json
 ```
 
+Local installation will only add the `lptj` command to your project's `node_modules/.bin/` directory. See the [npm docs](https://docs.npmjs.com/files/package.json#bin) for more details.
+
 ## Usage
 
-Use the `parse` command followed by the path to a LinkedIn profile PDF to parse it and output the JSON to the console.
+Use the `lptj` command followed by the path to a LinkedIn profile PDF to parse it and output the JSON to the console.
+
+Note: If linkedin-pdf-to-json is installed locally, you'll have to substitue `lptj` with the path to the `lptj` command in your project's `node_modules/.bin/` directory.
 
 ```
-parse ~/Downloads/JohnnyAppleseed.pdf
+lptj <path to linkedin-pdf-to-json>/test/spec/profiles/IsaacMast.pdf
 ```
 
 Passing the path and name of a JSON file as an additional argument will write and save the parsed JSON to the file.
 
 ```
-parse ~/Downloads/JohnnyAppleseed.pdf ./JohnnyAppleseed.json
+lptj <path to linkedin-pdf-to-json>/test/spec/profiles/IsaacMast.pdf ./IsaacMast.json
 ```
 
 ## Testing
