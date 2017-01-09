@@ -37,7 +37,7 @@ function LinkedInPdfToJson() {
     };
 
     // currently unsupported sections
-    this.UNSUPPORTED_SECTIONS = ['Publications', 'Projects', 'Certifications', 'Organizations', 'Test Scores', 'Specialties', 'Honors and Awards', 'Interests', 'Courses', 'recommendations'];
+    this.UNSUPPORTED_SECTIONS = ['Publications', 'Projects', 'Certifications', 'Organizations', 'Test Scores', 'Specialties', 'Honors and Awards', 'Interests', 'Courses', 'recommendations', 'Patents'];
 
     // available token values
     this.TOKENS = {
