@@ -82,6 +82,7 @@ Currently unsupported sections include:
 * Interests
 * Courses
 * Recommendations
+* Patents
 
 ## Example
 
