@@ -25,19 +25,7 @@ function LinkedInPdfToJson() {
     this.whiteSpace = 4; // white space amount in output JSON
     this.y = undefined;
 
-    // possible section headers that are currently supported
-    this.SECTION_HEADERS = {
-        'Summary': 'bio',
-        'Languages': 'languages',
-        'Education': 'educationExperience',
-        'Experience': 'workExperience',
-        'Skills & Expertise': 'skills',
-        'Volunteer Experience': 'volunteerExperience',
-        'Unsupported': 'unsupported'
-    };
-
-    // currently unsupported sections
-    this.UNSUPPORTED_SECTIONS = ['Publications', 'Projects', 'Certifications', 'Organizations', 'Test Scores', 'Specialties', 'Honors and Awards', 'Interests', 'Courses', 'recommendations', 'Patents'];
+    this.i18n = require('./i18n')
 
     // available token values
     this.TOKENS = {
@@ -79,7 +67,7 @@ LinkedInPdfToJson.prototype.run = function(source, target, options) {
         // console.log(chunks);
         // console.log();
         // console.log('Parsing (' + linkedinPdfToJson.pdf + ')...');
-        linkedinPdfToJson.parse(chunks);
+        linkedinPdfToJson.detectAndSetLanguage(chunks, linkedinPdfToJson.parse.bind(linkedinPdfToJson));
 
         if (linkedinPdfToJson.target) {
             jsonfile.writeFile(linkedinPdfToJson.target, linkedinPdfToJson.json, {
@@ -99,6 +87,27 @@ LinkedInPdfToJson.prototype.run = function(source, target, options) {
 //===========================
 // GRAMMAR LOGIC
 //===========================
+
+LinkedInPdfToJson.prototype.detectAndSetLanguage = function(chunks, callback) {
+    const langAccuracy = {};
+    for (let lang of Object.keys(this.i18n)) {
+        langAccuracy[lang] = 0;
+        let checkWords = [...Object.keys(this.i18n[lang].sectionHeaders).map((s) => this.i18n[lang].sectionHeaders[s].text), ...this.i18n[lang].unSupportedSections];
+        for(let chunk of chunks) {
+            if (checkWords.indexOf(chunk.text) > -1) {
+                langAccuracy[lang]++;
+            }
+        }
+    }
+
+    this.lang = Object.keys(langAccuracy).sort((a, b) => langAccuracy[b]-langAccuracy[a])[0]; // sorts language accuracy by hits
+    //console.log('Set language: ' + this.lang);
+    this.SECTION_HEADERS = this.i18n[this.lang].sectionHeaders;
+    this.UNSUPPORTED_SECTIONS = this.i18n[this.lang].unSupportedSections;
+
+    //console.log(chunks);
+    callback && callback(chunks);
+};
 
 // Parses the PDF using the chunks array retrieved from the pdf-text node module
 LinkedInPdfToJson.prototype.parse = function(chunks) {
@@ -120,11 +129,11 @@ LinkedInPdfToJson.prototype.parse = function(chunks) {
 // Parses a section of the PDF.
 LinkedInPdfToJson.prototype.parseSection = function() {
     // console.log('ZZZ SECTION');
-    // console.log('section = ' + this.section);
+    //console.log('section = ' + this.section);
     if (this.section !== 'unsupported') {
         this.json[this.section] = this.json[this.section] || {};
     }
-    if (this.section === this.SECTION_HEADERS.Summary) {
+    if (this.section === this.SECTION_HEADERS.Summary.section) {
         this.getNextToken();
         if (this.token === this.TOKENS.SECTION_CONTENT) {
             this.json[this.section] = [];
@@ -132,7 +141,7 @@ LinkedInPdfToJson.prototype.parseSection = function() {
         } else {
             throw new Error(this.parsingErrorMsg + '\'' + this.text + '\'');
         }
-    } else if (this.section === this.SECTION_HEADERS.Education) {
+    } else if (this.section === this.SECTION_HEADERS.Education.section) {
         this.getNextToken();
         if (this.token === this.TOKENS.SCHOOL) {
             this.json[this.section] = [];
@@ -144,7 +153,7 @@ LinkedInPdfToJson.prototype.parseSection = function() {
         } else {
             throw new Error(this.parsingErrorMsg + '\'' + this.text + '\'');
         }
-    } else if (this.section === this.SECTION_HEADERS.Experience || this.section === this.SECTION_HEADERS['Volunteer Experience']) {
+    } else if (this.section === this.SECTION_HEADERS.Experience.section || this.section === this.SECTION_HEADERS['Volunteer Experience'].section) {
         this.getNextToken();
         if (this.token === this.TOKENS.JOB_TITLE) {
             this.json[this.section] = [];
@@ -156,16 +165,16 @@ LinkedInPdfToJson.prototype.parseSection = function() {
         } else {
             throw new Error(this.parsingErrorMsg + '\'' + this.text + '\'');
         }
-    } else if (this.section === this.SECTION_HEADERS.Languages) {
+    } else if (this.section === this.SECTION_HEADERS.Languages.section) {
         this.getNextToken();
         if (this.token === this.TOKENS.LANGUAGE) {
-            while (this.section === this.SECTION_HEADERS.Languages) {
+            while (this.section === this.SECTION_HEADERS.Languages.section) {
                 this.parseLanguages();
             }
         } else {
             throw new Error(this.parsingErrorMsg + '\'' + this.text + '\'');
         }
-    } else if (this.section === this.SECTION_HEADERS['Skills & Expertise']) {
+    } else if (this.section === this.SECTION_HEADERS['Skills & Expertise'].section) {
         this.getNextToken();
         if (this.token === this.TOKENS.SKILL) {
             this.parseSkillsAndExpertise();
@@ -412,7 +421,7 @@ LinkedInPdfToJson.prototype.resetCount = function() {
 //              flow of text from the PDF.
 LinkedInPdfToJson.prototype.sanitize = function(chunks) {
     for (var i = 0; i < chunks.length; i++) {
-        if (chunks[i].text === 'Page' && chunks[i + 1].text.match(/\d+/)) {
+        if (chunks[i].text === this.i18n[this.lang].page && chunks[i + 1].text.match(/\d+/)) {
             chunks.splice(i, 2);
         }
     }
@@ -493,26 +502,27 @@ LinkedInPdfToJson.prototype.getNextToken = function() {
     // console.log('Setting token...');
     // console.log('previous token = ' + this.token);
     // console.log('previous section = ' + this.section);
-    // console.log('text = ' + '"' + this.text + '"');
-    // console.log('this.bold = ' + this.bold);
+    //console.log('text = ' + '"' + this.text + '"');
+    //console.log('this.bold = ' + this.bold);
     if (this.isEOF()) {
         this.token = this.section = this.TOKENS.EOF;
-        this.section = this.SECTION_HEADERS.Unsupported;
+        this.section = this.SECTION_HEADERS.Unsupported.section;
     } else if (this.isSectionHeader()) {
         this.token = this.TOKENS.SECTION_HEADER;
-        this.section = this.SECTION_HEADERS[this.text.trim()];
+        const currentSectionObj = Object.values(this.SECTION_HEADERS).filter((sh) => sh.text == this.text.trim());
+        this.section = currentSectionObj.length?currentSectionObj[0].section:null;
     } else if (this.isUnsupported()) {
         this.token = this.TOKENS.UNSUPPORTED;
-        this.section = this.SECTION_HEADERS.Unsupported;
+        this.section = this.SECTION_HEADERS.Unsupported.section;
     } else if (this.isInUnsupported()) {
         this.token = this.TOKENS.UNKNOWN;
-    } else if (this.section === this.SECTION_HEADERS.Summary) {
+    } else if (this.section === this.SECTION_HEADERS.Summary.section) {
         if (this.isSectionContent()) {
             this.token = this.TOKENS.SECTION_CONTENT;
         } else {
             throw new Error(this.tokenErrorMsg + '\'' + this.text + '\'');
         }
-    } else if (this.section === this.SECTION_HEADERS.Education) {
+    } else if (this.section === this.SECTION_HEADERS.Education.section) {
         if (this.isSchool()) {
             this.token = this.TOKENS.SCHOOL;
         } else if (this.isGradeLabel()) {
@@ -528,7 +538,7 @@ LinkedInPdfToJson.prototype.getNextToken = function() {
         } else {
             throw new Error(this.tokenErrorMsg + '\'' + this.text + '\'');
         }
-    } else if (this.section === this.SECTION_HEADERS.Experience || this.section === this.SECTION_HEADERS['Volunteer Experience']) {
+    } else if (this.section === this.SECTION_HEADERS.Experience.section || this.section === this.SECTION_HEADERS['Volunteer Experience'].section) {
         if (this.isJobTitle()) {
             this.token = this.TOKENS.JOB_TITLE;
         } else if (this.isDateRange()) {
@@ -540,7 +550,7 @@ LinkedInPdfToJson.prototype.getNextToken = function() {
         } else {
             throw new Error(this.tokenErrorMsg + '\'' + this.text + '\'');
         }
-    } else if (this.section === this.SECTION_HEADERS.Languages) {
+    } else if (this.section === this.SECTION_HEADERS.Languages.section) {
         if (this.isLanguageProficiency()) {
             this.token = this.TOKENS.LANGUAGE_PROFICIENCY;
         } else if (this.isLanguage()) {
@@ -548,7 +558,7 @@ LinkedInPdfToJson.prototype.getNextToken = function() {
         } else {
             throw new Error(this.tokenErrorMsg + '\'' + this.text + '\'');
         }
-    } else if (this.section === this.SECTION_HEADERS['Skills & Expertise']) {
+    } else if (this.section === this.SECTION_HEADERS['Skills & Expertise'].section) {
         if (this.isSkill()) {
             this.token = this.TOKENS.SKILL;
         } else {
@@ -588,7 +598,7 @@ LinkedInPdfToJson.prototype.isEOF = function() {
 // @return false otherwise.
 LinkedInPdfToJson.prototype.isSectionHeader = function(chunk) {
     chunk = chunk || this.text;
-    return this.SECTION_HEADERS.hasOwnProperty(chunk.trim());
+    return (Object.values(this.i18n[this.lang].sectionHeaders).filter(sh => sh.text == chunk.trim()).length > 0);
 };
 
 // Checks if the text chunk is a section that is currently unsupported
@@ -613,14 +623,14 @@ LinkedInPdfToJson.prototype.isInUnsupported = function() {
 // @return true if the text chunk is a skill under the Skills & Expertise section.
 // @return false otherwise.
 LinkedInPdfToJson.prototype.isSkill = function() {
-    return (this.token === this.TOKENS.SKILL || this.token === this.TOKENS.SECTION_HEADER) && this.section === this.SECTION_HEADERS['Skills & Expertise'];
+    return (this.token === this.TOKENS.SKILL || this.token === this.TOKENS.SECTION_HEADER) && this.section === this.SECTION_HEADERS['Skills & Expertise'].section;
 };
 
 // Checks if the text chunk is a school.
 // @return true if the text chunk is a school.
 // @return false otherwise.
 LinkedInPdfToJson.prototype.isSchool = function() {
-    return this.bold && this.section === this.SECTION_HEADERS.Education;
+    return this.bold && this.section === this.SECTION_HEADERS.Education.section;
 };
 
 // Checks if the text chunk is the grade label.
@@ -666,9 +676,9 @@ LinkedInPdfToJson.prototype.isEduBasicInfo = function() {
 // @return true if the text chunk is the job title of the currently parsed job.
 // @return false otherwise.
 LinkedInPdfToJson.prototype.isJobTitle = function() {
-    if (this.section === this.SECTION_HEADERS.Experience) {
+    if (this.section === this.SECTION_HEADERS.Experience.section) {
         return this.bold && (this.token === this.TOKENS.SECTION_HEADER || this.token === this.TOKENS.JOB_DURATION || this.token === this.TOKENS.SECTION_CONTENT || this.token === this.TOKENS.JOB_TITLE);
-    } else if (this.section === this.SECTION_HEADERS['Volunteer Experience']) {
+    } else if (this.section === this.SECTION_HEADERS['Volunteer Experience'].section) {
         return this.bold && (this.token === this.TOKENS.SECTION_HEADER || this.token === this.TOKENS.JOB_DATE || this.token === this.TOKENS.SECTION_CONTENT || this.token === this.TOKENS.JOB_TITLE);
     }
     return false;
@@ -700,21 +710,21 @@ LinkedInPdfToJson.prototype.isJobDuration = function() {
 // @return true if the text chunk is the proficiency level of a language in the Languages section.
 // @return false otherwise.
 LinkedInPdfToJson.prototype.isLanguageProficiency = function() {
-    return this.token === this.TOKENS.LANGUAGE && this.text.match(/proficiency\)$/);
+    return this.token === this.TOKENS.LANGUAGE && this.text.match(this.i18n[this.lang].regexps.languageProficiency);
 };
 
 // Checks if the text chunk is a language.
 // @return true if the text chunk is a language listed under the Languages section.
 // @return false otherwise.
 LinkedInPdfToJson.prototype.isLanguage = function() {
-    return (this.section === this.SECTION_HEADERS.Languages || this.token === this.TOKENS.LANGUAGE);
+    return (this.section === this.SECTION_HEADERS.Languages.section || this.token === this.TOKENS.LANGUAGE);
 };
 
 // Checks if the text chunk is part of a section.
 // @return true if the text chunk is part the current sections text content
 // @return false otherwise.
 LinkedInPdfToJson.prototype.isSectionContent = function() {
-    if (this.section === this.SECTION_HEADERS['Volunteer Experience']) {
+    if (this.section === this.SECTION_HEADERS['Volunteer Experience'].section) {
         return !this.bold && (this.token === this.TOKENS.JOB_TITLE || this.token === this.TOKENS.JOB_DURATION || this.token === this.TOKENS.JOB_DATE || this.token === this.TOKENS.SECTION_CONTENT || this.token === this.TOKENS.SECTION_HEADER);
     }
     return !this.bold && (this.token === this.TOKENS.JOB_DURATION || this.token === this.TOKENS.JOB_DATE || this.token === this.TOKENS.SECTION_CONTENT || this.token === this.TOKENS.SECTION_HEADER);
