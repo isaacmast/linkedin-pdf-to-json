@@ -632,7 +632,7 @@ LinkedInPdfToJson.prototype.isSectionHeader = function(chunk) {
 LinkedInPdfToJson.prototype.isUnsupported = function() {
     var chunk = this.text;
     if (chunk === this.json.name && this.content[this.index + 1].text === this.json.currentJob) {
-        chunk = 'recommendations';
+        chunk = this.i18n[this.lang].recommendations;
     }
     return chunk ? this.UNSUPPORTED_SECTIONS.indexOf(chunk.trim()) !== -1 : false;
 };

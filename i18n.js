@@ -1,6 +1,7 @@
 module.exports = {
     'en': {
         page: 'Page',
+        recommendations: 'recommendations',
         regexps: {
             languageProficiency: /proficiency\)$/,
             jobTitle: /\s{2,}at\s{2,}/
@@ -18,6 +19,7 @@ module.exports = {
     },
     'pt': {
         page: 'Página',
+        recommendations: 'recomendou',
         regexps: {
             languageProficiency: /(^\(Nível)|(proficiency\)$|(^\(Fluente))/,
             jobTitle: /\s{2,}na\s{2,}/
@@ -59,6 +61,7 @@ module.exports = {
     },
     'es': {
         page: 'Página',
+        recommendations: 'recomendado',
         regexps: {
             languageProficiency: /(^\(Competencia)|(proficiency\)$)/,
             jobTitle: /\s{2,}en\s{2,}/
