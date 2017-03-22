@@ -105,8 +105,6 @@ LinkedInPdfToJson.prototype.detectAndSetLanguage = function(chunks, callback) {
     this.SECTION_HEADERS = this.i18n[this.lang].sectionHeaders;
     this.UNSUPPORTED_SECTIONS = this.i18n[this.lang].unSupportedSections;
 
-    chunks = this.i18nReplace('dates', chunks);
-    //console.log(chunks);
     callback && callback(chunks);
 };
 
@@ -716,9 +714,9 @@ LinkedInPdfToJson.prototype.isJobTitle = function() {
 // @param chunk (optional) - a specific text chunk to evaluate.
 // @return true if the text chunk is a date range of the currently parse job.
 // @return false otherwise.
-LinkedInPdfToJson.prototype.isDateRange = function(chunk) {
-    chunk = chunk || this.text;
-    return (this.token === this.TOKENS.JOB_TITLE || this.token === this.TOKENS.EDU_BASIC_INFO) && chunk.match(/^\w*\s*\d+\s+\-\s+\w*\s*\d*/);
+LinkedInPdfToJson.prototype.isDateRange = function() {
+    if (this.lang !== 'en') this.text = this.i18nReplace('dates', this.text);
+    return (this.token === this.TOKENS.JOB_TITLE || this.token === this.TOKENS.EDU_BASIC_INFO) && this.text.match(/^\w*\s*\d+\s+\-\s+\w*\s*\d*/);
 };
 
 // Checks if the text chunk is a job period e.g. '(1 year 2 months)'.
@@ -728,8 +726,7 @@ LinkedInPdfToJson.prototype.isDateRange = function(chunk) {
 // @return true if the text chunk is a time duration of the currently parsed job.
 // @return false otherwise.
 LinkedInPdfToJson.prototype.isJobDuration = function() {
-    this.text = this.i18nReplace('duration', this.text);
-    console.log(this.text);
+    if (this.lang !== 'en') this.text = this.i18nReplace('duration', this.text);
     return this.token === this.TOKENS.JOB_DATE && this.text.match(/\(\d+\s\w+\s*\d*\s*\w*\)|^\(less than a year\)/);
 };
 
