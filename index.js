@@ -105,9 +105,34 @@ LinkedInPdfToJson.prototype.detectAndSetLanguage = function(chunks, callback) {
     this.SECTION_HEADERS = this.i18n[this.lang].sectionHeaders;
     this.UNSUPPORTED_SECTIONS = this.i18n[this.lang].unSupportedSections;
 
+    chunks = this.i18nReplace('dates', chunks);
     //console.log(chunks);
     callback && callback(chunks);
 };
+
+LinkedInPdfToJson.prototype.i18nReplace = function(replaceSection, chunks) {
+    if (!this.i18n[this.lang].replace || !this.i18n[this.lang].replace[replaceSection]) return chunks;
+    const replaceText = (text) => {
+        for(let find in this.i18n[this.lang].replace[replaceSection]) {
+            text = text.replace(find, this.i18n[this.lang].replace[replaceSection][find]);
+        }
+        return text;
+    };
+    if (typeof chunks === 'object') {
+        const _chunks = [];
+        for(let chunk of chunks) {
+            if (chunk.text) {
+                chunk.text = replaceText(chunk.text);
+                _chunks.push(chunk);
+            }
+        }
+        return _chunks;
+    } else if (typeof chunks === 'string') {
+        return replaceText(chunks);
+    } else {
+        return chunks;
+    }
+}
 
 // Parses the PDF using the chunks array retrieved from the pdf-text node module
 LinkedInPdfToJson.prototype.parse = function(chunks) {
@@ -703,6 +728,8 @@ LinkedInPdfToJson.prototype.isDateRange = function(chunk) {
 // @return true if the text chunk is a time duration of the currently parsed job.
 // @return false otherwise.
 LinkedInPdfToJson.prototype.isJobDuration = function() {
+    this.text = this.i18nReplace('duration', this.text);
+    console.log(this.text);
     return this.token === this.TOKENS.JOB_DATE && this.text.match(/\(\d+\s\w+\s*\d*\s*\w*\)|^\(less than a year\)/);
 };
 

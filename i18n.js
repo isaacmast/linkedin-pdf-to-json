@@ -19,8 +19,32 @@ module.exports = {
     'pt': {
         page: 'Página',
         regexps: {
-            languageProficiency: /proficiency\)$/,
+            languageProficiency: /(^\(Nível)|(proficiency\)$|(^\(Fluente))/,
             jobTitle: /\s{2,}na\s{2,}/
+        },
+        replace: {
+            dates: {
+                'Presente': 'Present',
+                'janeiro de': 'January',
+                'fevereiro de': 'February',
+                'março de': 'March',
+                'abril de': 'April',
+                'maio de': 'May',
+                'junho de': 'June',
+                'julho de': 'July',
+                'agosto de': 'August',
+                'septembro de': 'September',
+                'outubro de': 'October',
+                'novembro de': 'November',
+                'dezembro de': 'December'
+            },
+            duration: {
+                'menos de un ano': 'less than a year',
+                'ano': 'year',
+                'mês': 'month',
+                'anos': 'years',
+                'meses': 'months'
+            }
         },
         sectionHeaders: {
             'Summary': { text: 'Resumo', section: 'bio' },
@@ -36,8 +60,32 @@ module.exports = {
     'es': {
         page: 'Página',
         regexps: {
-            languageProficiency: /^\(Competencia/,
+            languageProficiency: /(^\(Competencia)|(proficiency\)$)/,
             jobTitle: /\s{2,}en\s{2,}/
+        },
+        replace: {
+            dates: {
+                'Actualidad': 'Present',
+                'enero de': 'January',
+                'febrero de': 'February',
+                'marzo de': 'March',
+                'abril de': 'April',
+                'mayo de': 'May',
+                'junio de': 'June',
+                'julio de': 'July',
+                'agosto de': 'August',
+                'septiember de': 'September',
+                'octubre de': 'October',
+                'noviembre de': 'November',
+                'diciembre de': 'December'
+            },
+            duration: {
+                'menos de un año': 'less than a year',
+                'años': 'years',
+                'meses': 'months',
+                'año': 'year',
+                'mes': 'month'
+            }
         },
         sectionHeaders: {
             'Summary': { text: 'Extracto', section: 'bio' },
