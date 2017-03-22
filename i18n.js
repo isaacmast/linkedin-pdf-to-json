@@ -1,5 +1,5 @@
 module.exports = {
-    'en': {
+    'en': { // English
         page: 'Page',
         recommendations: 'recommendations',
         regexps: {
@@ -17,7 +17,7 @@ module.exports = {
         },
         unSupportedSections: ['Publications', 'Projects', 'Certifications', 'Organizations', 'Test Scores', 'Specialties', 'Honors and Awards', 'Interests', 'Courses', 'recommendations', 'Patents']
     },
-    'pt': {
+    'pt': { // Portuguese
         page: 'Página',
         recommendations: 'recomendou',
         regexps: {
@@ -59,7 +59,7 @@ module.exports = {
         },
         unSupportedSections: ['Publicações', 'Projetos', 'Certificações', 'Organizações', 'Resultados dos testes', 'Especialidades', 'Honras e Prêmios', 'Interesses', 'Cursos', 'recomendou', 'Patentes']
     },
-    'es': {
+    'es': { // Spanish
         page: 'Página',
         recommendations: 'recomendado',
         regexps: {
@@ -100,5 +100,46 @@ module.exports = {
             'Unsupported': { text: 'No admitido', section: 'unsupported' }
         },
         unSupportedSections: ['Publicaciones', 'Proyectos', 'Certificaciones', 'Organizaciones', 'Resultados de Prueba', 'Especialidades', 'Honores y Premios', 'Intereses', 'Cursos', 'recomendado', 'Patentes']
+    },
+    'fr': { // French
+        page: 'Page',
+        recommendations: 'recommandé',
+        regexps: {
+            languageProficiency: /(^\(Compétence)|(^\(Notions)|(^\(Bilingue)|(proficiency\)$)/,
+            jobTitle: /\s{2,},\s{2,}/
+        },
+        replace: {
+            dates: {
+                'Aujourd’hui': 'Present',
+                'janvier': 'January',
+                'février': 'February',
+                'mars': 'March',
+                'avril': 'April',
+                'mai': 'May',
+                'juin': 'June',
+                'juillet': 'July',
+                'août': 'August',
+                'septembre': 'September',
+                'octobre': 'October',
+                'novembre': 'November',
+                'décembre': 'December'
+            },
+            duration: {
+                'moins d\'un an': 'less than a year',
+                'années': 'years',
+                'mois': 'months',
+                'année': 'year'
+            }
+        },
+        sectionHeaders: {
+            'Summary': { text: 'Résumé', section: 'bio' },
+            'Languages': { text: 'Langues', section: 'languages' },
+            'Education': { text: 'Formation', section: 'educationExperience' },
+            'Experience': { text: 'Expérience', section: 'workExperience' },
+            'Skills & Expertise': { text: 'Compétences et expertise', section: 'skills' },
+            'Volunteer Experience': { text: 'Expériences de bénévolat', section: 'volunteerExperience' },
+            'Unsupported': { text: 'Non pris en charge', section: 'unsupported' }
+        },
+        unSupportedSections: ['Publications', 'Projets', 'Certifications', 'Organisations', 'Résultats d’examens', 'Especialidades', 'Prix et distinctions', 'Intérêts', 'Cours', 'recommandé', 'Brevets']
     }
 };
