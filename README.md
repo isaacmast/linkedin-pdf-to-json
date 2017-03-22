@@ -61,6 +61,11 @@ Run `./linkedin_pdf_to_json.sh -h` to see documentation on the available command
 $ ./linkedin_pdf_to_json.sh -at
 ```
 
+## Supported Languages
+* English
+* Spanish
+* Portuguese
+
 ## Supported Sections
 
 * Summary
