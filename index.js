@@ -311,7 +311,7 @@ LinkedInPdfToJson.prototype.parseJob = function() {
         currentTitle += this.text;
         this.getNextToken();
     }
-    var titleAndOrganization = currentTitle.trim().split(/\s{2,}at\s{2,}/);
+    var titleAndOrganization = currentTitle.trim().split(this.i18n[this.lang].regexps.jobTitle);
     if (titleAndOrganization.length === 2) {
         this.json[currentSection][this.count].jobTitle = titleAndOrganization[0];
         this.json[currentSection][this.count].organization = titleAndOrganization[1];

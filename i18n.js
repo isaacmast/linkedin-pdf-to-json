@@ -2,7 +2,8 @@ module.exports = {
     'en': {
         page: 'Page',
         regexps: {
-            languageProficiency: /proficiency\)$/
+            languageProficiency: /proficiency\)$/,
+            jobTitle: /\s{2,}at\s{2,}/
         },
         sectionHeaders: {
             'Summary': { text: 'Summary', section: 'bio' },
@@ -18,7 +19,8 @@ module.exports = {
     'pt': {
         page: 'Página',
         regexps: {
-            languageProficiency: /proficiency\)$/
+            languageProficiency: /proficiency\)$/,
+            jobTitle: /\s{2,}na\s{2,}/
         },
         sectionHeaders: {
             'Summary': { text: 'Resumo', section: 'bio' },
@@ -34,10 +36,11 @@ module.exports = {
     'es': {
         page: 'Página',
         regexps: {
-            languageProficiency: /^\(Competencia/
+            languageProficiency: /^\(Competencia/,
+            jobTitle: /\s{2,}en\s{2,}/
         },
         sectionHeaders: {
-            'Summary': { text: 'Resumen', section: 'bio' },
+            'Summary': { text: 'Extracto', section: 'bio' },
             'Languages': { text: 'Idiomas', section: 'languages' },
             'Education': { text: 'Educación', section: 'educationExperience' },
             'Experience': { text: 'Experiencia', section: 'workExperience' },
