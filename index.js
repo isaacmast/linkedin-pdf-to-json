@@ -67,7 +67,7 @@ LinkedInPdfToJson.prototype.run = function(source, target, options) {
         // console.log(chunks);
         // console.log();
         // console.log('Parsing (' + linkedinPdfToJson.pdf + ')...');
-        linkedinPdfToJson.detectAndSetLanguage(chunks, linkedinPdfToJson.parse.bind(linkedinPdfToJson));
+        linkedinPdfToJson.parse(chunks);
 
         if (linkedinPdfToJson.target) {
             jsonfile.writeFile(linkedinPdfToJson.target, linkedinPdfToJson.json, {
@@ -84,11 +84,8 @@ LinkedInPdfToJson.prototype.run = function(source, target, options) {
     });
 };
 
-//===========================
-// GRAMMAR LOGIC
-//===========================
-
-LinkedInPdfToJson.prototype.detectAndSetLanguage = function(chunks, callback) {
+// Detects PDF language and sets language specific globals
+LinkedInPdfToJson.prototype.detectAndSetLanguage = function(chunks) {
     const langAccuracy = {};
     for (let lang of Object.keys(this.i18n)) {
         langAccuracy[lang] = 0;
@@ -104,10 +101,10 @@ LinkedInPdfToJson.prototype.detectAndSetLanguage = function(chunks, callback) {
     //console.log('Set language: ' + this.lang);
     this.SECTION_HEADERS = this.i18n[this.lang].sectionHeaders;
     this.UNSUPPORTED_SECTIONS = this.i18n[this.lang].unSupportedSections;
-
-    callback && callback(chunks);
+    return this;
 };
 
+// Find&Replace parts declared in i18n "replace" object
 LinkedInPdfToJson.prototype.i18nReplace = function(replaceSection, chunks) {
     if (!this.i18n[this.lang].replace || !this.i18n[this.lang].replace[replaceSection]) return chunks;
     const replaceText = (text) => {
@@ -132,9 +129,14 @@ LinkedInPdfToJson.prototype.i18nReplace = function(replaceSection, chunks) {
     }
 }
 
+//===========================
+// GRAMMAR LOGIC
+//===========================
+
 // Parses the PDF using the chunks array retrieved from the pdf-text node module
 LinkedInPdfToJson.prototype.parse = function(chunks) {
     // console.log('ZZZ PARSE');
+    this.detectAndSetLanguage(chunks);
     this.sanitize(chunks);
     this.content = chunks;
     this.setBasicInfo();
