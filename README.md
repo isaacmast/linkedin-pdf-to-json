@@ -65,6 +65,8 @@ $ ./linkedin_pdf_to_json.sh -at
 * English
 * Spanish
 * Portuguese
+* French
+* Italian
 
 ## Supported Sections
 
