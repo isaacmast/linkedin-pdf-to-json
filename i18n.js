@@ -141,5 +141,47 @@ module.exports = {
             'Unsupported': { text: 'Non pris en charge', section: 'unsupported' }
         },
         unSupportedSections: ['Publications', 'Projets', 'Certifications', 'Organisations', 'Résultats d’examens', 'Especialidades', 'Prix et distinctions', 'Intérêts', 'Cours', 'recommandé', 'Brevets']
+    },
+    'it': { // Italian
+        page: 'Pagina',
+        recommendations: 'raccomandato',
+        regexps: {
+            languageProficiency: /^\(Conoscenza/,
+            jobTitle: /\s{2,}presso\s{2,}/
+        },
+        replace: {
+            dates: {
+                'Presente': 'Present',
+                'Gennaio': 'January',
+                'Febbraio': 'February',
+                'Marzo': 'March',
+                'Aprile': 'April',
+                'Mag': 'May',
+                'Giugno': 'June',
+                'Luglio': 'July',
+                'Agosto': 'August',
+                'Settembre': 'September',
+                'Ottobre': 'October',
+                'Novembre': 'November',
+                'Diecembre': 'December'
+            },
+            duration: {
+                'meno di un anno': 'less than a year',
+                'anni': 'years',
+                'mesi': 'months',
+                'anno': 'year',
+                'mese': 'month'
+            }
+        },
+        sectionHeaders: {
+            'Summary': { text: 'Riepilogo', section: 'bio' },
+            'Languages': { text: 'Lingue', section: 'languages' },
+            'Education': { text: 'Formazione', section: 'educationExperience' },
+            'Experience': { text: 'Esperienza', section: 'workExperience' },
+            'Skills & Expertise': { text: 'Competenze ed esperienze', section: 'skills' },
+            'Volunteer Experience': { text: 'Esperienze di volontariato', section: 'volunteerExperience' },
+            'Unsupported': { text: 'Non supportato', section: 'unsupported' }
+        },
+        unSupportedSections: ['Pubblicazioni', 'Progetti', 'Certificazioni', 'Organizzazioni', 'Votazione esame', 'Specialità', 'Riconoscimenti e premi', 'Intérêts', 'Corsi', 'raccomandato', 'Brevetti']
     }
 };
