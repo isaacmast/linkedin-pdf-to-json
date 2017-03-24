@@ -534,7 +534,7 @@ LinkedInPdfToJson.prototype.getNextToken = function() {
         this.section = this.SECTION_HEADERS.Unsupported.section;
     } else if (this.isSectionHeader()) {
         this.token = this.TOKENS.SECTION_HEADER;
-        const currentSectionObj = Object.values(this.SECTION_HEADERS).filter((sh) => sh.text == this.text.trim());
+        const currentSectionObj = Object.keys(this.SECTION_HEADERS).map((key) => this.SECTION_HEADERS[key]).filter((sh) => sh.text == this.text.trim());
         this.section = currentSectionObj.length?currentSectionObj[0].section:null;
     } else if (this.isUnsupported()) {
         this.token = this.TOKENS.UNSUPPORTED;
@@ -623,7 +623,7 @@ LinkedInPdfToJson.prototype.isEOF = function() {
 // @return false otherwise.
 LinkedInPdfToJson.prototype.isSectionHeader = function(chunk) {
     chunk = chunk || this.text;
-    return (Object.values(this.i18n[this.lang].sectionHeaders).filter(sh => sh.text == chunk.trim()).length > 0);
+    return (Object.keys(this.i18n[this.lang].sectionHeaders).map((key) => this.i18n[this.lang].sectionHeaders[key]).filter(sh => sh.text == chunk.trim()).length > 0);
 };
 
 // Checks if the text chunk is a section that is currently unsupported

@@ -146,7 +146,7 @@ module.exports = {
         page: 'Pagina',
         recommendations: 'raccomandato',
         regexps: {
-            languageProficiency: /^\(Conoscenza/,
+            languageProficiency: /(^\(Conoscenza)|(proficiency\)$)/,
             jobTitle: /\s{2,}presso\s{2,}/
         },
         replace: {
