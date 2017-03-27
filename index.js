@@ -289,9 +289,14 @@ LinkedInPdfToJson.prototype.parseEducation = function() {
         }
         var length = this.json[currentSection][this.count].basicInfo.length;
         if (this.json[currentSection][this.count].basicInfo[length - 1].match(/^\w*\s*\d+\s+\-\s+\w*\s*\d*/)) {
+            // date range
             var dates = this.json[currentSection][this.count].basicInfo[length - 1].split(/\s\-\s/);
             this.json[currentSection][this.count].startDate = dates[0];
             this.json[currentSection][this.count].endDate = dates[1];
+            this.json[currentSection][this.count].basicInfo.splice(length - 1, 1);
+        } else if (this.json[currentSection][this.count].basicInfo[length - 1].match(/^\d{4}$/)) {
+            // end date only
+            this.json[currentSection][this.count].endDate = this.json[currentSection][this.count].basicInfo[length - 1].match(/^\d{4}$/)[0];
             this.json[currentSection][this.count].basicInfo.splice(length - 1, 1);
         }
     }
